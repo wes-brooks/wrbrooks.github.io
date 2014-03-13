@@ -2,7 +2,7 @@
 title: ggvis test
 ---
 
-![Alt text](//svg/ggvis-test.svg)
+![Alt text](/svg/ggvis-test.svg)
 
 {% highlight R %}
 slider <- input_slider(10, 1000, label = "size")
