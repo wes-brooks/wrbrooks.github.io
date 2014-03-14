@@ -88,8 +88,8 @@ a:hover   { color: #000; }
 }
 
 #disqus_thread {
-  border-top: 1px solid #eee;
-  margin-top: 2em;
+  border-top: 2px solid #eee;
+  margin-top: 3em;
 }
 
 .footer {
