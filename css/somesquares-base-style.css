@@ -1,0 +1,199 @@
+/*
+Theme Name: Olio Minimal
+Theme URI: http://minimal.olioapps.com/
+Description: A minimal theme for Wordpress.
+Author: Scott Becker
+Author URI: http://synthesis.sbecker.net/
+Version: 1.0
+Tags: minimal, Merriweather, instapaper
+.
+Copyright (c) 2013 Olio Apps
+*/
+/*body {
+  font-family: 'Merriweather Sans', Sans-Serif;
+}*/
+#navigation .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+#head .well .well-large {
+  padding: 0px;
+}
+ul.nav.nav-list {
+  padding-left: 0;
+}
+ul.nav.nav-list form.search {
+  padding-left: 0.5em;
+}
+ul.nav.nav-list li.month {
+  padding-left: 0.5em;
+}
+ul.nav.nav-list li.hero {
+  padding-left: 0.5em;
+}
+ul.nav-list p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+ul.nav form.search {
+  padding-bottom: 1em;
+}
+ul.nav li.nav.archive {
+  margin-bottom: 5;
+}
+ul.nav li.nav.blogroll {
+  margin-bottom: 0;
+}
+.pagehead {
+  margin: 0.1em 0em;
+}
+.index-post-title {
+  font-size: 2.0em;
+  color: #005580;
+  line-height:1.25;
+}
+.twitter-share-button.twitter-count-none {
+  vertical-align: middle;
+}
+#navigation img.nav-icon {
+  height: 20px;
+  vertical-align:middle
+}
+ul.blogpost-index {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#sidebar-left {
+    float:left;
+    margin-left:0;
+}
+#sidebar-right {
+    float:right;
+    margin-right:0;
+}
+header {
+  margin: 1em 0;
+}
+article {
+  border-bottom: 1px solid #f0f0f0;
+}
+article aside {
+  float: right;
+}
+h1 {
+  font-size: 3.0em;
+  font-weight: normal;
+}
+article h1.post-title,
+article h2.post-title {
+  margin: 0.2em 0;
+}
+article h1.post-title a,
+article h2.post-title a,
+h1.post-title a,
+h2.post-title a {
+  color: #005580;
+}
+article h2.post-title a:hover,
+article h1.post-title a:hover,
+h1.post-title a:hover,
+h2.post-title a:hover,
+.index-post-title a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+h2 { font-size: 2.5em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+h1,h2,h3,h4,h5,h6 {
+  margin: 0.6em 0;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.65em;
+  margin: 1.3em 0;
+}
+.nav>li>a {
+  padding: 3px 0;
+}
+.nav-main>li {
+  padding-bottom: 0.5em;
+}
+#nav-below {
+  margin: 1.3em 0;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  float: left;
+  margin-right: 0.8em;
+}
+footer .copyright {
+  font-size: 0.9em;
+}
+#comment {
+  width: 100%;
+  height: 100px;
+}
+
+/* Make search box and button abut and have a border */
+input,
+div.sidebar-right input {
+    border: 1px solid #999;
+    float: left;
+}
+
+/* Search textbox */
+input[type="text"] {
+    margin: 0;
+    padding: 0 3px;
+    height: 22px;
+    width: 144px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+}
+/* Search button */
+input[type="submit"] {
+    margin: 0 0 0 -1px; /* -1px prevents a double-border with textbox */
+    height: 22px;
+    color: #444;
+    background-color: #e8ecef;
+    padding: 1px 4px;
+    font-weight: bold;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+}
+input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #8ecc4c;
+}
+
+div.sidebar-right p.searchtip {
+    clear: both;
+    padding: 0.5em 0 0 0;
+    background: #ddd;
+    color: #666;
+    font-size: 0.9em;
+}
