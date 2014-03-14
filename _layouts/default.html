@@ -19,9 +19,13 @@
     <body>
 
         <div class="site">
-          <div class="header">
-            <h1 class="title pagehead"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+          <div class="pure-g header">
+            <div id="home" class="pure-u-1 pure-u-md-1-5 pure-hidden-phone"></div>
+            <div id="home" class="pure-u-1 pure-u-md-3-5">
+              <h1 class="title pagehead"><a href="/">somesquares : wesley brooks</a></h1>
+              {% include navigation.html %}
+            </div>
+            <div id="home" class="pure-u-1 pure-u-md-1-5 pure-hidden-phone"></div>
           </div>
 
           {{ content }}
