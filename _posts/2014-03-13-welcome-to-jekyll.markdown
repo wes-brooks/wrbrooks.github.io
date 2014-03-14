@@ -18,6 +18,13 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
+```r
+hello.world <= function() {
+  print("hello, world!")
+}
+#=> prints 'hello, world!' to STDOUT.
+```
+
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
