@@ -19,32 +19,11 @@
     <body>
 
         <div class="site">
-          <div class="pure-g-r header">
-            <div id="home" class="pure-u-1-5 pure-hidden-phone"></div>
-            <div id="home" class="pure-u-3-5">
-              <h2 class="title pagehead"><a href="/">somesquares : wesley brooks</a></h2>
-              {% include navigation.html %}
-            </div>
-            <div id="home" class="pure-u-1-5 pure-hidden-phone"></div>
-          </div>
+          {% include navigation.html %}
 
           {{ content }}
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
+          {% include footer.html %}
         </div>
 
     </body>
