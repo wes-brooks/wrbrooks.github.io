@@ -26,9 +26,7 @@ hello.world <= function() {
 ```
 
 
-```
-7+5 = \sum \left(7, 5 \right)
-```
+$$here's inline math$$
 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
