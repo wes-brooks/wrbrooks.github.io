@@ -6,7 +6,7 @@ layout: default
   <div class="pure-u-2-3">
     <h2>{{ page.title }}</h2>
     <p class="meta">{{ page.date | date_to_string }}</p>
-    <div><a class="comment-count" href="{{ page.url }}#disqus_thread"></a></div>
+    <div><a class="comment-count" href="{{ page.url }}/#disqus_thread"></a></div>
   </div>
 </div>
 
@@ -19,19 +19,24 @@ layout: default
 
 
 
-<div id="disqus_thread"></div>
+<div class="pure-g-r">
+  <div class="pure-u-1-6 pure-hidden-phone"></div>
+  <div id="pure-u-2-3 disqus_thread"></div>
+</div>
+
+
 <script type="text/javascript">
-    var disqus_shortname = 'somesquares';
-	(function() {
-		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	})();
-    (function () {
-        var s = document.createElement('script'); s.async = true; s.type = 'text/javascript';
-        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
+  var disqus_shortname = 'somesquares';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+  (function () {
+    var s = document.createElement('script'); s.async = true; s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
