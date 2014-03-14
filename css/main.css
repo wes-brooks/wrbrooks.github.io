@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #428bca;; }
+a         { color: #428bca; }
 a:hover   { color: #000; }
 
 /*****************************************************************************/
@@ -70,7 +70,7 @@ a:hover   { color: #000; }
   text-decoration: none;
 }
 
-.title {
+.pagehead {
   display: inline-block;
   margin-bottom: 2em;
 }
