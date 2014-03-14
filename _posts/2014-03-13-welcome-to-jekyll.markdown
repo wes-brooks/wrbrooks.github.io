@@ -26,7 +26,7 @@ hello.world <= function() {
 ```
 
 
-```latex
+```mathjax
 7+5 = \sum \left(7, 5 \right)
 ```
 
