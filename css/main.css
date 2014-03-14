@@ -92,6 +92,8 @@ a:hover   { color: #000; }
   margin-top: 3em;
 }
 
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
 .footer {
   font-size: 80%;
   color: #666;

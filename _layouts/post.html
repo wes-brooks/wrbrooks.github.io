@@ -10,12 +10,17 @@ layout: default
   </div>
 </div>
 
+
+
 <div class="pure-g-r">
   <div class="pure-u-1-6 pure-hidden-phone"></div>
   <div class="pure-u-2-3 post">
     {{ content }}
   </div>
 </div>
+
+
+
 
 
 <div class="pure-g-r">
@@ -25,6 +30,23 @@ layout: default
   </div>
 </div>
 
+
+
+
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
 <script type="text/javascript">
     var disqus_shortname = 'somesquares';
 	(function() {
