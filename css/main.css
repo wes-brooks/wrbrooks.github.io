@@ -87,6 +87,11 @@ a:hover   { color: #000; }
   color: #aaa;
 }
 
+#disqus_thread {
+  border-top: 1px solid #eee;
+  margin-top: 2em;
+}
+
 .footer {
   font-size: 80%;
   color: #666;
