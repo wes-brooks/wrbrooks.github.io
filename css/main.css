@@ -65,12 +65,11 @@ a:hover   { color: #000; }
 }
 
 .navbutton {
-  font-size: 0.7em;
+  font-size: 0.55em;
 }
 
 .header {
   margin-top: 2em;
-  margin-bottom: 1em;
 }
 
 .header a {
@@ -96,7 +95,7 @@ a .title {
 
 .meta {
   font-weight: 100;
-  font-size: 0.65em;
+  font-size: 0.9em;
   color: #aaa;
   margin: 0;
 }
