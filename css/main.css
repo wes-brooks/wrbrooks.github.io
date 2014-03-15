@@ -94,8 +94,10 @@ a .title {
 }
 
 .meta {
+  font-weight: 100;
+  font-size: 0.65em;
   color: #aaa;
-  margin: 0.1em 0;
+  margin: 0;
 }
 
 #disqus_thread {
