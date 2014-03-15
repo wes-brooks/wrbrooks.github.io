@@ -20,7 +20,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+  margin: 0.25em;
+  font-weight: normal;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 0.5em 0; }
