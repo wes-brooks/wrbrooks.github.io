@@ -20,7 +20,7 @@ html, body { height: 100%; }
 }*/
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0.25em;
+  margin: 0.25em 0;
   font-weight: 100;
 }
 
@@ -95,7 +95,7 @@ a .title {
 
 .meta {
   color: #aaa;
-  margin: 0em 0.5em;
+  margin: 0.1em 0;
 }
 
 #disqus_thread {
