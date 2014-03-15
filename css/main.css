@@ -20,6 +20,7 @@ html, body { height: 100%; }
 }*/
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0 0.25em;
   font-weight: 100;
 }
 
@@ -170,5 +171,5 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 }
 
 .central {
-  margin: 0em 1em;
+  margin: 0 1em;
 }
