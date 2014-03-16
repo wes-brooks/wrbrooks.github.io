@@ -21,7 +21,6 @@ html, body { height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
-  font-weight: 100;
 }
 
 h1 { margin-bottom: 1em; }
@@ -60,6 +59,9 @@ a:hover   { color: #000; }
   font-size: 115%;
   text-align: justify;
   line-height: 1.5em;
+}
+
+p {
   font-weight: 100;
 }
 
@@ -69,6 +71,7 @@ a:hover   { color: #000; }
 
 .header {
   margin-top: 2em;
+  font-weight: 100;
 }
 
 .header a {
