@@ -37,4 +37,6 @@ $$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + O((y-x)^2)$$
 
 and since $y-x \< h\_n$ ($h\_n$ the bandwidth), we have that 
 
-$$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + O(h\_n^2)$$
+$$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + o(h\_n^2)$$
+
+Let $\eta\_k(x) = \nabla^k \eta(x)$. Then we are estimating $\eta(x)$ by $\hat{\eta}\_0$.
