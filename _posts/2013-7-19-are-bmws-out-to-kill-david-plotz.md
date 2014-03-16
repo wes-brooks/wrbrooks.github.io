@@ -12,7 +12,9 @@ Let's look at the math briefly. Suppose our experiment is to wait for 20 aggress
 
 It seems reasonable to assume that Plotz' encounters with aggressive drivers are independent and "memoryless" (meaning that each incident can occur at any time, without regard for when any of the other incidents occurred). That suggests that Plotz' encounters with aggressive drivers are Poisson-distributed.
 
-That's a convenient distribution because it means that, if we just look at the first twenty aggressive drivers, the number of BMW drivers among them is binomially-distributed, with the proportion: <div>$$p_{\text{BMW}} = \frac{\lambda_{\text{BMW}}}{\lambda_{\text{BMW}} + \lambda_{\text{not-BMW}}}$$</div>
+That's a convenient distribution because it means that, if we just look at the first twenty aggressive drivers, the number of BMW drivers among them is binomially-distributed, with the proportion:
+
+<div>$$p_{\text{BMW}} = \frac{\lambda_{\text{BMW}}}{\lambda_{\text{BMW}} + \lambda_{\text{not-BMW}}}$$</div>
 
 where <span>\\(\lambda_{\text{BMW}}\\)</span> is, roughly, the number of BMWs in DC and <span>\\(\lambda_{\text{non-BMW}}\\)</span> is the number of non-BMW cars in DC.
 
