@@ -28,11 +28,11 @@ hello.world <= function() {
 
 here is some MathJax:
 
-<div>$$RSS = \sum_{i=1}^n (y-\hat{y})^2$$</div>
+<pre>$$RSS = \sum_{i=1}^n (y-\hat{y})^2$$</pre>
 
 , hey? Try some more? 
 
-<div>$$\theta^{(5-\ell)} \lambda_{ij} \eta^2 $$</div>
+<pre>$$\theta^{(5-\ell)} \lambda_{ij} \eta^2 $$</pre>
 
 , right?
 
