@@ -6,5 +6,3 @@ description: Wesley's blog
 url: http://jekyll.somesquares.org
 redcarpet:
   extensions: ["lax_spacing"]
-rdiscount:
-  extentions: ["filter_html"]
