@@ -67,11 +67,11 @@ p {
 
 .navbutton {
   font-size: 0.55em;
+  font-weight: 100;
 }
 
 .header {
   margin-top: 2em;
-  font-weight: 100;
 }
 
 .header a {
@@ -85,6 +85,7 @@ p {
 .title {
   overflow: hidden;
   white-space: nowrap;
+  font-weight: 100;
 }
 
 a .title {
