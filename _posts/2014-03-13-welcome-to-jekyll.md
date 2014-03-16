@@ -26,7 +26,7 @@ hello.world <= function() {
 ```
 
 
-<div>$$RSS = \sum_{i=1}^n (y-\hat{y})^2$$</div>
+here is some MathJax: <div>$$RSS = \sum_{i=1}^n (y-\hat{y})^2$$</div>
 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
