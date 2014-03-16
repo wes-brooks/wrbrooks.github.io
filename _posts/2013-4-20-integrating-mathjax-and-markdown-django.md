@@ -36,6 +36,6 @@ The solution is to follow four steps:
 
 Then you just need to run `python manage.py collectstatic` and restart your server - boom! MathJaxxy goodness like this:
 
-$$
+<div>$$
 \text{SSR} = \sum\limits_{i=1}^n \left(y_i - \boldsymbol{x}'_i\hat{\boldsymbol{\beta}}\right)^2
-$$
+$$</div>
