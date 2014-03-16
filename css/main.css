@@ -19,15 +19,13 @@ html, body { height: 100%; }
   text-align: center;
 }*/
 
-#header h1, h2, h3, h4, h5, h6 {
+/*#header h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }*/
 
-#post-title > .central {
-  h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    font-weight: 100;
-  }
+#post-title h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 100;
 }
 
 h1 { margin-bottom: 1em; }
