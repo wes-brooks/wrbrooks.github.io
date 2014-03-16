@@ -25,6 +25,7 @@ html, body { height: 100%; }
 
 #post-title h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  font-weight: 100;
 }
 
 h1 { margin-bottom: 1em; }
@@ -147,11 +148,6 @@ a .title {
 /* Posts
 /*
 /*****************************************************************************/
-
-
-#post-title {
-  font-weight: 100;
-}
 
 
 /* standard */
