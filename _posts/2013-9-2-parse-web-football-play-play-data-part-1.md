@@ -8,17 +8,17 @@ UPDATE x2: [part two](http://somesquares.org/blog/2013/9/scrape-web-football-pla
 
 UPDATE: [part 1.5](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-15) uses [XPath](http://www.w3schools.com/xpath/xpath_intro.asp) to traverse the webpage for the relevant data, rather than running regular expressions directly on the HTML, as I've done here. The code in the linked post supersedes this one.
 
-####Football's back everyone!
+##Football's back everyone!
 My fascination (obsession, Kate might say) with sports is not a minority position nationally, let alone in Madison, Wisconsin. Yet within my social milieu, it stands out. In order to clothe it in respectability, I'm forced to turn it into that most euphemistic of bores: a *learning experience*.
 
 So if my friends want to learn from my blog how to scrape text data from the Web and analyze it in R, then dammit they're going to have to hear about football in the bargain.
 
-####The lay of the land
+##The lay of the land
 So. You're hoping to start a career analyzing college football advanced statistics, and you're going to need data. Happily, scorekeeping seems fairly well standardized across college football. Sadly, the play-by-play is pretty rudimentary - for each play we get the location, the down and distance to go, the passer and/or ball carrier, the yardage gained, and sometimes the tackler. Time on the clock is recorded at the beginning of each drive. Short of a herculean effort like [Football Outsiders](http://www.footballoutsiders.com/) is putting in as they re-watch every professional game ever played, that's the data that's available.
 
 With something like 100 games happening each week, you're not going to enter your data by hand, are you? No! You, dear reader, are much too smart for that. You're going to scrape [ESPN's website](http://scores.espn.go.com/ncf/scoreboard) for the play-by-play data and parse it with [regular expressions](http://en.wikipedia.org/wiki/Regular_expression).
 
-####Aw shit, he's processing text in R
+##Aw shit, he's processing text in R
 The web is made of text and you already told me that you're going to process the websites via regular expressions, so obviously we'll write our play-by-play processing script in [python](http://docs.python.org/2/library/re.html) or [perl](http://perldoc.perl.org/perlre.html), right? I wish I could tell you that living in the year 2013 meant scripting everything in python, Junior, but life's not going to just serve up pure buttered Win on a platter. We'll parse the webpage in [R](http://www.r-project.org) because we want to eventually analyze our data in R.
 
 While it would be possible to use python to parse the webpages into R-friendly tables, I'm going to use R for everything. Again, it's a *learning experience*.
@@ -30,7 +30,7 @@ The script is below. Some of the R manpages I used while creating this script ar
 * [**substr**](http://stat.ethz.ch/R-manual/R-devel/library/base/html/substr.html) - Extract substrings from a longer string using the index of the substring's first and last characters.
 * [**adist**](http://stat.ethz.ch/R-manual/R-devel/library/utils/html/adist.html) - The 'distance' between two strings, which I use to decipher the various team name abbreviations.
 
-####The script
+##The script
 Without further ado, the script to turn [the play-by-play from Wisconsin's 2013 season-opening win against Massachusetts](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0) into a list of plays with some metadata (down, distance to go, distance from the goal line, and approximate time remaining). In a later installment, we'll parse the remaining HTML to extract the play type, the passer and/or ball-carrier, and the yards gained.
 
 ```r
