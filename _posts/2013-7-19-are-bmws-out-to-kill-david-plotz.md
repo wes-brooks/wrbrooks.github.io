@@ -26,7 +26,7 @@ Of the 10,000 simulations, five had Plotz seeing four aggressive BMW drivers, an
 
 Note, though, that we assume BMW's market share in DC (where Slate is located) matches its national market share. But this clearly isn't true: since nice cars cost the same whether you live in Wisconsin or in DC, while [the three richest counties in the US are suburbs of DC](http://en.wikipedia.org/wiki/List_of_highest-income_counties_in_the_United_States), it is clear that BMWs are much less expensive as a share of annual income in the DC area than they are in most of the country. So we can expect DC to be BMW-enriched.
 
-Sadly, cursory Googling didn't tell me the BMW market share in DC. So I decided to look at what range of <span>\\(p_{\text{BMW}}\\)</span> is consistent with Plotz' observed data. <span>\\(p_{\text{BMW}}\\)</span> was swept from 0 to 1 and the distribution function was used to find the 95% confidence interval:
+Sadly, cursory Googling didn't tell me the BMW market share in DC. So I decided to look at what range of  <span>\\(p_{\text{BMW}}\\)</span> is consistent with Plotz' observed data. <span>\\(p_{\text{BMW}}\\)</span> was swept from 0 to 1 and the distribution function was used to find the 95% confidence interval:
 
 ![Distribution of aggressive BMW drivers](http://somesquares.org/static/img/BMW-distribution-1.png)
 
