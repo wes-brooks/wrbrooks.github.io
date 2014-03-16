@@ -26,7 +26,7 @@ hello.world <= function() {
 ```
 
 
-here is some MathJax: <span>\\(RSS = \sum_{i=1}^n (y-\hat{y})^2\\)</span>, hey? Try some more? <span>\\(\theta^{(5-\ell)} \lambda_{ij} \eta^2 \\)</span>, right?
+here is some MathJax: <span>\\(RSS = \sum_{i=1}^n (y-\hat{y})^2\\)</span>, hey? Try some more? <pre>\\(\theta^{(5-\ell)} \lambda_{ij} \eta^2 \\)</pre>, right?
 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
