@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Are BMWs out to kill David Plotz?""
+date:   2013-7-19
+---
+
 Slate's David Plotz is convinced that [drivers of BMWs are trying to run him down on his bicycle](http://www.slate.com/articles/life/a_fine_whine/2013/07/bmw_drivers_and_cyclists_the_war_between_the_luxury_cars_and_bicycles.html). Are they?
 
 Plotz tells us that, over a period of years, he's counted twenty drivers passing him aggressively. Of those twenty, ten were BMWs (for the sake of this post, let's assume that Plotz accurately recalls these numbers). He furthermore tells us that BMW accounts for 2% of the US car market. So clearly, BMW drivers account for more than their share of these incidents.

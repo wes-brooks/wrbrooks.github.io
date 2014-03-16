@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Integrating mathjax and markdown in django"
+date:   2013-4-20
+---
+
 I'm a JavaScript noob so it took a couple days of hacking but I finally integrated mathjax and markdown into my django blog (this one!) together.
 
 The basic problem is that markdown is a sleek little markup language that was designed to be totally minimal so that it's natural for humans to read and write it. But being minimal, it is hard to customize. And since some markdown syntax clobbers mathjax syntax (e.g. the underscore), we need to customize markdown, telling it to ignore the text that is meant for mathjax.
