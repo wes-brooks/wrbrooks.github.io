@@ -78,11 +78,11 @@ li {
   font-weight: 100;
 }
 
-.header {
+#header {
   margin-top: 2em;
 }
 
-.header a {
+#header a {
   text-decoration: none;
 }
 
@@ -90,13 +90,13 @@ li {
   display: inline-block;
 }
 
-.title {
+#site-title {
   overflow: hidden;
   white-space: nowrap;
   font-weight: 100;
 }
 
-.copyright-notice {
+#copyright-notice {
   font-weight: 100;
 }
 
@@ -114,13 +114,6 @@ a .title {
   color: #aaa;
   margin: 0;
 }
-
-#disqus_thread {
-  border-top: 2px solid #eee;
-  margin-top: 3em;
-}
-
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 
 .footer {
   font-size: 80%;
@@ -156,7 +149,7 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 /*****************************************************************************/
 
 
-.post-title {
+#post-title {
   font-weight: 100;
 }
 
