@@ -26,7 +26,7 @@ $$\eta(x) = g(\mu(x))$$
 
 or, equivalently:
 
-$$\mu(x) = g^{-1}(\mu(x))$$.
+$$\mu(x) = g^{-1}(\eta(x))$$.
 
 Note that in this case, the $x$ variable is the location.
 
@@ -40,3 +40,28 @@ and since $y-x \< h\_n$ ($h\_n$ the bandwidth), we have that
 $$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + o(h\_n^2)$$
 
 Let $\eta\_k(x) = \nabla^k \eta(x)$. Then we are estimating $\eta(x)$ by $\hat{\eta}\_0$.
+
+
+#### Broad strokes
+
+At location $x$, ask what would be my estimate of $\eta$, based on this nearby observation $X\_i$? 
+
+That estimate comes from "linearizing" the function $\eta(\cdot)$ near $x$ via he Taylor expansion.
+
+Based on obsered data $(X\_i, Y\_i)$, the function $\eta$ should be like
+
+$$Y\_i \approx g^{-1}(\eta(X\_i))$$
+
+or
+
+$$\eta(X\_i) \approx g(Y\_i)$$
+
+so
+
+$$g(Y\_i) \approx \eta(X_i) = \eta(x) + \nabla \eta(x)(X\_i-x) + o(h)$$
+
+And the $\eta(x)$ part is like an intercept, while the $\nabla \eta(x)$ prt is like a slope for $(X\_i - x)$. So in matrix form,
+
+$$\begin{bmatrix}g(Y\_1) \\ g(Y\_2) \\ g(Y\_3) \\ \dots \\ g(Y\_n)\end{bmatrix} = $$
+
+
