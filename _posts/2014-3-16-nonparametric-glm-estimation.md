@@ -42,7 +42,7 @@ $$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + o(h\_n^2)$$
 Let $\eta\_k(x) = \nabla^k \eta(x)$. Then we are estimating $\eta(x)$ by $\hat{\eta}\_0$.
 
 ### Broad strokes
-The main theorem is concerned with the asymptotic distribution of $\hat{\beta}^\*$. Its result is proven from lemmas 1 and 2, and then Theorem 1 follows as the marginal result (read off element-by-element) for $\hat{\beta}^\*\_0$.
+The main theorem is concerned with the asymptotic distribution of $\hat{\beta}\*$. Its result is proven from lemmas 1 and 2, and then Theorem 1 follows as the marginal result (read off element-by-element) for $\hat{\beta}\*\_0$.
 
 
 #### Quadratic approximation lemma (Fan, Heckman, and Wand, 1995)
