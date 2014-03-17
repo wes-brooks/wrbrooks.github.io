@@ -41,7 +41,6 @@ $$\eta(y) \approx \eta(x) + \nabla \eta(x)(y-x) + o(h\_n^2)$$
 
 Let $\eta\_k(x) = \nabla^k \eta(x)$. Then we are estimating $\eta(x)$ by $\hat{\eta}\_0$.
 
-
 #### Broad strokes
 
 At location $x$, ask what would be my estimate of $\eta$, based on this nearby observation $X\_i$? 
@@ -62,6 +61,21 @@ $$g(Y\_i) \approx \eta(X\_i) = \eta(x) + \nabla \eta(x)(X\_i-x) + o(h)$$
 
 And the $\eta(x)$ part is like an intercept, while the $\nabla \eta(x)$ part is like a slope for $(X\_i - x)$. So in matrix form,
 
-$$\begin{bmatrix}g(Y\_1) \\\\ g(Y\_2) \\\\ g(Y\_3) \\\\ \dots \\\\ g(Y\_n)\end{bmatrix} = \begin{bmatrix} \eta(x) & \nabla \eta(x) \end{bmatrix}  \times \begin{bmatrix}1 & (X\_1 - x) \\\\ 1 & (X\_2 - x) \\\\ 1 & (X\_3 - x) \\\\ \dots & \dots \\\\ 1 & (X\_n - x)\end{bmatrix}$$
+$$\begin{bmatrix}g(Y\_1) \\\\ g(Y\_2) \\\\ g(Y\_3) \\\\ \dots \\\\ g(Y\_n)\end{bmatrix} = \begin{bmatrix}1 & (X\_1 - x) \\\\ 1 & (X\_2 - x) \\\\ 1 & (X\_3 - x) \\\\ \dots & \dots \\\\ 1 & (X\_n - x)\end{bmatrix}^T \times \begin{bmatrix} \eta(x) \\\\ \nabla \eta(x) \end{bmatrix}$$
+
+But not each observation is treated equally. We weight the observations based on their distance from $x$, using the kernel function $K\_h(s)$
+
+##### Quadratic approximation lemma (Fan, Heckman, and Wand, 1995)
+This lemma states that if $c\_n(\theta) is a sequence of convex functions of the form
+
+$$c\_n(\theta) = U\_n^T \theta - 1/2 \theta^T(\bm{F} + \alpha\_n \bm{G}) \theta +f\_n(\theta)$$
+
+then under some conditions, $\hat{\theta}\_n = \bm{F}^{-1}\bm{U}\_n + o\_p(1)$ minimizes $c\_n$ and if $f'(\theta) = o\_p(\alpha\_n)$ uniformly in a neighborhood of $\hat{\theta}$, then
+
+$$ \hat{theta}\_n = \bm{F}^{-1}\bm{U}\_n - \alpha\_n \bm{F}^{-1} \bm{G} \bm{F}^{-1} \bm{U}\_n + o\_p(\alpha\_n).$$
+
+
+##### Lemma 1
+Lemma 1 is concerned with showing that the estimates $\hat{\beta}^*$ satisfy the conditions of the quadradtic approximation lemma.
 
 
