@@ -62,6 +62,6 @@ $$g(Y\_i) \approx \eta(X_i) = \eta(x) + \nabla \eta(x)(X\_i-x) + o(h)$$
 
 And the $\eta(x)$ part is like an intercept, while the $\nabla \eta(x)$ prt is like a slope for $(X\_i - x)$. So in matrix form,
 
-$$\begin{bmatrix}g(Y\_1) \\ g(Y\_2) \\ g(Y\_3) \\ \dots \\ g(Y\_n)\end{bmatrix} = $$
+$$\begin{bmatrix}g(Y\_1) \\\\ g(Y\_2) \\\\ g(Y\_3) \\\\ \dots \\\\ g(Y\_n)\end{bmatrix} = $$
 
 
