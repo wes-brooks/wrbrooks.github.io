@@ -59,7 +59,7 @@ $$ \hat{theta}\_n = \bm{F}^{-1}\bm{U}\_n - \alpha\_n \bm{F}^{-1} \bm{G} \bm{F}^{
 Lemma 1 is concerned with showing that the estimates $\hat{\beta}^*$ satisfy the conditions of the quadradtic approximation lemma.
 
 #### Lemma 2
-
+This lemma is concerned with the asymptotic variance of the $\hat{\beta}$ estimates. 
 
 ### Greater detail
 At location $x$, ask what would be my estimate of $\eta$, based on this nearby observation $X\_i$? 
