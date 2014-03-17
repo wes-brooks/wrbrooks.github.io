@@ -48,11 +48,11 @@ The main theorem is concerned with the asymptotic distribution of $\hat{\beta}^\
 #### Quadratic approximation lemma (Fan, Heckman, and Wand, 1995)
 This lemma states that if $c\_n(\theta) is a sequence of convex functions of the form
 
-$$c\_n(\theta) = U\_n^T \theta - 1/2 \theta^T(\bm{F} + \alpha\_n \bm{G}) \theta +f\_n(\theta)$$
+$$c\_n(\theta) = U\_n^T \theta - 1/2 \theta^T(\boldsymbol{F} + \alpha\_n \boldsymbol{G}) \theta +f\_n(\theta)$$
 
-then under some conditions, $\hat{\theta}\_n = \bm{F}^{-1}\bm{U}\_n + o\_p(1)$ minimizes $c\_n$ and if $f'(\theta) = o\_p(\alpha\_n)$ uniformly in a neighborhood of $\hat{\theta}$, then
+then under some conditions, $\hat{\theta}\_n = \boldsymbol{F}^{-1}\boldsymbol{U}\_n + o\_p(1)$ minimizes $c\_n$ and if $f'(\theta) = o\_p(\alpha\_n)$ uniformly in a neighborhood of $\hat{\theta}$, then
 
-$$ \hat{theta}\_n = \bm{F}^{-1}\bm{U}\_n - \alpha\_n \bm{F}^{-1} \bm{G} \bm{F}^{-1} \bm{U}\_n + o\_p(\alpha\_n).$$
+$$ \hat{\theta}\_n = \boldsymbol{F}^{-1}\boldsymbol{U}\_n - \alpha\_n \boldsymbol{F}^{-1} \boldsymbol{G} \boldsymbol{F}^{-1} \boldsymbol{U}\_n + o\_p(\alpha\_n).$$
 
 
 #### Lemma 1
