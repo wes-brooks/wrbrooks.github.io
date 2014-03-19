@@ -42,7 +42,7 @@ a:hover   { color: #000; }
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
-  padding: 0,0,0,0.5em;
+  padding: 0 0 0 0.5em;
 }
 
 .posts li {
@@ -51,7 +51,7 @@ a:hover   { color: #000; }
 
 .posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  /*font-family: Monaco, "Courier New", monospace;*/
   font-size: 80%;
 }
 
