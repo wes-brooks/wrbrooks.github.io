@@ -17,7 +17,7 @@ for any given $s$.
 
 Under conditions (1)-(4), then when $n^{1/2} h^2 / \log^2 n \to \infty$,
 
-$$n^{-1} H^{-1} \mathcal{X} \mathcal{W} \mathcal{X} H^{-1} = \begin{matrix} \kappa\_0 f(s) \Psi & \boldsymbol{0}\_{p \times 2p} \\\\ \boldsymbol{0}\_{2p \times p} & \kappa\_2 f(s) \Psi \otimes I\_2 \end{matrix} + O\_P(c\_n \boldsymbol{1}\_{3p} \boldsymbol{1}\_{3p}^T)$$
+$$n^{-1} H^{-1} \mathcal{X} \mathcal{W} \mathcal{X} H^{-1} = \begin{pmatrix} \kappa\_0 f(s) \Psi & \boldsymbol{0}\_{p \times 2p} \\\\ \boldsymbol{0}\_{2p \times p} & \kappa\_2 f(s) \Psi \otimes I\_2 \end{pmatrix} + O\_P(c\_n \boldsymbol{1}\_{3p} \boldsymbol{1}\_{3p}^T)$$
 
 holds uniformly in $s \in \mathcal{S}$ where $c\_n = h + \left\\{ \frac{\log n}{n h^2} \right\\}^{1/2}$,
 
