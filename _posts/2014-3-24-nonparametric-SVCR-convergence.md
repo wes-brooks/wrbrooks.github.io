@@ -11,3 +11,14 @@ $$\sqrt{n h\_1^2 f(s)} \left( \hat{\boldsymbol{\beta}}(s) - \boldsymbol{\beta}(s
 
 for any given $s$.
 
+
+
+### Lemma 2 sets the stage for the CLT:
+
+Under conditions (1)-(4), then when $n^{1/2} h^2 / \log^2 n \to \infty$,
+
+$$(1) n^{-1} H^{-1} \mathcal{X} \mathcal{W} \mathcal{X} H^{-1} = \begin{matrix} \kappa\_0 f(s) \Psi & \boldsymbol\_{p \times 2p} \\\\ \boldsymbol{0}\_{2p \times p} & \kappa\_2 f(s) \Psi \otimes I\_2 \end{matrix} + O\_P(c\_n \boldsymbol{1}\_{3p} \boldsymbol\_{3p}^T)$$
+
+holds suniformly in $s \in \mathcal{S}$ where $c\_n = h + \left\{ \frac{\log n}{n h^2} \right\}^{1/2},
+
+
