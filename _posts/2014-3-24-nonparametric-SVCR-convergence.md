@@ -19,6 +19,6 @@ Under conditions (1)-(4), then when $n^{1/2} h^2 / \log^2 n \to \infty$,
 
 $$n^{-1} H^{-1} \mathcal{X} \mathcal{W} \mathcal{X} H^{-1}$$
 
-holds suniformly in $s \in \mathcal{S}$ where $c\_n = h + \left\{ \frac{\log n}{n h^2} \right\}^{1/2}$,
+holds uniformly in $s \in \mathcal{S}$ where $c\_n = h + \left\{ \frac{\log n}{n h^2} \right\}^{1/2}$,
 
 
