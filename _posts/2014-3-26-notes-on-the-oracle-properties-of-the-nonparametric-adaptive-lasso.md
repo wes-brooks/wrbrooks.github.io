@@ -27,9 +27,9 @@ Our proof of the oracle properties of the nonparmetric adaptive lasso is made po
 
 Zou first proves normality. Letting $\boldsymbol{\beta} = \boldsymbol{\beta}^* + \boldsymbol{u} / \sqrt{n}$ and 
 
-$$\begin{equation}
+$$\begin{align}
 \Psi(\boldsymbol{u}) = || \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) ||^2 + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
-\end{equation}$$
+\end{align}$$
 
 Let $ \hat{\boldsymbol{u}}^{(n)} = \text{arg min} \Psi\_n(\boldsymbol{u})$; then $\hat{\boldsymbol{\beta}}^{\*(n)} = \boldsymbol{\beta}^\* + \boldsymbol{u} / \sqrt{n}$, so $\hat{\boldsymbol{u}}^{(n}) = \sqrt{n} \left( \boldsymbol{\beta}^{\*(n)} - \boldsymbol{\beta}^\* \right)$.
 
