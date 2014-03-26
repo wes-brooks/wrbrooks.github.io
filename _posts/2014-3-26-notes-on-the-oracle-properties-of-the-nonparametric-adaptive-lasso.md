@@ -7,7 +7,7 @@ date:   2014-3-26
 This is the theorem that must be adapted to prove the oracle properties of the nonparametric adaptive lasso.
 
 
-### Theorem 2 of Zou (2006)
+# Theorem 2 of Zou (2006)
 
 This is where Zou proves the oracle properties of the adaptive lasso:
 
@@ -23,7 +23,7 @@ There is an additional note called _Remark 1_:
 Our proof of the oracle properties of the nonparmetric adaptive lasso is made possible by the result noted in this remark.
 
 
-### Proof of Theorem 2:
+# Proof of Theorem 2:
 
 Zou first proves normality. Letting $\boldsymbol{\beta} = \boldsymbol{\beta}^* + \boldsymbol{u} / \sqrt{n}$ and 
 
@@ -37,35 +37,35 @@ $$\begin{align} V\_4^{(n)} (\boldsymbol{u}) &\equiv \boldsymbol{u}^T \left( \fra
 
 The proof of asymptotic normality proceeds by considering the three pieces of the final statement separately.
 
-#### First term
+## First term
 
 $\left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \to \boldsymbol{C}$, which is the covariance matrix. Since $\boldsymbol{u}$ is a constant (fixed because we're evaluating $V\_4^{(n)} (\boldsymbol{u})$), we have by Slutsky\s theorem that $\boldsymbol{u}^T \left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \boldsymbol{u} \xrightarrow{a.s.} \boldsymbol{u}^T \boldsymbol{C} \boldsymbol{u}$.
 
-#### Second term
+## Second term
 
 Recall that we've assumed that $ \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \xrightarrow{a.s.} \boldsymbol{C}$. Now because $\boldsymbol{\varepsilon} \xrightarrow{D} N(\boldsymbol{0}, \sigma^2 I\_n)$, we have by Slutsky's theorem that 
 
 
-#### Third term
+## Third term
 
 The third term is a sum: $\frac{\lambda\_n}{\sqrt{n}} \sum\_{j=1}^p \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right)$. Zou considers separately the elements of the sum that correspond to truly relevant predictors, and the elements that correspont to truly irrelevant predictors.
 
-##### For truly relevant predictors, i.e., $\beta\_j^* \ne 0$, then:
+### For truly relevant predictors, i.e., $\beta\_j^* \ne 0$, then:
 
- - $\frac{\lambda}{\sqrt{n}} \to 0$ (by assumption)
+ - $\frac{\lambda\_n}{\sqrt{n}} \to 0$ (by assumption)
  - $\hat{w}\_j \xrightarrow{p} |\beta\_j^*|^{-\gamma}$
  - $\sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \to u\_j \text{sign}(\beta\_j^\*)$
  
-Combining these, we have by slutsky's theorem that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \xrightarrow{p} 0$.
+Combining these, we have by Slutsky's theorem that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \xrightarrow{p} 0$ where $\beta\_j^* \ne 0$.
 
-##### For truly irrelevant predictors, i.e., $\beta\_j^* = 0$, then:
+### For truly irrelevant predictors, i.e., $\beta\_j^* = 0$, then:
 
- - $\frac{\lambda}{\sqrt{n}} \hat{w}\_j = $\frac{\lambda}{\sqrt{n}} |\beta\_j^\*|^{-\gamma} = $\frac{\lambda}{\sqrt{n}} |\frac{\sqrt{n} \beta\_j^\*}{\sqrt{n}}|^{-\gamma} = $\frac{\lambda}{\sqrt{n}} n^{\gamma / 2} |\sqrt{n} \beta\_j^\*|^{-\gamma}
+ - $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j = $\frac{\lambda\_n}{\sqrt{n}} |\beta\_j^\*|^{-\gamma} = $\frac{\lambda\_n}{\sqrt{n}} |\frac{\sqrt{n} \beta\_j^\*}{\sqrt{n}}|^{-\gamma} = $\frac{\lambda\_n}{\sqrt{n}} n^{\gamma / 2} |\sqrt{n} \beta\_j^\*|^{-\gamma}
  - $\sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) = |u\_j|$
 
-Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we have (again, by Slutsky's theorem) that 
+Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we have (again, by Slutsky's theorem - since everything converges to a constant or a bounded r.v., except the term $\lambda\_n n^{(\gamma-1)/2}$, which goes to $\infty$ by assumption) that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \to \infty$ where $\beta\_j^* = 0$
 
 
-###References
+#References
 
 Zou, H (2006), "The adaptive lasso and its oracle properties." _Journal of the American Statistical Association._ 101, 1418-1429.
