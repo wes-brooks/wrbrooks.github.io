@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: somesquares.org
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:i_month/:title
