@@ -30,6 +30,8 @@ Let $ \hat{\boldsymbol{u}}^{(n)} = \text{arg min} \Psi\_n(\boldsymbol{u})$; then
 
 Note that $\Psi\_n(\boldsymbol{u}) - \Psi\_n(\boldsymbol{0}) = V\_4^{(n)} (\boldsymbol{u})$ where $V\_4^{(n)} (\boldsymbol{u}) \equiv \boldsymbol{u}^T \left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \boldsymbol{u} - 2 \frac{\boldsymbol{\varepsilon^T \boldsymbol{X}}}{\sqrt{n}} \boldsymbol{u} + \frac{\lambda\_n}{\sqrt{n}} \sum\_{j=1}^p \hat{w}\_j \sqrt{n} \left( | \beta\_j^\* + \frac{u\_j}{\sqrt{n}} | - |\beta\_j^\*| \right)$
 
+The proof of asymptotic normality proceeds by considering the three pieces of the final statement separately.
+
 
 
 
