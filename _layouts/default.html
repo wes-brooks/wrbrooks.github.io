@@ -12,6 +12,8 @@
           {% for author in site.author %}
             <meta name="citation_author" content="{{ author }}">
           {% endfor %}
+        {% else %}
+        <meta name="citation_author" content="Wesley Brooks">
         {% endif %}
 
         <title>{{ page.title }}</title>
