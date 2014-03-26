@@ -27,7 +27,7 @@ Our proof of the oracle properties of the nonparmetric adaptive lasso is made po
 
 Zou first proves normality. Letting $\boldsymbol{\beta} = \boldsymbol{\beta}^* + \boldsymbol{u} / \sqrt{n}$ and 
 
-$$ \Psi(\boldsymbol{u}) = || \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) ||^2 + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} | $$
+$$ \begin{equation} \Psi(\boldsymbol{u}) = || \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) ||^2 + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} | \end{equation}$$
 
 Let $ \hat{\boldsymbol{u}}^{(n)} = \text{arg min} \Psi\_n(\boldsymbol{u})$; then $\hat{\boldsymbol{\beta}}^{\*(n)} = \boldsymbol{\beta}^\* + \boldsymbol{u} / \sqrt{n}$, so $\hat{\boldsymbol{u}}^{(n}) = \sqrt{n} \left( \boldsymbol{\beta}^{\*(n)} - \boldsymbol{\beta}^\* \right)$.
 
@@ -70,8 +70,25 @@ Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we ha
 
 So, we now have that for every $\boldsymbol{u}$, $V\_4^{(n)}(\boldsymbol{u}) \to V\_4(\boldsymbol{u})$, where
 
-$$V\_4^(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \forall j \notin \mathcal{A} \\\\ \infty & \text{ otherwise} \end{cases} $$
+$$V\_4(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \;\; \forall j \notin \mathcal{A} \\\\ \infty & \text{ otherwise} \end{cases} $$
+
+Now, $V\_4^{(n)}$ is convex and has a unique minimum at $\left( \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}, \boldsymbol{0} \right)$. By the epi-convergence results of Geyer(1994) and Knight and Fu (2000), we have that
+
+ - $\hat{\boldsymbol{u}}\_\mathcal{A}^{(n)} \xrightarrow{D} \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}$
+ - $\hat{\boldsymbol{u}}\_{\mathcal{A}^c}^{(n)} \xrightarrow{D} 0$
+ 
+Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \siugma^2 \boldsymbol{C}\_{11})$, the asymptotic normailty is proven.
+
+
+#Adapting the proof to the case of SVCR
+
+The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first 
+
 
 #References
+
+Geyer, C. (1994) "On the asymptotics of constrained M-estimation." _The Annals of Statistics_, 22 1993-2010.
+
+Knight, K., and Fu, W. (2000) "Asymptotics for lasso-type estimators." _The Annals of Statistics_, 28, 1356-1378.
 
 Zou, H (2006), "The adaptive lasso and its oracle properties." _Journal of the American Statistical Association._ 101, 1418-1429.
