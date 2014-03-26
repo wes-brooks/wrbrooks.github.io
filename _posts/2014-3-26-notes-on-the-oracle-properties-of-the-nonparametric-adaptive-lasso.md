@@ -84,7 +84,11 @@ Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \sigma^2 \boldsymbol
 
 #Adapting the proof to the case of SVCR
 
-The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first 
+The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first term of (1), like so:
+
+$$\begin{align}
+\Psi(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\]^{T} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
+\end{align}$$
 
 
 #References
