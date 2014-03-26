@@ -60,7 +60,7 @@ Combining these, we have by Slutsky's theorem that $\frac{\lambda\_n}{\sqrt{n}} 
 
 ### For truly irrelevant predictors, i.e., $\beta\_j^* = 0$, then:
 
- - $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j = $\frac{\lambda\_n}{\sqrt{n}} |\beta\_j^\*|^{-\gamma} = $\frac{\lambda\_n}{\sqrt{n}} |\frac{\sqrt{n} \beta\_j^\*}{\sqrt{n}}|^{-\gamma} = $\frac{\lambda\_n}{\sqrt{n}} n^{\gamma / 2} |\sqrt{n} \beta\_j^\*|^{-\gamma}
+ - $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j = \frac{\lambda\_n}{\sqrt{n}} |\beta\_j^\*|^{-\gamma} = \frac{\lambda\_n}{\sqrt{n}} |\frac{\sqrt{n} \beta\_j^\*}{\sqrt{n}}|^{-\gamma} = \frac{\lambda\_n}{\sqrt{n}} n^{\gamma / 2} |\sqrt{n} \beta\_j^\*|^{-\gamma}$
  - $\sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) = |u\_j|$
 
 Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we have (again, by Slutsky's theorem - since everything converges to a constant or a bounded r.v., except the term $\lambda\_n n^{(\gamma-1)/2}$, which goes to $\infty$ by assumption) that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \to \infty$ where $\beta\_j^* = 0$
