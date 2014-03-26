@@ -77,7 +77,7 @@ Now, $V\_4^{(n)}$ is convex and has a unique minimum at $\left( \boldsymbol{C}\_
  - $\hat{\boldsymbol{u}}\_\mathcal{A}^{(n)} \xrightarrow{D} \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}$
  - $\hat{\boldsymbol{u}}\_{\mathcal{A}^c}^{(n)} \xrightarrow{D} 0$
  
-Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \siugma^2 \boldsymbol{C}\_{11})$, the asymptotic normailty is proven.
+Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \sigma^2 \boldsymbol{C}\_{11})$, the asymptotic normailty is proven.
 
 
 #Adapting the proof to the case of SVCR
