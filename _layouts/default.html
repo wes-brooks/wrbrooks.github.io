@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width">
         
-        <meta name="citation_title" content='"'{{ page.title }}'"'>
-        {% if page.author %}<meta name="citation_author" content='"'{{ page.author }}'"'>{% endif %}
-        <meta name="citation_publication_date" content='"'{{ page.date | date: "%Y/%m/%d" }}'"'>
-        <meta name="citation_journal_title" content='"'{{ site.name }}'"'>
+        <meta name="citation_title" content="{{ page.title }}">
+        {% if page.author %}<meta name="citation_author" content="{{ page.author }}">{% endif %}
+        <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+        <meta name="citation_journal_title" content="{{ site.name }}">
 
         <title>{{ page.title }}</title>
 
