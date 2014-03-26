@@ -66,6 +66,12 @@ Combining these, we have by Slutsky's theorem that $\frac{\lambda\_n}{\sqrt{n}} 
 Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we have (again, by Slutsky's theorem - since everything converges to a constant or a bounded r.v., except the term $\lambda\_n n^{(\gamma-1)/2}$, which goes to $\infty$ by assumption) that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \to \infty$ where $\beta\_j^* = 0$
 
 
+##So?
+
+So, we now have that for every $\boldsymbol{u}$, $V\_4^{(n)}(\boldsymbol{u}) \to V\_4(\boldsymbol{u})$, where
+
+$$V\_4^(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \forall j \notin \mathcal{A} \\ \infty & \text{ otherwise} \end{cases} $$
+
 #References
 
 Zou, H (2006), "The adaptive lasso and its oracle properties." _Journal of the American Statistical Association._ 101, 1418-1429.
