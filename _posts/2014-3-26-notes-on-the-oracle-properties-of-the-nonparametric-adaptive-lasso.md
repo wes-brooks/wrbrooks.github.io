@@ -70,7 +70,7 @@ Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we ha
 
 So, we now have that for every $\boldsymbol{u}$, $V\_4^{(n)}(\boldsymbol{u}) \to V\_4(\boldsymbol{u})$, where
 
-$$V\_4^(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \forall j \notin \mathcal{A} \\ \infty & \text{ otherwise} \end{cases} $$
+$$V\_4^(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \forall j \notin \mathcal{A} \\\\ \infty & \text{ otherwise} \end{cases} $$
 
 #References
 
