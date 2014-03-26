@@ -2,6 +2,7 @@
 layout: post
 title:  "A note on the proof of theorem 3 of Sun, Yan, Zhang, and Lu"
 date:   2014-3-24
+author: Wesley Brooks
 ---
 ## Statement of theorem 3:
 
