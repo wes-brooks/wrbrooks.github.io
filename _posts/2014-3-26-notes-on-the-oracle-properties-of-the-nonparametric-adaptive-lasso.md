@@ -74,7 +74,7 @@ So, we now have that for every $\boldsymbol{u}$, $V\_4^{(n)}(\boldsymbol{u}) \to
 
 $$V\_4(\boldsymbol{u}) = \begin{cases} \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{C}\_{11} \boldsymbol{u}\_{\mathcal{A}} - 2 \boldsymbol{u}\_{\mathcal{A}}^T \boldsymbol{W}\_{\mathcal{A}} & \text{ if } u\_j = 0 \;\; \forall j \notin \mathcal{A} \\\\ \infty & \text{ otherwise} \end{cases} $$
 
-Now, $V\_4^{(n)}$ is convex and has a unique minimum at $\left( \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}, \boldsymbol{0} \right)$. By the epi-convergence results of Geyer(1994) and Knight and Fu (2000), we have that
+Now, $V\_4^{(n)}$ is convex and has a unique minimum at $\left( \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}, \boldsymbol{0} \right)$. By the epi-convergence results of Geyer (1994) and Knight and Fu (2000), we have that
 
  - $\hat{\boldsymbol{u}}\_\mathcal{A}^{(n)} \xrightarrow{D} \boldsymbol{C}\_{11}^{-1} \boldsymbol{W}\_\mathcal{A}$
  - $\hat{\boldsymbol{u}}\_{\mathcal{A}^c}^{(n)} \xrightarrow{D} 0$
@@ -87,10 +87,10 @@ Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \sigma^2 \boldsymbol
 The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first term of (1), like so:
 
 $$\begin{align}
-\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\]^{T} \boldsymbol{\mathcal{W}} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
+\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
 \end{align}$$
 
-Where $\boldsymbol{\mathcal{W}} = \text{diag}(w\_{ij})$, though of course these $w$'s are different from those used above as the adaptive weights.
+Where $\mathcal{W} = \text{diag}(w\_{ij})$, though of course these $w$'s are different from those used above as the adaptive weights.
 
 #References
 
