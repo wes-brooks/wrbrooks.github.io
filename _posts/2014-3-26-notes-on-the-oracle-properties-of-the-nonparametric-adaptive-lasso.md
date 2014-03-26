@@ -4,6 +4,9 @@ title:  "Notes on the oracle properties of the nonparametric adaptive lasso"
 date:   2014-3-26
 ---
 
+This is the theorem that must be adapted to prove the oracle properties of the nonparametric adaptive lasso.
+
+
 ### Theorem 2 of Zou (2006)
 
 This is where Zou proves the oracle properties of the adaptive lasso:
@@ -34,8 +37,33 @@ $$\begin{align} V\_4^{(n)} (\boldsymbol{u}) &\equiv \boldsymbol{u}^T \left( \fra
 
 The proof of asymptotic normality proceeds by considering the three pieces of the final statement separately.
 
+#### First term
+
+$\left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \to \boldsymbol{C}$, which is the covariance matrix. Since $\boldsymbol{u}$ is a constant (fixed because we're evaluating $V\_4^{(n)} (\boldsymbol{u})$), we have by Slutsky\s theorem that $\boldsymbol{u}^T \left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \boldsymbol{u} \xrightarrow{a.s.} \boldsymbol{u}^T \boldsymbol{C} \boldsymbol{u}$.
+
+#### Second term
+
+Recall that we've assumed that $ \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \xrightarrow{a.s.} \boldsymbol{C}$. Now because $\boldsymbol{\varepsilon} \xrightarrow{D} N(\boldsymbol{0}, \sigma^2 I\_n)$, we have by Slutsky's theorem that 
 
 
+#### Third term
+
+The third term is a sum: $\frac{\lambda\_n}{\sqrt{n}} \sum\_{j=1}^p \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right)$. Zou considers separately the elements of the sum that correspond to truly relevant predictors, and the elements that correspont to truly irrelevant predictors.
+
+##### For truly relevant predictors, i.e., $\beta\_j^* \ne 0$, then:
+
+ - $\frac{\lambda}{\sqrt{n}} \to 0$ (by assumption)
+ - $\hat{w}\_j \xrightarrow{p} |\beta\_j^*|^{-\gamma}$
+ - $\sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \to u\_j \text{sign}(\beta\_j^\*)$
+ 
+Combining these, we have by slutsky's theorem that $\frac{\lambda\_n}{\sqrt{n}} \hat{w}\_j \sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) \xrightarrow{p} 0$.
+
+##### For truly irrelevant predictors, i.e., $\beta\_j^* = 0$, then:
+
+ - $\frac{\lambda}{\sqrt{n}} \hat{w}\_j = $\frac{\lambda}{\sqrt{n}} |\beta\_j^\*|^{-\gamma} = $\frac{\lambda}{\sqrt{n}} |\frac{\sqrt{n} \beta\_j^\*}{\sqrt{n}}|^{-\gamma} = $\frac{\lambda}{\sqrt{n}} n^{\gamma / 2} |\sqrt{n} \beta\_j^\*|^{-\gamma}
+ - $\sqrt{n} \left( |\beta\_j^\* + \frac{u\_j}{\sqrt{n}}| - |\beta\_j^\*| \right) = |u\_j|$
+
+Now, since if $\beta\_j^\*  = 0$ then $\sqrt{n} \hat{\beta}\_j = O\_p(1)$, we have (again, by Slutsky's theorem) that 
 
 
 ###References
