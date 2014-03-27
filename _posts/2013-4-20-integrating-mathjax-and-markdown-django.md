@@ -20,10 +20,9 @@ The solution is to follow four steps:
 
  1. Install [django-pagedown](https://github.com/timmyomahony/django-pagedown/tree/master/pagedown)
  2. Link to the mathjax javascript library by adding this code to my base.html template:
-
-```javascript
+{% highlight javascript %}
 <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-```
+{% endhighlight %}
  3. Save [this code](http://somesquares.org/static/js/mathjax-editing.js) (hat tip to David Cervone for his answer to [this stackoverflow question](http://stackoverflow.com/questions/11228558/let-pagedown-and-mathjax-work-together)) to a file called mathjax-editing.js
  4. Add the following code to mathjax-editing.js, just after `'use strict';` : `window.StackExchange = {};`
  5. In pagedown/widgets.py, after the line `var editor = new Markdown.Editor(converter, "", selectors);` (which is line 44 in the version I downloaded April 15, 2013), add these two lines:
