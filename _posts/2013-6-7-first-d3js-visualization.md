@@ -2,7 +2,8 @@
 layout: post
 title:  "First D3.js visualization"
 date:   2013-6-7
-categories: blog
+categories: rstats
+tags: blog
 ---
 
 #####Estimated effect of mining employment on poverty, 1970

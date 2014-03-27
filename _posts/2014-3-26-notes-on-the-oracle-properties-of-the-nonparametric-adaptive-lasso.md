@@ -2,7 +2,7 @@
 layout: post
 title:  "Notes on the asymptotic normality of the nonparametric adaptive lasso"
 date:   2014-3-26 18:00:00
-categories: notebook
+tags: notebook
 ---
 
 This is the theorem that must be adapted to prove the oracle properties of the nonparametric adaptive lasso.
