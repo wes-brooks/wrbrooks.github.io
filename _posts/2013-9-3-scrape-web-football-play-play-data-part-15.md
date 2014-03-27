@@ -2,6 +2,7 @@
 layout: post
 title:  "Scrape the web for football play-by-play data, part 1.5"
 date:   2013-9-3
+categories: blog
 ---
 
 UPDATE: [part two](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-2) is up, where we parse the detailed play-by-play data for one game. Next up: compiling a database of plays from many games.

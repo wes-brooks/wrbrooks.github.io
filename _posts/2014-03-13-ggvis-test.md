@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ggvis test
+categories: blog
 ---
 
 ![Alt text](/svg/ggvis-test.svg)

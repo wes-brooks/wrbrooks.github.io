@@ -2,6 +2,7 @@
 layout: post
 title:  "Integrating mathjax and markdown in django"
 date:   2013-4-20
+categories: blog
 ---
 
 I'm a JavaScript noob so it took a couple days of hacking but I finally integrated mathjax and markdown into my django blog (this one!) together.

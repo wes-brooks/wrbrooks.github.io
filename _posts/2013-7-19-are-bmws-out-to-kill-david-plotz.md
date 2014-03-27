@@ -2,6 +2,7 @@
 layout: post
 title:  "Are BMWs out to kill David Plotz?"
 date:   2013-7-19
+categories: blog
 ---
 
 Slate's David Plotz is convinced that [drivers of BMWs are trying to run him down on his bicycle](http://www.slate.com/articles/life/a_fine_whine/2013/07/bmw_drivers_and_cyclists_the_war_between_the_luxury_cars_and_bicycles.html). Are they?

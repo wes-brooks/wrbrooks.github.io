@@ -2,6 +2,7 @@
 layout: post
 title:  "Asymptotic properties of the nonparametric adaptive lasso estimates"
 date:   2014-3-26 19:00:00
+categories: notebook
 ---
 
 To show:

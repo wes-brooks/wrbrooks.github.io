@@ -2,6 +2,7 @@
 layout: post
 title:  "Another D3js visualization"
 date:   2013-8-24
+categories: blog
 ---
 
 #####Estimated effect of mining employment on poverty, 1970

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: image test
+categories: blog
 ---
 
 

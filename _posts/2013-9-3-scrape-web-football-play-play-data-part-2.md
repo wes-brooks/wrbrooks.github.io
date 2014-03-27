@@ -2,6 +2,7 @@
 layout: post
 title:  "Scrape the web for football play-by-play data, part 2"
 date:   2013-9-4
+categories: blog
 ---
 
 Last things first: here's an extremely quick look at the distribution of rushing gains by Wisconsin's running backs in [that game](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0), based on the script we're developing in this series:

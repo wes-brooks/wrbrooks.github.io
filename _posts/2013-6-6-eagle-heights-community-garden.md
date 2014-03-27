@@ -2,6 +2,7 @@
 layout: post
 title:  "Eagle Heights community garden"
 date:   2013-6-6
+categories: blog
 ---
 
 It wasn't until this past weekend that I finally made the year's first visit to my plot at the Eagle Heights Community Garden. As expected, things had gotten out of hand:

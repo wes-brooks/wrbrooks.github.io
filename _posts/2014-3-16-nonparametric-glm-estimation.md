@@ -2,6 +2,7 @@
 layout: post
 title:  "Nonparametric GLM estimation"
 date:   2014-3-16
+categories: notebook
 ---
 
 ## The theorem

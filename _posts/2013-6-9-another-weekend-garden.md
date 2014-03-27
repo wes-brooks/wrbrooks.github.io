@@ -2,6 +2,7 @@
 layout: post
 title:  "Another weekend in the garden"
 date:   2013-6-9
+categories: blog
 ---
 
 

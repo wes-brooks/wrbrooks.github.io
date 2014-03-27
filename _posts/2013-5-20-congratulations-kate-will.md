@@ -2,6 +2,7 @@
 layout: post
 title:  "Congratulations, Kate and Will!"
 date:   2013-5-20
+categories: blog
 ---
 
 ![Kate Golden](http://media.jrn.com/images/mjs-ltht1.jpg "Photo: Paul Smith at the Milwaukee Journal-Sentinel")

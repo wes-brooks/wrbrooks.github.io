@@ -2,6 +2,7 @@
 layout: post
 title:  "New Moon Cinema is go!"
 date:   2013-10-10
+categories: blog
 ---
 
 
