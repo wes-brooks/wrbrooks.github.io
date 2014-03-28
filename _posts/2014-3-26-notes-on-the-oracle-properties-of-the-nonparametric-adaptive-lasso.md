@@ -46,19 +46,11 @@ $\left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \to \boldsymbol{C}$,
 
 ## Second term
 
-<<<<<<< HEAD
 Recall that we've assumed that $\text{E} \boldsymbol{X}\_i = \boldsymbol{0}$, $\text{var} \boldsymbol{X}\_i = \text{E} \left( \boldsymbol{X}\_i \boldsymbol{X}\_i^T \right) = \boldsymbol{C}$ for $i = 1, \dots, n$, $\boldsymbol{\varepsilon} \sim N(\boldsymbol{0}, \sigma^2 I\_n)$, and that $\boldsymbol{X} and \boldsymbol{\varepsilon}$ are independent.
 
 Then $\text{E} \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = \boldsymbol{0}$ and $\text{var} \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = n^{-1} \sigma^2 \boldsymbol{C}$. So the central limit theorem implies that
 
 $$n^{-1/2} \sum\_{i=1}^p \varepsilon\_i^T \boldsymbol{X}\_i \xrightarrow{d} N(0, \sigma^2 \boldsymbol{C})$$.
-=======
-Recall that we've assumed that $\mathbb{E} \boldsymbol{X}\_i = \boldsymbol{0}$, $\var \boldsymbol{X}\_i = \mathbb{E} \left( \boldsymbol{X}\_i \boldsymbol{X}\_i^T \right) = \boldsymbol{C}$ for $i = 1, \dots, n$, $\boldsymbol{\varepsilon} \sim N(\boldsymbol{0}, \sigma^2 I\_n)$, and that $\boldsymbol{X} and \boldsymbol{\varepsilon}$ are independent.
-
-Then $\mathbb{E} \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = \boldsymbol{0}$ and $\var \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = n^{-1} \sigma^2 \boldsymbol{C}$. So the central limit theorem implies that
-
-$$n^{-1/2} \sum\_i=1^p \varepsilon\_i^T \boldsymbol{X}\_i \xrightarrow{d} N(0, \sigma^2 \boldsymbol{C})$$.
->>>>>>> c9df6492a13397e6f00942952c4136f3064b3a64
 
 
 ## Third term
