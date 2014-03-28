@@ -217,12 +217,16 @@ a .title {
   margin: 0 1em;
 }
 
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+  font-family: "proxima-nova", sans-serif;
+}
+
 pre {
-background-color: #f8f8f8;
-border: 1px solid #ddd;
-font-size: 13px;
-line-height: 19px;
-overflow: auto;
-padding: 6px 10px;
-border-radius: 3px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
 }
