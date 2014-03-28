@@ -46,7 +46,7 @@ $\left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \to \boldsymbol{C}$,
 
 ## Second term
 
-Recall that we've assumed that $\text{E} \boldsymbol{X}\_i = \boldsymbol{0}$, $\text{var} \boldsymbol{X}\_i = \text{E} \left( \boldsymbol{X}\_i \boldsymbol{X}\_i^T \right) = \boldsymbol{C}$ for $i = 1, \dots, n$, $\boldsymbol{\varepsilon} \sim N(\boldsymbol{0}, \sigma^2 I\_n)$, and that $\boldsymbol{X} and \boldsymbol{\varepsilon}$ are independent.
+Recall that we've assumed that $\text{E} \boldsymbol{X}\_i = \boldsymbol{0}$, $\text{var} \boldsymbol{X}\_i = \text{E} \left( \boldsymbol{X}\_i \boldsymbol{X}\_i^T \right) = \boldsymbol{C}$ for $i = 1, \dots, n$, $\boldsymbol{\varepsilon} \sim N(\boldsymbol{0}, \sigma^2 I\_n)$, and that $\boldsymbol{X}$ and $\boldsymbol{\varepsilon}$ are independent.
 
 Then $\text{E} \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = \boldsymbol{0}$ and $\text{var} \left( n^{-1/2} \varepsilon\_i \boldsymbol{X}\_i \right) = n^{-1} \sigma^2 \boldsymbol{C}$. So the central limit theorem implies that
 
