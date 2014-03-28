@@ -5,6 +5,16 @@ date:   2013-4-20
 tags: blog
 ---
 
+### Update
+
+I've moved the blog to (Github Pages)[http://pages.github.com] which means that my content management system is now (Jekyll)[http://jekyllrb.com], not Django. I'm leaving this post up, but I no longer use the hack described below.
+
+The simple way to make MathJax work with a blog written in Markdown is to simply escape all the underscores and asterisks (along with some slashes). For example, to generate the equation at the bottom of this page you'd ordinarily write the MathJax code `$$\text{SSR} = \sum\limits_{i=1}^n \left(y_i - \boldsymbol{x}'_i\hat{\boldsymbol{\beta}}\right)^2$$`. Markdown, though, thinks everything between the two underscores is supposed to be italic. But if you escape the underscores (that is, replace each appearance of `_` with `\_`), then it just works!
+
+You will need to do the same with asterisks (`*` becomes `\*`), newlines (`\\` becomes `\\\\`), and some other marks, too (`\left\{` becomes `\left\\{`).
+
+### Original post follows:
+
 I'm a JavaScript noob so it took a couple days of hacking but I finally integrated mathjax and markdown into my django blog (this one!) together.
 
 The basic problem is that markdown is a sleek little markup language that was designed to be totally minimal so that it's natural for humans to read and write it. But being minimal, it is hard to customize. And since some markdown syntax clobbers mathjax syntax (e.g. the underscore), we need to customize markdown, telling it to ignore the text that is meant for mathjax.
