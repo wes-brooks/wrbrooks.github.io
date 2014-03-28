@@ -7,7 +7,7 @@ tags: blog
 
 ### Update
 
-I've moved the blog to (Github Pages)[http://pages.github.com] which means that my content management system is now (Jekyll)[http://jekyllrb.com], not Django. I'm leaving this post up, but I no longer use the hack described below.
+I've moved the blog to [Github Pages](http://pages.github.com) which means that my content management system is now [Jekyll](http://jekyllrb.com), not Django. I'm leaving this post up, but I no longer use the hack described below.
 
 The simple way to make MathJax work with a blog written in Markdown is to simply escape all the underscores and asterisks (along with some slashes). For example, to generate the equation at the bottom of this page you'd ordinarily write the MathJax code:
 
