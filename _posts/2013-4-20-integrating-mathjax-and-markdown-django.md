@@ -9,7 +9,11 @@ tags: blog
 
 I've moved the blog to (Github Pages)[http://pages.github.com] which means that my content management system is now (Jekyll)[http://jekyllrb.com], not Django. I'm leaving this post up, but I no longer use the hack described below.
 
-The simple way to make MathJax work with a blog written in Markdown is to simply escape all the underscores and asterisks (along with some slashes). For example, to generate the equation at the bottom of this page you'd ordinarily write the MathJax code `$$\text{SSR} = \sum\limits_{i=1}^n \left(y_i - \boldsymbol{x}'_i\hat{\boldsymbol{\beta}}\right)^2$$`. Markdown, though, thinks everything between the two underscores is supposed to be italic. But if you escape the underscores (that is, replace each appearance of `_` with `\_`), then it just works!
+The simple way to make MathJax work with a blog written in Markdown is to simply escape all the underscores and asterisks (along with some slashes). For example, to generate the equation at the bottom of this page you'd ordinarily write the MathJax code:
+
+```$$\text{SSR} = \sum\limits_{i=1}^n \left(y_i - \boldsymbol{x}'_i\hat{\boldsymbol{\beta}}\right)^2$$```
+
+Markdown, though, thinks everything between the two underscores is supposed to be italic. But if you escape the underscores (that is, replace each appearance of `_` with `\_`), then it just works!
 
 You will need to do the same with asterisks (`*` becomes `\*`), newlines (`\\` becomes `\\\\`), and some other marks, too (`\left\{` becomes `\left\\{`).
 
