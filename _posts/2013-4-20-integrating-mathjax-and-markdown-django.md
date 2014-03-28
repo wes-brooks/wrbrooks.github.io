@@ -5,7 +5,7 @@ date:   2013-4-20
 tags: blog
 ---
 
-### Update
+## Update
 
 I've moved the blog to [Github Pages](http://pages.github.com) which means that my content management system is now [Jekyll](http://jekyllrb.com), not Django. I'm leaving this post up, but I no longer use the hack described below.
 
@@ -17,7 +17,7 @@ Markdown, though, thinks everything between the two underscores is supposed to b
 
 You will need to do the same with asterisks (`*` becomes `\*`), newlines (`\\` becomes `\\\\`), and some other marks, too (`\left\{` becomes `\left\\{`).
 
-### Original post follows:
+## Original post follows:
 
 I'm a JavaScript noob so it took a couple days of hacking but I finally integrated mathjax and markdown into my django blog (this one!) together.
 

@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { margin-bottom: 1em; }
-p { margin: 0.5em 0; }
+p { margin: 0.8em 0; }
 
 a         { color: #428bca; }
 a:hover   { color: #000; }
@@ -65,7 +65,7 @@ a:hover   { color: #000; }
 .site {
   font-size: 115%;
   text-align: justify;
-  line-height: 1.5em;
+  line-height: 1.35em;
 }
 
 p {
@@ -152,32 +152,32 @@ a .title {
 /*****************************************************************************/
 
 #post > .central h1 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500
 }
 
 #post > .central h2 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500
 }
 
 #post > .central h3 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500
 }
 
 #post > .central h4 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500
 }
 
 #post > .central h5 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500
 }
 
 #post > .central h6 {
-  margin: 0.4em 0;
+  margin: 0.5em 0;
   font-weight: 500;
 }
 
