@@ -63,9 +63,8 @@ a:hover   { color: #000; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
   text-align: justify;
-  line-height: 1.35em;
+  line-height: 1.3em;
 }
 
 p {
@@ -219,6 +218,11 @@ a .title {
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   font-family: "proxima-nova", sans-serif;
+}
+
+@media screen and (min-width: 48em)
+.post p {
+  font-size: 1.125em;
 }
 
 pre {
