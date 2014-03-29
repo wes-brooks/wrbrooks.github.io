@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes on the asymptotic normality of the nonparametric adaptive lasso"
+title:  "Proving asymptotic normality of the adaptive lasso"
 date:   2014-3-26 18:00:00
 tags: notebook
 ---
@@ -87,18 +87,6 @@ Now, $V\_4^{(n)}$ is convex and has a unique minimum at $\left( \boldsymbol{C}\_
 Now, since $\boldsymbol{W}\_\mathcal{A} = N(\boldsymbol{0}, \sigma^2 \boldsymbol{C}\_{11})$, the asymptotic normailty is proven.
 
 The way to think about this proof is that $V\_4$ is the loss between perfect truth and an estimate that deviates from truth by $\boldsymbol{u}$. We see that the loss becomes infinite if any variable which should be set to zero is not, while there is a typical squared error loss for the estimation error of coefficients that should not be set to zero.
-
-
-#Adapting the proof to the case of SVCR
-
-The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first term of (1), like so:
-
-$$\begin{align}
-\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
-\end{align}$$
-
-Where $\mathcal{W} = \text{diag}(w\_{ij})$, though of course these $w$'s are different from those used above as the adaptive weights. The results still follow.
-
 
 
 #References
