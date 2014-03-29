@@ -17,7 +17,7 @@ Begin by defining $\Psi(\boldsymbol{u})$:
 
 $$
 \begin{align}
-\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{b\_n} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p |\tilde{\beta}\_j|^{-1} |\beta\_j^* + \frac{u\_j}{b\_n} |
+\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{b\_n} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{b\_n} \right) \right\] + \lambda\_n \sum\_{j=1}^p |\tilde{\beta}\_j|^{-1} |\beta\_j^* + \frac{u\_j}{b\_n} |
 \end{align}
 $$
 
