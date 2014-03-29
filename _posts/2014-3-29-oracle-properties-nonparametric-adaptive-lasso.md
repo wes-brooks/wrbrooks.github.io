@@ -23,6 +23,9 @@ $$
 
 Where $\mathcal{W} = \text{diag}(w\_{ij})$, though of course these $w$'s are different from those used above as the adaptive weights. The results still follow.
 
+Now $\Psi\_n(\boldsymbol{u}) - \Psi\_n(\boldsymbol{0}) = V\_4^{(n)} (\boldsymbol{u})$ where
+
+$$\begin{align} V\_4^{(n)} (\boldsymbol{u}) &\equiv \boldsymbol{u}^T \left( \frac{1}{n} \boldsymbol{X}^T \boldsymbol{X} \right) \boldsymbol{u} - 2 \frac{\boldsymbol{\varepsilon^T \boldsymbol{X}}}{b\_n} \boldsymbol{u} + \frac{\lambda\_n}{b\_n} \sum\_{j=1}^p \hat{w}\_j b\_n \left( | \beta\_j^\* + \frac{u\_j}{b\_n} | - |\beta\_j^\*| \right)\end{align}$$
 
 #References
 
