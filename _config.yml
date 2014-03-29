@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
-url: http://jekyll.somesquares.org
+url: http://somesquares.org
