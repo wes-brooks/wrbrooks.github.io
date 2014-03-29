@@ -5,15 +5,21 @@ date:   2014-3-29 18:00:00
 tags: notebook
 ---
 
-This is an adaptation of the proof from Zou (2006), (see the post (here)[//somesquares.org/blog/oracle-properties-of-the-adaptive-lasso].
+This is an adaptation of the proof from Zou (2006), (see the post [here](//somesquares.org/blog/oracle-properties-of-the-adaptive-lasso).
 
 #Adapting the proof to the case of SVCR
 
-The key to the adaptation is to realize that the nonparametric coefficient estimation obtains a $n^{1/6}$ rate of convergence, and that the observation weights should appear in the first term of (1), like so:
+The convergence rage of the nonparametric estimate is not the same $\sqrt{n}$ as for parametric estimation, so for now replace $\sqrt{n}$ with a placeholder, call it $b\_n$.
 
-$$\begin{align}
-\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p \hat{w}\_j |\beta\_j^* + \frac{u\_j}{\sqrt{n}} |
-\end{align}$$
+Once again, we look at the loss incurred by making an error when estimating the coefficients. In the parametric case, we showed that (asymptotically) the loss is a quadratic form of the error so long as all the coefficients that _should_ be set to zero _are_ set to zero. If any of the truly zero coefficients are estimated as nonzero, the loss is (asymptotically) infinite. We attempt to recover the same result in the nonparametric case.
+
+Begin by defining $\Psi(\boldsymbol{u})$:
+
+$$
+\begin{align}
+\Psi'(\boldsymbol{u}) = \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{b\_n} \right) \right\]^{T} \mathcal{W} \left\[ \boldsymbol{y} - \sum\_{j=1}^p \boldsymbol{x}\_j \left( \beta\_j^* + \frac{u\_j}{\sqrt{n}} \right) \right\] + \lambda\_n \sum\_{j=1}^p |\tilde{\beta}\_j|^{-1} |\beta\_j^* + \frac{u\_j}{b\_n} |
+\end{align}
+$$
 
 Where $\mathcal{W} = \text{diag}(w\_{ij})$, though of course these $w$'s are different from those used above as the adaptive weights. The results still follow.
 
