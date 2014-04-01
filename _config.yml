@@ -4,4 +4,3 @@ pygments: true
 permalink: pretty
 description: Wesley's blog
 url: http://somesquares.org
-destination: /home/wesley/webapps/nginx
