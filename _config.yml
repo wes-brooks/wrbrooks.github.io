@@ -1,7 +1,7 @@
 name: somesquares.org
 markdown: redcarpet
 pygments: true
-permalink: /blog/:year/:i_month/:title.html
+permalink: pretty
 description: Wesley's blog
 url: http://somesquares.org
 destination: /home/wesley/webapps/nginx/html
