@@ -20,13 +20,13 @@ html, body { height: 100%; }
 }*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
+  font-weight: bold;
   line-height: normal;
 }
 
 #post-title > .central h2 {
   margin: 0;
-  font-weight: 100;
+  font-weight: normal;
 }
 
 h1 { margin-bottom: 1em; }
@@ -66,16 +66,16 @@ a:hover   { color: #000; }
 }
 
 p {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 li {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 .navbutton {
   font-size: 0.55em;
-  font-weight: 100;
+  font-weight: normal;
 }
 
 #header {
@@ -93,11 +93,11 @@ li {
 #site-title {
   overflow: hidden;
   white-space: nowrap;
-  font-weight: 100;
+  font-weight: normal;
 }
 
 #copyright-notice {
-  font-weight: 100;
+  font-weight: normal;
 }
 
 a .title {
@@ -109,7 +109,7 @@ a .title {
 }
 
 .meta {
-  font-weight: 100;
+  font-weight: normal;
   font-size: 0.9em;
   color: #aaa;
   margin: 0;
@@ -150,32 +150,32 @@ a .title {
 
 #post > .central h1 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 #post > .central h2 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 #post > .central h3 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 #post > .central h4 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 #post > .central h5 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 #post > .central h6 {
   margin: 2em 0 0.5em 0;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 /* standard */
@@ -214,8 +214,8 @@ a .title {
   margin: 0 1em;
 }
 
-html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-  font-family: 'Roboto', sans-serif;
+html, button, input, select, textarea, .pure-g [class *= "pure-u"], #post {
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 48em)
