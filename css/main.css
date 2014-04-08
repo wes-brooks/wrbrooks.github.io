@@ -215,7 +215,7 @@ a .title {
 }
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (min-width: 48em)
