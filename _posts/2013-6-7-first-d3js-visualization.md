@@ -62,7 +62,7 @@ var svg = d3.select("#pov-pex-1970").append("svg")
 
 
 //connect the values to the shapes via the centroids:
-matchPolygons = function (geo, coefs) {
+matchPolygons = function (geo, coefs, centroids) {
     for(var i=0; i<geo.length; i++) {
         //var found = false;
         //for(var j=0; j<coefs.length; j++) {
@@ -76,7 +76,7 @@ matchPolygons = function (geo, coefs) {
         //if(!found) { geo[i].indx = NaN; geo[i].centroid=NaN; }
         
         geo[i].indx = i;
-        geo[i].centroid = {'x':coefs[i].x, 'y':coefs[i].y};
+        geo[i].centroid = {'x':centroids[i].x, 'y':centroids[i].y};
     }
     return geo;
 }
@@ -141,7 +141,7 @@ function ready(error, coefs, centroids, topology) {
   for (var i=0; i<rem.length; i++) {
     features.splice(rem[i],1);
   }
-  features = matchPolygons(features, coefs);
+  features = matchPolygons(features, coefs, centroids);
   
   c = coefs
   
