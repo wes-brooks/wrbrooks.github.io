@@ -44,7 +44,8 @@ tags: blog
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
-<script>
+<script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
 var width = $('#pov-pex-1970')[0].scrollWidth,
     height = 300;
 
@@ -63,16 +64,19 @@ var svg = d3.select("#pov-pex-1970").append("svg")
 //connect the values to the shapes via the centroids:
 matchPolygons = function (geo, coefs) {
     for(var i=0; i<geo.length; i++) {
-        var found = false;
-        for(var j=0; j<coefs.length; j++) {
-            if(geo[i].properties.fips==coefs[j].fips) {
-                geo[i].indx = j;
-                geo[i].centroid = {'x':coefs[j].x, 'y':coefs[j].y};
-                found=true;
-                break;
-            }
-        }
-        if(!found) { geo[i].indx = NaN; geo[i].centroid=NaN; }
+        //var found = false;
+        //for(var j=0; j<coefs.length; j++) {
+        //    if(geo[i].properties.fips==coefs[j].fips) {
+        //        geo[i].indx = j;
+        //        geo[i].centroid = {'x':coefs[j].x, 'y':coefs[j].y};
+        //        found=true;
+        //        break;
+        //    }
+        //}
+        //if(!found) { geo[i].indx = NaN; geo[i].centroid=NaN; }
+        
+        geo[i].indx = i;
+        geo[i].centroid = {'x':coefs[i].x, 'y':coefs[i].y};
     }
     return geo;
 }
