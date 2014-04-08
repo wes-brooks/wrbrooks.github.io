@@ -124,12 +124,13 @@ queue()
     .await(ready);
 
 
-var proj, c;
+var proj, c, cent;
 var out = [];
 var features;
 //once the data is loaded, draw the map:
 function ready(error, coefs, centroids, topology) {
   features = topojson.feature(topology, topology.objects['wisconsin-geo']).features;
+  cent = centroids;
   
   //Remove the water
   var rem = [75,14];
