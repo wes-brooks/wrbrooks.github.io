@@ -51,7 +51,6 @@ a:hover   { color: #000; }
 
 .posts span {
   color: #aaa;
-  /*font-family: Monaco, "Courier New", monospace;*/
   font-size: 80%;
 }
 
@@ -217,7 +216,7 @@ a .title {
 }
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
-  font-family: "proxima-nova", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width: 48em)
