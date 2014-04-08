@@ -41,12 +41,11 @@ tags: blog
   </div>
 </div>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script>
-var width = d3.select('#pov-pex-1970')[0].scrollWidth,
+var width = $('#pov-pex-1970')[0].scrollWidth,
     height = 300;
 
 var projection = d3.geo.albers()
