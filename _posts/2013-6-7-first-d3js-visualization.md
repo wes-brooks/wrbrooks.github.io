@@ -199,7 +199,7 @@ function ready(error, coefs, centroids, topology) {
       .on('mouseover', function(d,i) {
         var xPosition = parseFloat(d.centroid.x);
         var yPosition = parseFloat(d.centroid.y);
-        var loc = proj([xPosition, yPosition])
+        var loc = projection([xPosition, yPosition])
         d3.select('#annotation')
           .style('left', loc[0]+'px')
           .style('top', loc[1]+'px')
