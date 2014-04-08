@@ -214,7 +214,7 @@ a .title {
   margin: 0 1em;
 }
 
-html, button, input, select, textarea, .pure-g [class *= "pure-u"], #post {
+html, button, input, select, textarea, .pure-g [class *= "pure-u"], #post>.central>p {
   font-family: 'Montserrat', sans-serif;
 }
 
