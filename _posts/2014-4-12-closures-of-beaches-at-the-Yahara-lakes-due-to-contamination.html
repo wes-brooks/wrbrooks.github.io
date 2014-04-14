@@ -106,9 +106,9 @@ var proj = d3.geo.conicConformal()
 
 
 queue()
-    .defer(d3.json, 'static/json/lakes.json')
-    .defer(d3.tsv, 'static/tsv/beach-location.tsv')
-    .defer(d3.csv, 'static/csv/closures.csv')
+    .defer(d3.json, '/static/json/lakes.json')
+    .defer(d3.tsv, '/static/tsv/beach-location.tsv')
+    .defer(d3.csv, '/static/csv/closures.csv')
     .await(MakeMap); // function that uses files
 
 function MakeMap(err, lakes, beaches, closures) {
