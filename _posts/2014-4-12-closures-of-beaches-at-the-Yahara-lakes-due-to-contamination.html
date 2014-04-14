@@ -332,25 +332,25 @@ function MakeMap(err, lakes, beaches, closures) {
     //Put the footer on the chart
     svg.append('text')
         .attr("font-family", "sans-serif")
-        .attr('font-size', 8)
+        .attr('font-size', 9)
         .attr('id', 'footer')
-        .attr('transform', 'translate(5, ' + (height-52) + ')')
+        .attr('transform', 'translate(5, ' + (height-50) + ')')
         .append('tspan')
-            .attr('dy', "1.4em")
+            .attr('dy', "1.1em")
             .attr('x', 0)
             .text('Source: Madison and Dane County Public Health.');
 
     //Second line of the footer
     svg.select('#footer')    
         .append('tspan')
-        .attr('dy', "1.4em")
+        .attr('dy', "1.1em")
         .attr('x', 0)
         .text('Note: Totals are approximate, because data recording methods may have varied over the years.');
         
     //Third line of the footer
     svg.select('#footer')
         .append('tspan')
-        .attr('dy', "1.4em")
+        .attr('dy', "1.1em")
         .attr('x', 0)
         .text('Reporting: Kate Golden/Wisconsin Center for Investigative Journalism. Visualization: Wesley Brooks.');
         
