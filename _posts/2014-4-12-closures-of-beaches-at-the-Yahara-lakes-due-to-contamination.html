@@ -27,6 +27,8 @@ tags: blog
 }
 </style>
 
+<svg id="beach-viz"></svg>
+
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
@@ -45,11 +47,11 @@ var wellheight = 160,
     wellwidth = 320,
     maxscale = 50;
    
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#beach-viz")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
 //annual scale:
 var wellscale = d3.time.scale()
