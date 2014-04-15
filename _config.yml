@@ -4,8 +4,8 @@ pygments: true
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
 collections:
- - comments
+- comments
 render:
- - comments
+- comments
 
 
