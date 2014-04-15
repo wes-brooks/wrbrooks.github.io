@@ -24,7 +24,9 @@ layout: default
   <div class="pure-u-2-3 central">
     <ul class="comments">
       {% for comment in site.comments %}
-        {% if comment.tags contains page.id %}<li>comment.content</li>{% endif %}
+        comment!
+        {{ comment.content }}
+        {% if comment.tags contains page.id %}<li>{{comment.content}}</li>{% endif %}
       {% endfor %}
     </ul>
   </div>
