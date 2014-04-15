@@ -20,8 +20,11 @@ layout: default
 
 
 <div class="pure-g-r" id="comments">
-  <div class="pure-u-1-6 pure-hidden-phone"></div>
-  <div class="pure-u-2-3 central">
-    
-  </div>
+    <div class="pure-u-1-6 pure-hidden-phone"></div>
+    <div class="pure-u-2-3 central">
+        {% for c in page.comments %}
+            <p>{{c.content}}</p>
+            <hr />
+        {% endfor %}
+    </div>
 </div>
