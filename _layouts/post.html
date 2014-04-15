@@ -22,12 +22,6 @@ layout: default
 <div class="pure-g-r" id="comments">
   <div class="pure-u-1-6 pure-hidden-phone"></div>
   <div class="pure-u-2-3 central">
-    <ul class="comments">
-      {% for comment in site.comments %}
-        comment!
-        {{ comment.content }}
-        {% if comment.tags contains page.id %}<li>{{comment.content}}</li>{% endif %}
-      {% endfor %}
-    </ul>
+    
   </div>
 </div>
