@@ -109,6 +109,18 @@ a .title {
   margin: 0;
 }
 
+#comments {
+  border-top: 1px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.comment {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
 #footer {
   font-size: 80%;
   color: #666;
