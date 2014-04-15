@@ -23,18 +23,17 @@ layout: default
     <div class="pure-u-1-6 pure-hidden-phone"></div>
     <div class="pure-u-2-3 central">
         <span class="title">Comments</span>
-        <form action="mailto:youraddr@domain.tld" method="GET">
-            <input name="subject" type="text" />
-            <textarea name="body"></textarea>
-            <input type="submit" value="Send" />
-        </form>
         <hr />
         {% for c in page.comments %}
             <div class="comment">
                 <p><span class="author">{{c.author}}</span> - <span class="date">{{c.date | date_to_string}}</span></p>
-                <p><span class="title">{{c.title}}</span></p>
                 <p><span class="content">{{c.content}}</span></p>
             </div>
         {% endfor %}
+        <form action="mailto:youraddr@domain.tld" method="GET">
+            <span>Leave a comment:</span><br>
+            <textarea name="body"></textarea><br>
+            <input type="submit" value="Send" />
+        </form>
     </div>
 </div>
