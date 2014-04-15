@@ -127,10 +127,6 @@ a .title {
   overflow: hidden;
 }
 
-#footer.separator {
-  color: #eee;
-}
-
 #footer .contact {
   float: left;
   margin-right: 3em;
