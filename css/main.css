@@ -114,6 +114,10 @@ a .title {
   overflow: hidden;
 }
 
+#comments .title{
+  font-weight: 'bold';
+}
+
 .comment {
   margin-top: 1em;
   margin-bottom: 1em;
