@@ -3,4 +3,7 @@ markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
+collections:
+ - comments
+ 
 
