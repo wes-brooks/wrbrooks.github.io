@@ -120,6 +120,10 @@ a .title {
   overflow: hidden;
 }
 
+.comment.author {
+  font-weight: bold;
+}
+
 #footer {
   font-size: 80%;
   color: #666;
