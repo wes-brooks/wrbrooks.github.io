@@ -22,7 +22,11 @@ layout: default
 <div class="pure-g-r" id="comments">
     <div class="pure-u-1-6 pure-hidden-phone"></div>
     <div class="pure-u-2-3 central">
-        <h3>Comments</h3>
+        <span class="title">Comments</span> <form action="mailto:youraddr@domain.tld" method="GET">
+    <input name="subject" type="text" />
+    <textarea name="body"></textarea>
+    <input type="submit" value="Send" />
+</form>
         <hr />
         {% for c in page.comments %}
             <div class="comment">
