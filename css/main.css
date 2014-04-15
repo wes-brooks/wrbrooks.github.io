@@ -120,7 +120,7 @@ a .title {
   overflow: hidden;
 }
 
-.comment.author {
+.comment .author {
   font-weight: bold;
 }
 
