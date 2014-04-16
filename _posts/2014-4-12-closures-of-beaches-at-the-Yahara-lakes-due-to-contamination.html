@@ -39,7 +39,7 @@ var width = 600,
     height = 780;
     
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
-    wellmargin = 7,
+    wellmargin = 17,
     width = width - margin.left - margin.right,
     height = height - margin.top - margin.bottom;
     
@@ -82,7 +82,7 @@ var label = {
     'Hudson': {'offset':[5,-15], 'anchor':'start'},
     'Olbrich': {'offset':[10,-5], 'anchor':'start'},
     'Goodland': {'offset':[-8,-8], 'anchor':'end'},
-    'Governor Nelson': {'offset':[-5,-2], 'anchor':'end'}
+    'Governor Nelson': {'offset':[-6,2], 'anchor':'end'}
 };
     
     
@@ -173,7 +173,7 @@ function MakeMap(err, lakes, locations, closures) {
         r = [];
         for (j in x) {r.push(x[j].closures);}
         return r;
-    })(tot_closures))    ;
+    })(tot_closures));
     
     //Scale the dots so their area indicates the total closures
     var radius_scale = d3.scale.sqrt()
