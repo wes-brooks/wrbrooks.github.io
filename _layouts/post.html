@@ -31,9 +31,9 @@ layout: default
             </div>
         {% endfor %}
         <form type="text/plain" action="mailto:comment+{{ page.id }}@somesquares.org" method="GET">
-            <span class="title">Leave a comment (will be held for moderation):</span><br>
+            <span class="title">Leave a comment:</span><br>
             <input name="subject" type="text" value="Name" /><br>
-            <textarea name="body" value="Comment"></textarea><br>
+            <textarea name="body">Comment</textarea><br>
             <input type="submit" value="Send" />
         </form>
     </div>
