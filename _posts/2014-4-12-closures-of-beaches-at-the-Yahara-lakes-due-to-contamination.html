@@ -92,7 +92,7 @@ svg.append('rect')
   .attr("fill", "#ddc");
   
 
-var lakes, beach_location, barchart, days=200;
+var lakes, beach_location, beaches, barchart, days=200;
     
 var barheight_scale = d3.scale.linear()
     .domain([0, maxscale])
@@ -144,7 +144,7 @@ function MakeMap(err, lakes, locations, closures) {
 
     //Get the coordinates of each beach
     beach_location = {};
-    var beaches = [];
+    beaches = [];
     for (k in locations) {
         var name = locations[k].Beach;
         var loc = [locations[k].Longitude, locations[k].Latitude];
