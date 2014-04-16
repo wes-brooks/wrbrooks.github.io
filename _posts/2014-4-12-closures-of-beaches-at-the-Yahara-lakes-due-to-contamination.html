@@ -335,7 +335,7 @@ function MakeMap(err, lakes, locations, closures) {
             .attr('font-weight', 'normal')
             .attr('dy', "1.5em")
             .attr('x', 0)
-            .text('Dot size indicates the total number of closures, 1996 - 2013')
+            .text('Dot size indicates beach closures, 1996 - 2013')
         
     //Put the footer on the chart
     svg.append('text')
@@ -353,14 +353,14 @@ function MakeMap(err, lakes, locations, closures) {
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('Note: Not included are a few beaches monitored by other agencies. Totals are approximate because data');
+        .text('Note: Not included are a few beaches monitored by other agencies. Totals are approximate because');
 
     //Third line of the footer
     svg.select('#footer')    
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('recording methods varied over the years. The department began monitoring Goodland in 2007.');
+        .text('data recording methods varied over the years. The department began monitoring Goodland in 2007.');
 
     //Fouth line of the footer
     svg.select('#footer')    
