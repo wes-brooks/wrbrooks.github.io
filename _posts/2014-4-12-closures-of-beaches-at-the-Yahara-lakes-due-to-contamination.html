@@ -82,7 +82,7 @@ var label = {
     'Hudson': {'offset':[5,-15], 'anchor':'start'},
     'Olbrich': {'offset':[10,-5], 'anchor':'start'},
     'Goodland': {'offset':[-8,-8], 'anchor':'end'},
-    'Governor Nelson': {'offset':[-3,-3], 'anchor':'end'}
+    'Governor Nelson': {'offset':[-5,-2], 'anchor':'end'}
 };
     
     
@@ -292,7 +292,7 @@ function MakeMap(err, lakes, locations, closures) {
     
     //Draw Governor Nelson, even though it has no data:
     svg.append('circle')
-        .attr('r', 3)
+        .attr('r', 4)
         .attr('cx', proj(beach_location['Governor Nelson'])[0])
         .attr('cy', proj(beach_location['Governor Nelson'])[1])
         .attr('fill', 'black')
