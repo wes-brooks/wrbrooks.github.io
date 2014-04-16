@@ -91,9 +91,6 @@ svg.append('rect')
   .attr("height", height)
   .attr("fill", "#ddc");
   
-
-var lakes, beach_location, beaches, barchart, days=200;
-    
 var barheight_scale = d3.scale.linear()
     .domain([0, maxscale])
     .range([0, wellheight]);
@@ -143,8 +140,8 @@ function MakeMap(err, lakes, locations, closures) {
         .text('W A U B E S A');
 
     //Get the coordinates of each beach
-    beach_location = {};
-    beaches = [];
+    var beach_location = {};
+    var beaches = [];
     for (k in locations) {
         var name = locations[k].Beach;
         var loc = [locations[k].Longitude, locations[k].Latitude];
@@ -184,8 +181,8 @@ function MakeMap(err, lakes, locations, closures) {
     .range([0, 10]);
     
     //Make the well where we'll put barcharts:
-    barchart = svg.append("g")
-        .attr('transform', 'translate(' + wellmargin + ',' + (height * 0.84 - wellheight) + ")")
+    var barchart = svg.append("g")
+        .attr('transform', 'translate(' + wellmargin + ',' + (height * 0.8 - wellheight) + ")")
         .attr('height', wellheight)
         .attr('width', wellwidth)
         .attr('id', 'barchart-well')
@@ -345,7 +342,7 @@ function MakeMap(err, lakes, locations, closures) {
         .attr("font-family", "sans-serif")
         .attr('font-size', 9)
         .attr('id', 'footer')
-        .attr('transform', 'translate(5, ' + (height-78) + ')')
+        .attr('transform', 'translate(5, ' + (height-74) + ')')
         .append('tspan')
             .attr('dy', "1.1em")
             .attr('x', 0)
