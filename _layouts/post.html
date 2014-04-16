@@ -26,7 +26,7 @@ layout: default
         <hr />
         {% for c in page.comments %}
             <div class="comment">
-                <p><span class="author">{{c.author}}</span> - <span class="date">{{c.date | date_to_string}}</span></p>
+                <p><span class="author">{{c.author}}</span> - <span class="date">{{c.date | date: "%-d-%-m-%Y %-H:%-M"}}</span></p>
                 <p><span class="content">{{c.content}}</span></p>
             </div>
         {% endfor %}
