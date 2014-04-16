@@ -349,14 +349,14 @@ function MakeMap(err, lakes, locations, closures) {
         .append('tspan')
             .attr('dy', "1.1em")
             .attr('x', 0)
-            .text('Source: Madison and Dane County Public Health.');
+            .text('Source: Madison and Dane County Public Health; not included are a few beaches monitored by other agencies.');
 
     //Second line of the footer
     svg.select('#footer')    
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('Note: Totals are approximate, because data recording methods may have varied over the years.');
+        .text('Note: Totals are approximate, because data recording methods varied over the years. The department began monitoring Goodland in 2007.');
         
     //Third line of the footer
     svg.select('#footer')
