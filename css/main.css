@@ -132,6 +132,10 @@ a .title {
   margin: 0;
 }
 
+#comments .input {
+  margin: 2px;
+}
+
 #footer {
   font-size: 80%;
   color: #666;
