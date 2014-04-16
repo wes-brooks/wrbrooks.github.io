@@ -330,32 +330,32 @@ function MakeMap(err, lakes, locations, closures) {
     //Put the footer on the chart
     svg.append('text')
         .attr("font-family", "sans-serif")
-        .attr('font-size', 9)
-        .attr('id', 'footer')
-        .attr('transform', 'translate(5, ' + (height-60) + ')')
+        .attr('font-size', 13)
+        .attr('id', 'fineprint')
+        .attr('transform', 'translate(5, ' + (height-66) + ')')
         .append('tspan')
-            .attr('dy', "1.1em")
+            .attr('dy', "1.2em")
             .attr('x', 0)
             .text('Source: Madison and Dane County Public Health.');
 
     //Second line of the footer
-    svg.select('#footer')    
+    svg.select('#fineprint')    
         .append('tspan')
-        .attr('dy', "1.1em")
+        .attr('dy', "1.2em")
         .attr('x', 0)
         .text('Note: Not included are a few beaches monitored by other agencies. Totals are approximate because');
 
     //Third line of the footer
-    svg.select('#footer')    
+    svg.select('#fineprint')    
         .append('tspan')
-        .attr('dy', "1.1em")
+        .attr('dy', "1.2em")
         .attr('x', 0)
         .text('data recording methods varied over the years. The department began monitoring Goodland in 2007.');
         
     //Fourth line of the footer
-    svg.select('#footer')
+    svg.select('#fineprint')
         .append('tspan')
-        .attr('dy', "1.1em")
+        .attr('dy', "1.2em")
         .attr('x', 0)
         .text('Reporting: Kate Golden/Wisconsin Center for Investigative Journalism. Visualization: Wesley Brooks.');
         
