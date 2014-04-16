@@ -36,7 +36,7 @@ tags: blog
 
 <script>
 var width = 600,
-    height = 720;
+    height = 780;
     
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
     wellmargin = 7,
@@ -345,20 +345,34 @@ function MakeMap(err, lakes, locations, closures) {
         .attr("font-family", "sans-serif")
         .attr('font-size', 9)
         .attr('id', 'footer')
-        .attr('transform', 'translate(5, ' + (height-48) + ')')
+        .attr('transform', 'translate(5, ' + (height-78) + ')')
         .append('tspan')
             .attr('dy', "1.1em")
             .attr('x', 0)
-            .text('Source: Madison and Dane County Public Health; not included are a few beaches monitored by other agencies.');
+            .text('Source: Madison and Dane County Public Health.');
 
     //Second line of the footer
     svg.select('#footer')    
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('Note: Totals are approximate, because data recording methods varied over the years. The department began monitoring Goodland in 2007.');
-        
+        .text('Note: Not included are a few beaches monitored by other agencies. Totals are');
+
     //Third line of the footer
+    svg.select('#footer')    
+        .append('tspan')
+        .attr('dy', "1.1em")
+        .attr('x', 0)
+        .text('approximate because data recording methods varied over the years.');
+
+    //Fouth line of the footer
+    svg.select('#footer')    
+        .append('tspan')
+        .attr('dy', "1.1em")
+        .attr('x', 0)
+        .text('The department began monitoring Goodland in 2007.');
+        
+    //Fifth line of the footer
     svg.select('#footer')
         .append('tspan')
         .attr('dy', "1.1em")
