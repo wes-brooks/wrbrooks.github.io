@@ -24,7 +24,8 @@ layout: default
     <div class="pure-u-2-3 central">
         <span class="title">Comments</span>
         <hr />
-        {% for c in page.comments | sort: "date" %}
+        {% assign comments = page.comments | sort: "date" %}
+        {% for c in comments %}
             <div class="comment">
                 <p><span class="author">{{c.author}}</span> - <span class="date">{{c.date | date: "%-d-%-m-%Y %-H:%-M"}}</span></p>
                 <p><span class="content">{{c.content}}</span></p>
