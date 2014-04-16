@@ -81,8 +81,7 @@ var label = {
     'BB Clarke': {'offset':[12,10], 'anchor':'start'},
     'Hudson': {'offset':[5,-15], 'anchor':'start'},
     'Olbrich': {'offset':[10,-5], 'anchor':'start'},
-    'Goodland': {'offset':[-8,-8], 'anchor':'end'},
-    'Governor Nelson': {'offset':[-6,2], 'anchor':'end'}
+    'Goodland': {'offset':[-8,-8], 'anchor':'end'}
 };
     
     
@@ -141,12 +140,10 @@ function MakeMap(err, lakes, locations, closures) {
 
     //Get the coordinates of each beach
     var beach_location = {};
-    var beaches = [];
     for (k in locations) {
         var name = locations[k].Beach;
         var loc = [locations[k].Longitude, locations[k].Latitude];
         beach_location[name] = loc;
-        beaches.push({'beach':name, 'location':loc});
     }
 
     //Find how many total closures occured at each beach, and extract the annual closures for each beach:
@@ -286,17 +283,10 @@ function MakeMap(err, lakes, locations, closures) {
                         
                 
             });
-    
-    //Draw Governor Nelson, even though it has no data:
-    svg.append('circle')
-        .attr('r', 4)
-        .attr('cx', proj(beach_location['Governor Nelson'])[0])
-        .attr('cy', proj(beach_location['Governor Nelson'])[1])
-        .attr('fill', 'black')
 
     //Label the beaches:
     svg.selectAll(".place-label")
-        .data(beaches)
+        .data(tot_closures)
         .enter()
         .append("text")
             .attr("transform", function(d) { return "translate(" + proj(d.location) + ")"; })
