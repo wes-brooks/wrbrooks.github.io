@@ -128,8 +128,8 @@ a .title {
   font-weight: bold;
 }
 
-.comment p {
-  margin-top: 0.2em;
+#comments p {
+  margin: 0;
 }
 
 #footer {

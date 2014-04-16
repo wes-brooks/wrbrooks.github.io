@@ -30,9 +30,10 @@ layout: default
                 <p><span class="content">{{c.content}}</span></p>
             </div>
         {% endfor %}
-        <form action="mailto:youraddr@domain.tld" method="GET">
-            <span>Leave a comment:</span><br>
-            <textarea name="body"></textarea><br>
+        <form action="mailto:comment+"{{page.id}}"@somesquares.org" method="GET">
+            <span>Leave a comment (will be held for moderation):</span><br>
+            Your name: <textarea name="subject"></textarea><br>
+            Your comment: <textarea name="body"></textarea><br>
             <input type="submit" value="Send" />
         </form>
     </div>
