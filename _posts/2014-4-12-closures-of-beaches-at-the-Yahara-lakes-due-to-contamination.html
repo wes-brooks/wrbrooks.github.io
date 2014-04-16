@@ -353,14 +353,14 @@ function MakeMap(err, lakes, locations, closures) {
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('Note: Not included are a few beaches monitored by other agencies. Totals are');
+        .text('Note: Not included are a few beaches monitored by other agencies. Totals are approximate because data');
 
     //Third line of the footer
     svg.select('#footer')    
         .append('tspan')
         .attr('dy', "1.1em")
         .attr('x', 0)
-        .text('approximate because data recording methods varied over the years.');
+        .text('recording methods varied over the years. The department began monitoring Goodland in 2007.');
 
     //Fouth line of the footer
     svg.select('#footer')    
