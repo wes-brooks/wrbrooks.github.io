@@ -2,7 +2,7 @@
 layout: post
 title: Here's the second photo of that pigeon
 tags: blog
-image: {{  site.url }}/images/2014/7/2014-7-9-heres-the-second-photo-of-that-pigeon-image.jpeg
+image: http://somesquares.org/images/2014/7/2014-7-9-heres-the-second-photo-of-that-pigeon-image.jpeg
 ---
 
 
