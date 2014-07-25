@@ -10,7 +10,7 @@
         <!--<meta name="twitter:creator" content="@buckyphilia">-->
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines }}">
-        {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+        {% if page.image %}<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">{% endif %}
         <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
         
         <meta name="citation_title" content="{{ page.title }}">
