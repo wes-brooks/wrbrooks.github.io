@@ -1,0 +1,152 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Wesley Brooks}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={7in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+%Use bullets for reference list
+\makeatletter
+\renewcommand\@biblabel[1]{\textbullet}
+\makeatother
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.stat.wisc.edu/}{University of Wisconsin-Madison} \\
+  Department of Statistics \\
+  Medical Sciences Center \\
+  Madison, WI 53706
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (608) 561-2172 \\
+    Email: & \href{mailto:wrbrooks@uwalumni.com}{\tt wrbrooks@uwalumni.com} \\
+    Homepage: & \href{http://somesquares.org}{\tt http://somesquares.org} \\
+  \end{tabular}
+\end{minipage}
+
+I'm a number-crunching bicyclist gardener Alaskan sailor who's ABD in Wisconsin and looking to return to the Pacific Northwest.
+
+I care about technology, the environment, human welfare and happiness (the order changes daily!) My current research focus is nonparametric spatial statistics and local modeling - for instance: what factors are predictors of the poverty rate for a given county in the state of Wisconsin, and are those factors different from other parts of the state and country?
+
+Statistics is special because of its focus on inference and observation. How do we know that we know what we know? That's statistics. Also: what do we not know? And which is more important to predicting the consequences of our actions?
+
+I'm passionate about reproducible research, design, and communicating effectively through visualizations.
+
+\section*{Education}
+
+\begin{itemize}
+    \item Ph.D. Statistics, University of Wisconsin-Madison, 2015.
+    \item M.S. Statistics, University of Wisconsin-Madison, 2011.
+    \item B.S. Electrical Engineering \& Math, University of Alaska-Fairbanks, 2007.
+\end{itemize}
+
+
+\section*{Employment}
+
+\begin{itemize}
+\item U.S. Geological Survey. Middleton, WI. Graduate Research Assistant. 2010-present.
+\item University of Wisconsin-Madison. Madison, WI. Graduate Student. 2009-present.
+\item Boreal Controls. Juneau, AK. Electical Engineer-in-Training. 2003-2009.
+\end{itemize}
+
+
+\subsection*{Journal Articles}
+
+    \bibliography{articles}
+    \bibliographystyle{plain}
+
+\subsection*{Presentations}
+
+    \bibliography{presentations}
+    \bibliographystyle{plain}
+
+\begin{itemize}
+\item  Modern Statistical Methods for Predicting Bacterial Exceedances in  
+   Beach Water; \emph{American Water Resources Association, Wisconsin Chapter}; March 3-4, 2011.
+
+\item Web-Based Tools to Expand Access to Beach Water Quality Monitoring. \emph{Great Lakes Beaches Conference}; October 18 2010.
+\end{itemize}
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\nocite{*}
+\end{document}
