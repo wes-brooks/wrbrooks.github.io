@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Kitty spotted on my way home
+title: Testing a highslide gallery
 tags: blog
 ---
 
