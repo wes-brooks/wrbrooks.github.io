@@ -1,0 +1,20 @@
+---
+layout: gallery
+title: Testing a highslide gallery
+tags: blog
+---
+
+
+<div class="highslide-gallery">
+<ul>
+{% for photo in site.ghnm %}
+<li>
+<a href="{{ site.url }}{{ photo.path }}" class="highslide" 
+        title="Caption from the anchor's title attribute" 
+        onclick="return hs.expand(this, config1 )">
+    <img src="{{ site.url }}{{ photo.thumbpath }}"  alt=""/>
+</a>
+</li>
+{% endfor %}
+</ul>
+<div style="clear:both"></div></div>
