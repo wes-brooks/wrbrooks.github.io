@@ -6,6 +6,7 @@ tags: blog
 
 This is a test of adding a (Highslide)[http://highslide.com] gallery in a Markdown document for Jekyll.
 
+
 <div class="highslide-gallery">
 <ul>
 {% for photo in site.ghnm %}
