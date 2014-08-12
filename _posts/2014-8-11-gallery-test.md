@@ -12,7 +12,7 @@ This is a test of adding a [Highslide](http://highslide.com) gallery in a Markdo
 {% for photo in site.ghnm %}
 <li>
 <a href="{{ site.url }}{{ photo.imagepath }}" class="highslide" 
-        title="Caption from the anchor's title attribute" 
+        title="{{ photo.caption }}" 
         onclick="return hs.expand(this, config1 )">
     <img src="{{ site.url }}{{ photo.thumbpath }}"  alt=""/>
 </a>
