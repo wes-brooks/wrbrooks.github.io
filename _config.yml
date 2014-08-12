@@ -6,7 +6,7 @@ description: Wesley's blog
 url: http://somesquares.org
 collections:
     ghnm:
-        relative_directory: "_galleries/ghnm/"
+        relative_directory: ghnm2/
     
 
 
