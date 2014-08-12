@@ -1,4 +1,3 @@
 ---
-thumbpath: /highslide/sample-images/thumbstrip08.thumb.jpg
-imagepath: /highslide/sample-images/thumbstrip08.jpg
+imagepath: /images/2014/8/11/IMG_0013.jpg
 ---
