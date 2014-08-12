@@ -4,7 +4,7 @@ title: Testing a highslide gallery
 tags: blog
 ---
 
-This is a test of adding a (Highslide)[http://highslide.com] gallery in a Markdown document for Jekyll.
+This is a test of adding a [Highslide](http://highslide.com) gallery in a Markdown document for Jekyll.
 
 
 <div class="highslide-gallery">
