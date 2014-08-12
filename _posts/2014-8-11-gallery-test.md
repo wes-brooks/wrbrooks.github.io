@@ -1,22 +1,17 @@
 ---
-layout: gallery
-title: Testing a highslide gallery
+layout: post
+title: Testing a Lightbox gallery
 tags: blog
 ---
 
-This is a test of adding a [Highslide](http://highslide.com) gallery in a Markdown document for Jekyll.
+This is a test of adding a [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) gallery in a Markdown document for Jekyll.
 
-
-<div class="highslide-gallery">
+<div class="gallery">
 <ul>
 {% for photo in site.ghnm %}
 <li>
-<a href="{{ site.url }}{{ photo.imagepath }}" class="highslide" 
-        title="{{ photo.caption }}" 
-        onclick="return hs.expand(this, config1 )">
-    <img src="{{ site.url }}{{ photo.thumbpath }}"  alt=""/>
-</a>
+<a href="{{ site.url }}{{ photo.imagepath }}" data-title="{{ photo.caption }}" data-lightbox="ghnm"></a>
 </li>
 {% endfor %}
 </ul>
-<div style="clear:both"></div></div>
+</div>
