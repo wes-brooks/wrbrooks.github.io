@@ -14,6 +14,3 @@ Here's a short video of us sailing on Monona this past weekend. We stopped off a
     mozallowfullscreen
     allowfullscreen>
 </iframe>
-<p>
-<a href="http://vimeo.com/103677498">Say Bouillabaisse</a> from <a href="http://vimeo.com/buckyphilia">Wesley Brooks</a> on <a href="https://vimeo.com">Vimeo</a>.
-</p>
