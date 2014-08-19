@@ -10,7 +10,7 @@ This is a test of adding a [Lightbox](http://lokeshdhakar.com/projects/lightbox2
     href="{{ site.url }}{{ photo.imagepath }}"
     data-title="{{ photo.caption }}"
     data-lightbox="ghnm"
-    class="thumbnail-image-link">
+    class="thumbnail-image-link"> 
         <img class="thumbnail-image" src="{{ site.url }}{% if photo.thumbpath %}{{ photo.thumbpath }}{% else %}{{ photo.imagepath }}{% endif %}">
     </a>
 {% endfor %}
