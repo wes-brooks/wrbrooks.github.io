@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Say "bouillibaisse"!
+title: Say "bouillabaisse"!
 tags: blog
 ---
 
