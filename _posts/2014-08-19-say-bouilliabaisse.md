@@ -10,7 +10,7 @@ Here's a short video of us sailing on Monona this past weekend. We stopped off a
     width="500"
     height="281"
     frameborder="0"
-    class="pure-video"
+    class="responsive-video"
     webkitallowfullscreen
     mozallowfullscreen
     allowfullscreen>
