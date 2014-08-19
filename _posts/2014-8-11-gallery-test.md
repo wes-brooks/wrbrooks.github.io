@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Testing a Lightbox gallery
+title: Sailing on Mendota
 tags: blog
 ---
 
-This is a test of adding a [Lightbox](http://lokeshdhakar.com/projects/lightbox2/) gallery in a Markdown document for Jekyll.
+Kate and I put Goats Have No Manners into Lake Mendota for the first time. It was beautiful!
 
 {% for photo in site.ghnm %}<a
     href="{{ site.url }}{{ photo.imagepath }}"
