@@ -63,7 +63,7 @@ a:hover   { color: #000; }
 }
 
 .responsive-video {
-    max-height: 100%;
+    max-width: 100%;
     display:block;
 }
 
