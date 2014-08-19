@@ -11,6 +11,6 @@ Kate and I put Goats Have No Manners into Lake Mendota for the first time. It wa
     data-title="{{ photo.caption }}"
     data-lightbox="ghnm"
     class="thumbnail-image-link"> 
-        <img class="thumbnail-image" src="{{ site.url }}{% if photo.thumbpath %}{{ photo.thumbpath }}{% else %}{{ photo.imagepath }}{% endif %}">
+        <img class="thumbnail-image pure-image" src="{{ site.url }}{% if photo.thumbpath %}{{ photo.thumbpath }}{% else %}{{ photo.imagepath }}{% endif %}">
     </a>
 {% endfor %}
