@@ -13,8 +13,9 @@
 html, body { height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
   line-height: normal;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 #post-title > .central h2 {
@@ -276,10 +277,6 @@ a .title {
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"], .pure-g-r [class *="pure-u"] {
   font-family: Palatino, Georgia, serif;
-}
-
-h1, h2, h3, h4, h5, h6, .pure-g [class *= "pure-u"], .pure-g-r [class *="pure-u"] {
-  font-family: Verdana, Geneva, sans-serif;
 }
 
 @media screen and (min-width: 48em)
