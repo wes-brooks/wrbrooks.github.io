@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 0em; }
 
 a         { color: #428bca; }
 a:hover   { color: #000; }
@@ -209,7 +209,7 @@ a .title {
 /*
 /*****************************************************************************/
 
-#post > .central h1 {
+/*#post > .central h1 {
   margin: 2em 0 0.5em 0;
   font-weight: bold
 }
@@ -237,7 +237,7 @@ a .title {
 #post > .central h6 {
   margin: 2em 0 0.5em 0;
   font-weight: bold;
-}
+}*/
 
 /* standard */
 .post pre {
