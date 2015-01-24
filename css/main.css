@@ -28,6 +28,9 @@ h1 { margin-bottom: 0em; }
 a         { color: #428bca; }
 a:hover   { color: #000; }
 
+#content {
+    max-width:800px;
+}
 
 .thumbnail-image-link {
     display: inline-block;
