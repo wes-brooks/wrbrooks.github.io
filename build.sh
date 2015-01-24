@@ -3,7 +3,7 @@
 # User specific environment and startup programs
 HOME=/home/wesley
 PATH=$PATH:$HOME/bin
-export PATH
+export PATH 
 
 #Ruby environment variables:
 export GEM_HOME=$HOME/gems2.1
