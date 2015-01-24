@@ -7,7 +7,7 @@ url: http://somesquares.org
 collections:
     ghnm:
         relative_directory: ghnm2/
-    
-
+kramdown:
+  input: GFM
 
 
