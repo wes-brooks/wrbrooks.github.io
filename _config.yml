@@ -1,7 +1,4 @@
 name: somesquares.org
-markdown: kramdown
-highlighter: rouge
-input: GFM
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
 url: http://somesquares.org
