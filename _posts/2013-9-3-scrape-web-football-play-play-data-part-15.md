@@ -18,7 +18,7 @@ Nevertheless, stripping out all the HTML as XPath does makes it easier to write 
 ####A helper function
 One thing we're going to do a lot of is run a regular expression against a string and then extract all the named capturing groups. To make life easier, I've written a utility function for that purpose. You pass in the pattern and the string to match; it returns a table where each row contains the complete set of named capturing groups (unmatched optional groups are returned as NA):
 
-```r
+~~~ r
 regex = function(pattern, str, perl=TRUE, fixed=FALSE, ignore.case=TRUE) {
     #Process the regex
     match = gregexpr(pattern, str, perl=perl, fixed=fixed, ignore.case=ignore.case)[[1]]
@@ -62,13 +62,13 @@ regex = function(pattern, str, perl=TRUE, fixed=FALSE, ignore.case=TRUE) {
     colnames(result) = capts
     return(result)
 }
-```
+~~~
 
 ####Part 1 revisited
 
 With that done, here's the code to duplicate yesterday's effort using XPath. The next part will extract detailed information for each play.
 
-```r
+~~~ r
 #Load the raw data and extract the part including 'mod-pbp', the play-by-play module.
 library(RCurl)
 library(XML)
@@ -195,4 +195,4 @@ for (k in 1:length(drives)) {
         plays[[length(plays)+1]] = list(poss=drives[[k]][['team']], down=down, togo=togo, time=time, dist=dist, pbp=pbp)
     }
 }
-```
+~~~
