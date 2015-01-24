@@ -1,5 +1,6 @@
 name: somesquares.org
 markdown: kramdown
+    input: GFM
 highlighter: pygments
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
