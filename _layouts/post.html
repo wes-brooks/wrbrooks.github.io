@@ -1,56 +1,27 @@
 ---
 layout: default
 ---
-<!--<div class="pure-g" id="post-title">
-  <div class="pure-u-1-6 pure-u-lg-1-4 pure-u-xl-1-3 pure-hidden-xs pure-hidden-sm"></div>
-  <div class="pure-u-1 pure-u-md-2-3 pure-u-lg-1-2 pure-u-xl-1-3 central">-->
-    <div id="post-title"><h1>{{ page.title }}</h1></div>
-    <div class="meta">{% if page.author %}{% for author in page.author %}{{ author }}, {% endfor %}{% endif %}{{ page.date | date_to_string }}</div>
-<!--  </div>
-</div>-->
+  <div id="post-title"><h1>{{ page.title }}</h1></div>
+  <div class="meta">{% if page.author %}{% for author in page.author %}{{ author }}, {% endfor %}{% endif %}{{ page.date | date_to_string }}</div>
 
-
-
-<!--<div class="pure-g" id="post">
-  <div class="pure-u-1-6 pure-u-lg-1-4 pure-u-xl-1-3 pure-hidden-xs pure-hidden-sm"></div>
-  <div class="pure-u-1 pure-u-md-2-3 pure-u-lg-1-2 pure-u-xl-1-3 central">-->
-  <div id="post">  {{ content }}
+  <div id="post">
+    {{ content }}
   </div>
-<!--</div>-->
 
 
-<!--<div class="pure-g" id="comments">
-    <div class="pure-u-1-6 pure-u-lg-1-4 pure-u-xl-1-3 pure-hidden-xs pure-hidden-sm"></div>
-    <div class="pure-u-1 pure-u-md-2-3 pure-u-lg-1-2 pure-u-xl-1-3 central">-->
-        <div id="comments"><div id="disqus_thread"></div>
-        <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-            var disqus_shortname = 'somesquares'; // required: replace example with your forum shortname
+  <div id="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'somesquares'; // required: replace example with your forum shortname
 
-            /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-        <!--<span class="title">Comments</span>
-        <hr />
-        {% assign comments = page.comments | sort: "date" %}
-        {% for c in comments %}
-            <div class="comment">
-                <p><span class="author">{{c.author}}</span> - <span class="date">{{c.date | date: "%-d-%-m-%Y %-H:%-M"}}</span></p>
-                <p><span class="content">{{c.content}}</span></p>
-            </div>
-        {% endfor %}
-        <form type="text/plain" action="mailto:comment+{{ page.id }}@somesquares.org" method="GET">
-            <span class="title">Leave a comment:</span><br>
-            <input class="input" name="subject" type="text" placeholder="Name" /><br>
-            <textarea class="input" name="body" placeholder="Comment"></textarea><br>
-            <input type="submit" value="Send" />
-        </form>-->
-    </div>
-<!--</div>-->
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
