@@ -62,13 +62,13 @@ regex = function(pattern, str, perl=TRUE, fixed=FALSE, ignore.case=TRUE) {
     colnames(result) = capts
     return(result)
 }
-~~~
+{% endhighlight %}
 
 ####Part 1 revisited
 
 With that done, here's the code to duplicate yesterday's effort using XPath. The next part will extract detailed information for each play.
 
-~~~ r
+{% highlight r %}
 #Load the raw data and extract the part including 'mod-pbp', the play-by-play module.
 library(RCurl)
 library(XML)

@@ -35,7 +35,7 @@ The script is below. Some of the R manpages I used while creating this script ar
 ##The script
 Without further ado, the script to turn [the play-by-play from Wisconsin's 2013 season-opening win against Massachusetts](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0) into a list of plays with some metadata (down, distance to go, distance from the goal line, and approximate time remaining). In a later installment, we'll parse the remaining HTML to extract the play type, the passer and/or ball-carrier, and the yards gained.
 
-~~~ r
+{% highlight r %}
 #Load the raw data and extract the part including 'mod-pbp', the play-by-play module.
 raw = scan("http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0", what=character(0), sep='\n')
 index = grep('mod-pbp', raw)
@@ -162,4 +162,4 @@ for (k in 1:length(drives)) {
         plays[[length(plays)+1]] = list(down=down, togo=togo, time=time, dist=dist, pbp=pbp)
     }
 }
-~~~
+{% endhighlight %}

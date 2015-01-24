@@ -8,7 +8,7 @@ tags: blog
 
 Last things first: here's an extremely quick look at the distribution of rushing gains by Wisconsin's running backs in [that game](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0), based on the script we're developing in this series:
 
-~~~ R
+{% highlight r %}
 library(ggplot2)
 
 #Get the plays where one of Wisconsin's running backs carried the ball:
@@ -18,7 +18,7 @@ subset = play_table[play_table$carrier %in% rbs & play_table$rush,]
 #Make a ggplot2 boxplot:
 p = ggplot(subset, aes(carrier, gain))
 p + geom_boxplot(aes(fill=carrier))
-~~~
+{% endhighlight %}
 
 ![UW-RBs](http://somesquares.org/static/img/uw-rbs.jpg){:.pure-img}
 
@@ -63,8 +63,7 @@ Some scorers record tacklers but most don't. I haven't bothered trying to catch 
 
 Here's the code. It should work if appended to the code from [part 1.5](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-15):
 
-~~~ R
-
+{% highlight r %}
 #Special teams plays:
 kickoff_regex = "(?<kicker>[-a-zA-Z\\. ']+) kickoff for (?<kickdist>\\d{1,3}) yards? (returned by (?<returner>[-a-zA-Z\\. ']+) for ((?<retgain>\\d{1,3}) yards|(a )?loss of (?<retloss>\\d+) yards?|(?<retnogain>no gain))|.*(?<touchback>touchback)).*"
 punt_regex = "(?<punter>[-a-zA-Z\\. ']+) punt for (?<kickdist>\\d{1,3}) yards?(.*(?<touchback>touchback).*|.*out[- ]of[- ]bounds at|.*fair catch by (?<catcher>[-a-zA-Z\\. ']+) at|.*returned by (?<returner>[-a-zA-Z\\. ']+) (for ((?<retgain>\\d{1,3}) yards|(a )?loss of (?<retloss>\\d+) yards?|(?<retnogain>no gain)))?)?"
@@ -227,6 +226,6 @@ play_table$rush[sack_indx] = FALSE
 play_table$pass[sack_indx] = TRUE
 play_table$complete[sack_indx] = FALSE
 play_table$sack[sack_indx] = TRUE
-~~~
+{% endhighlight %}
 
 Of course, this data is just for one game. For more detailed analysis, we'll need to create a database of plays from several games. Stay tuned.
