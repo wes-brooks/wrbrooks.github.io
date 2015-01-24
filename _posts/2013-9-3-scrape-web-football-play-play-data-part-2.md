@@ -20,7 +20,7 @@ p = ggplot(subset, aes(carrier, gain))
 p + geom_boxplot(aes(fill=carrier))
 ```
 
-![UW-RBs](http://somesquares.org/static/img/uw-rbs.jpg)
+![UW-RBs](http://somesquares.org/static/img/uw-rbs.jpg){:.pure-img}
 
 This is part two in a series. It will make more sense if you begin with [part one](http://somesquares.org/blog/2013/9/parse-web-football-play-play-data-part-1), or at least [part 1.5](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-15).
 
