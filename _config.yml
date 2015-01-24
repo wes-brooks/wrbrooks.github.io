@@ -1,5 +1,5 @@
 name: somesquares.org
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 permalink: /blog/:year/:i_month/:title
 description: Wesley's blog
