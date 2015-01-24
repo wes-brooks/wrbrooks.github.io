@@ -63,7 +63,7 @@ Some scorers record tacklers but most don't. I haven't bothered trying to catch 
 
 Here's the code. It should work if appended to the code from [part 1.5](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-15):
 
-```r
+~~~ r
 
 #Special teams plays:
 kickoff_regex = "(?<kicker>[-a-zA-Z\\. ']+) kickoff for (?<kickdist>\\d{1,3}) yards? (returned by (?<returner>[-a-zA-Z\\. ']+) for ((?<retgain>\\d{1,3}) yards|(a )?loss of (?<retloss>\\d+) yards?|(?<retnogain>no gain))|.*(?<touchback>touchback)).*"
@@ -227,6 +227,6 @@ play_table$rush[sack_indx] = FALSE
 play_table$pass[sack_indx] = TRUE
 play_table$complete[sack_indx] = FALSE
 play_table$sack[sack_indx] = TRUE
-```
+~~~
 
 Of course, this data is just for one game. For more detailed analysis, we'll need to create a database of plays from several games. Stay tuned.
