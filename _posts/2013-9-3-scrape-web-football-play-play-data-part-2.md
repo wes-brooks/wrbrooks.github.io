@@ -8,7 +8,7 @@ tags: blog
 
 Last things first: here's an extremely quick look at the distribution of rushing gains by Wisconsin's running backs in [that game](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0), based on the script we're developing in this series:
 
-```r
+~~~ R
 library(ggplot2)
 
 #Get the plays where one of Wisconsin's running backs carried the ball:
@@ -18,7 +18,7 @@ subset = play_table[play_table$carrier %in% rbs & play_table$rush,]
 #Make a ggplot2 boxplot:
 p = ggplot(subset, aes(carrier, gain))
 p + geom_boxplot(aes(fill=carrier))
-```
+~~~
 
 ![UW-RBs](http://somesquares.org/static/img/uw-rbs.jpg){:.pure-img}
 
