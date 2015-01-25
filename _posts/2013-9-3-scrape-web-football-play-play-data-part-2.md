@@ -6,7 +6,7 @@ categories: rstats
 tags: blog
 ---
 
-UPDATE: [Part three](http://somesquares.org/blog/2013/9/scrape-football-data-3) of this series introduces the R package `pbp`, which contains the most up-to-date version of this software.
+UPDATE: [Part three](http://somesquares.org/blog/2015/1/scrape-football-data-3) of this series introduces the R package `pbp`, which contains the most up-to-date version of this software.
 
 Last things first: here's an extremely quick look at the distribution of rushing gains by Wisconsin's running backs in [that game](http://scores.espn.go.com/ncf/playbyplay?gameId=332430275&period=0), based on the script we're developing in this series:
 
