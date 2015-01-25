@@ -6,6 +6,8 @@ categories: rstats
 tags: blog
 ---
 
+UPDATE x3: [part three](http://somesquares.org/blog/2013/9/scrape-football-data-3) introduces the R package `pbp`, which contains the most up-to-date version of this software.
+
 UPDATE x2: [part two](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-2) is up, where we parse the detailed play-by-play data for one game. Next up: compiling a database of plays from many games.
 
 UPDATE: [part 1.5](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-15) uses [XPath](http://www.w3schools.com/xpath/xpath_intro.asp) to traverse the webpage for the relevant data, rather than running regular expressions directly on the HTML, as I've done here. The code in the linked post supersedes this one.

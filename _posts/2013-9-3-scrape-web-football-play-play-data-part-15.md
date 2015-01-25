@@ -6,6 +6,8 @@ categories: rstats
 tags: blog
 ---
 
+UPDATE x2: [Part three](http://somesquares.org/blog/2013/9/scrape-football-data-3) of this series introduces the R package `pbp`, which contains the most up-to-date version of this software.
+
 UPDATE: [part two](http://somesquares.org/blog/2013/9/scrape-web-football-play-play-data-part-2) is up, where we parse the detailed play-by-play data for one game. Next up: compiling a database of plays from many games.
 
 ####Mea Culpa
