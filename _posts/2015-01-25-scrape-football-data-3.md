@@ -23,7 +23,7 @@ install_github("wrbrooks/pbp")
 The main function in the `pbp` package is called `ParsePlays`. It takes as its only argument a url string, which should point to the complete (Make sure you select "All" quarters!) ESPN play-by-play for the game you want to analyze. The function returns a large `data.frame` with one row for each play in the game. For example, here I'll load the play-by-play from the national championship game between Ohio State and Oregon:
 
 {% highlight r %}
-url = http://espn.go.com/ncf/playbyplay?gameId=400610325&period=0
+url = "http://espn.go.com/ncf/playbyplay?gameId=400610325&period=0"
 plays = ParsePlays(url)
 {% endhighlight %}
 

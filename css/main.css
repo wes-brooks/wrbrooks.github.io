@@ -274,7 +274,7 @@ a .title {
   margin: 0 1em;
 }
 
-html, button, input, select, textarea, .pure-g [class *= "pure-u"], .pure-g-r [class *="pure-u"] {
+html, button, input, select, textarea, .pure-g [class *= "pure-u-"] {
   font-family: Palatino, Georgia, serif;
 }
 
