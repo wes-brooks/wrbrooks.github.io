@@ -23,14 +23,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
+#content p {
+  font-family: Georgia, serif;
+}
+
 h1 { margin-bottom: 0em; }
 
 a         { color: #428bca; }
 a:hover   { color: #000; }
 
 #content {
-    max-width:800px;
-    letter-spacing:0.01em;
+    max-width:640px;
+    letter-spacing:0.012em;
 }
 
 .thumbnail-image-link {
@@ -208,36 +212,6 @@ a .title {
 /*
 /*****************************************************************************/
 
-/*#post > .central h1 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold
-}
-
-#post > .central h2 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold
-}
-
-#post > .central h3 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold
-}
-
-#post > .central h4 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold
-}
-
-#post > .central h5 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold
-}
-
-#post > .central h6 {
-  margin: 2em 0 0.5em 0;
-  font-weight: bold;
-}*/
-
 /* standard */
 .post pre {
   border: 1px solid #ddd;
@@ -272,10 +246,6 @@ a .title {
 
 .central {
   margin: 0 1em;
-}
-
-html, button, input, select, textarea, .pure-g [class *= "pure-u-"] {
-  font-family: Palatino, Georgia, serif;
 }
 
 @media screen and (min-width: 48em)

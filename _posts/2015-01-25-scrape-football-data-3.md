@@ -37,7 +37,7 @@ plays %>% ggplot + aes(x=3600-time, y=home-away) +
 
 Produces the plot:
 
-![OSU scoring margin](//somesquares.org/images/2015/1/25/margin.png)
+![OSU scoring margin](//somesquares.org/images/2015/1/25/margin.png){:.pure-img}
 
 
 ###Outstanding issues
