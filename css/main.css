@@ -35,6 +35,7 @@ a:hover   { color: #000; }
 #content {
     max-width:640px;
     letter-spacing:0.012em;
+    line-height:1.25em;
 }
 
 .thumbnail-image-link {
