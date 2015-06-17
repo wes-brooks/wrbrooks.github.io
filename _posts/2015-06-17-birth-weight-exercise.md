@@ -17,9 +17,11 @@ This exercise is based on a sample of 100 babies, chosen at random from the 1236
 
 Data that are equal to a break in the histogram were put into the left-hand bin.
 
-![Histogram of birth weights for first children](/images/2015/6/17/first.png)
+#### Histogram of birth weights for first children
+![lol][first]
 
-![Histogram of birth weights for later children](/images/2015/6/17/first.png)
+#### Histogram of birth weights for later children
+![lol][later]
 
 ## Question 1
  - If a baby is selected at random from among the first children, what is the probability that its birthweight was less than or equal to 120 ounces? Annotate the plot to show your calculation.
@@ -28,3 +30,6 @@ Data that are equal to a break in the histogram were put into the left-hand bin.
 
 ## Question 2
 Among all children born at Kaiser Foundation Hospital, 1960-1967, do you think that the probability that a baby weighs less than 120 oz depends on whether or not it is first in birth order? Explain in about three sentences.
+
+[first]: /images/2015/6/17/first.png
+[later]: /images/2015/6/17/later.png
