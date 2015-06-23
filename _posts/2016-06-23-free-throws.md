@@ -8,7 +8,9 @@ tags: blog exercise
 #Objective
 In the process of covering crucial distributions like the binomial and the normal, I want my students to be exposed to some uses we will eventually encounter, like hypothesis testing. Also, this exercise is intended to emphasize that a probability distribution is a simple model of a population (not of the observed data), which we adopt by assumption. Then statistical techniques can compare the evidence in the data against the consequences implied by the assumed distribution.
 
-Anyway, this exercise was partially successful. Students mostly were brought around to grasp what will become the tenets of hypothesis testing, even though we haven't discussed it as such. I was impressed at their mental flexibility as the groups worked out for themselves that they needed to assume a Bin$(10, 0.8)$, distribution and calculate the probabilities using that assumption.
+Anyway, this exercise was partially successful. The big problem was the vague wording of the questions.
+
+Students mostly were brought around to grasp what will become the tenets of hypothesis testing, even though we haven't discussed it as such. I was impressed at their mental flexibility as the groups worked out for themselves that they needed to assume a Bin$(10, 0.8)$, distribution and calculate the probabilities using that assumption.
 
 # Exercise
 
