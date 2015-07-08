@@ -31,7 +31,7 @@ How might you find the confidence interval for the population mean of paint thic
 
 
 ## Question 2
-A bootstrap approach was used to simulate the distribution of the sample mean. With $B=1000$, $B$ independent resamples of size $N=16$ were drawn (with replacement) from the original data. The histogram of these resamples is below.
+A bootstrap approach was used to simulate the distribution of the sample mean. With $B=1000$, $B$ independent resamples of size $N=16$ were drawn (with replacement) from the original data. Then the mean of each resample was calculated. The histogram of these resampled means is below.
 
 ![Histogram of paint thickness resamples](/images/2015/7/6/hist.png){:.pure-img}
 
