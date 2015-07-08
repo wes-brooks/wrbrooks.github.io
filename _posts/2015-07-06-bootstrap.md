@@ -20,7 +20,7 @@ Happily, by the time we got to discussing question 3, they all seemed to grasp t
 # Exercise
 
 ## Overview
-We saw this data last week. A factor manufactures engine blocks for cars, and the last step of the process is to paint the blocks. It is important that the paint be thick enough to withstand high heat without cracking. The plant engineer wants to know how thickly, on average, the paint is being applied on blocks that leave the factory. He has collected a random sample of 16 engine blocks. The paint thicknesses on these were:
+We saw this data last week. A factory manufactures engine blocks for cars, and the last step of the process is to paint the blocks. It is important that the paint be thick enough to withstand high heat without cracking. The plant engineer wants to know how thickly, on average, the paint is being applied on blocks that leave the factory. He has collected a random sample of 16 engine blocks. The paint thicknesses on these were:
 
 $$1.29, 1.12, 0.88, 1.65, 1.48, 1.59, 1.04, 0.83, 1.76, 1.31, 0.88, 1.71, 1.83, 1.09, 1.62, 1.49.$$
 
