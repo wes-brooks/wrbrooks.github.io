@@ -17,7 +17,9 @@ This was certainly the best exercise I assigned this week. I followed up by teac
 As a group, draw a flowchart that will describe which hypothesis test to use. You may assume that you are testing the following null hypothesis for two populations, X and Y:
 
 $$H_0: \;\;\; \mu_X \le \mu_Y$$
+
 $$vs.$$
+
 $$H_A: \;\;\; \mu_X > \mu_Y$$
 
 Here is the list of branches for the flowchart, in no particular order:
