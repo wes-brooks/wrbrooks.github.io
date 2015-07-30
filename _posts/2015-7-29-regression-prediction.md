@@ -15,7 +15,7 @@ I also chose to emphasize that the linear model has lower variance nearer to the
 ## Setup
 You've fitted a linear model to the data that relates car weight to fuel efficiency. The following are the summary from R's lm function, and a plot of the model is on the back:
 
-{% highlight %}
+{% highlight r %}
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
 (Intercept)  37.2851     1.8776  19.858  < 2e-16 ***
