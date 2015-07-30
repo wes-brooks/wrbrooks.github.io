@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exercise: Prediction in a linear models"
+title: "Exercise: Prediction in a linear model"
 date: 2015-07-29
 tags: blog exercise
 ---
@@ -28,7 +28,7 @@ Multiple R-squared:  0.7528,	Adjusted R-squared:  0.7446
 F-statistic: 91.38 on 1 and 30 DF,  p-value: 1.294e-10
 \end{verbatim}
 
-![Linear model for fuel efficiency as a function of car weight](/images/2015/30/scatter.png){:.pure-img}
+![Linear model for fuel efficiency as a function of car weight](/images/2015/29/scatter.png){:.pure-img}
 
 ## Questions
 
