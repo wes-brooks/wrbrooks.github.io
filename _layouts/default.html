@@ -69,7 +69,9 @@
       <!-- load MathJax -->
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
-          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+          tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
+          ignoreClass: "fancyvrb|verbatim"
+          },
           TeX: { equationNumbers: { autoNumber: "AMS" } }
         });
       </script>
