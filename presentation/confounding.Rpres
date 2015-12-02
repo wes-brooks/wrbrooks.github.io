@@ -1,7 +1,8 @@
-Spatial confounding in Cox process models
+Spatial confounding may cause bias in regression models for presence-only data
 ===
 author: Wesley Brooks
-date: University of New South Wales
+
+- ![](fig/ecostats.png)
 
 
 An example: *Eucalyptus sparsifolia*
