@@ -186,8 +186,8 @@ Cressie and Johannesson (2008) introduced "Fixed rank kriging"
 
 Multiresolution bisquares
 ===
-![](fig/multiresolution.pdf)
-![](fig/sre.pdf) ${\boldsymbol u} \sim MVN({\boldsymbol 0}, \tau {\boldsymbol I}_r)$
+![](fig/multiresolution.png)
+![](fig/sre.png) ${\boldsymbol u} \sim MVN({\boldsymbol 0}, \tau {\boldsymbol I}_r)$
 
 
 
@@ -261,7 +261,7 @@ Covariate | DWPR | orthogonalized | nonorthogonalized |
 Estimated random effects
 ===
 - Left: not orthogonalized, right: orthogonalized
-![](fig/eucalyptus.re.pdf) 
+![](fig/eucalyptus.re.png) 
 
 
 Recall:
@@ -290,12 +290,12 @@ Simulaton study
   + Model these singular vectors using a GAM, so that their values can be computed at any location
   + These are the covariates.
 - Simulate the linear predictor: $\eta = \boldsymbol{X \beta} + \boldsymbol{\zeta}$
-  + $\boldsymbol{\beta} = (1, -0.2, 0)$
+  + $\boldsymbol{\beta} = (1, -0.2, 0)$ 
   + ${\boldsymbol \zeta} \sim \rm{GRF}(\sigma^2=0.5, \tau=0.1)$ (exponential covariance)
 
 Simulation study: covariates
 ===
-![](fig/sim-covars.pdf)
+![](fig/sim-covars.png)
 
 
 Simulation study
