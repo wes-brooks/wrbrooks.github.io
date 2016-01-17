@@ -7,8 +7,8 @@ title: somesqures.org
     <h3>Blog Posts</h3>
     <ul class="posts">
       {% for post in site.posts %}
-        {% if post.tags contains 'blog' %}<li class="post-list-item"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
-        {{ post.excerpt }}
+        {% if post.tags contains 'blog' %}<li class="post-list-item"><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class='post-list-excerpt'>{{ post.excerpt }}</span></li>{% endif %}
       {% endfor %}
     </ul>
 </div>
