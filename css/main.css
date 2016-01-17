@@ -112,6 +112,9 @@ li {
   font-weight: normal;
 }
 
+li.post-list-item {
+  margin-bottom: 0.5em;
+
 .navbutton {
   font-size: 0.55em;
   font-weight: normal;
