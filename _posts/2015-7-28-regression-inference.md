@@ -3,6 +3,7 @@ layout: post
 title: "Exercise: Statistical inference in a linear model"
 date: 2015-07-28
 tags: blog exercise
+excerpt: "This exercise is designed to show the students that they already have the tools they need for inference in regression models."
 ---
 
 # Objective

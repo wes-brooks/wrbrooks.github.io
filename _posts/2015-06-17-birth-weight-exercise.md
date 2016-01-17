@@ -3,6 +3,7 @@ layout: post
 title:  "Birth weight classroom exercise"
 date:   2015-6-17
 tags: blog exercise
+excerpt: "We are learning about probability. One point of emphasis is that probability works from a population to make statements about a sample, and that statistics works from a sample to make statements about a population."
 ---
 
 #Objective

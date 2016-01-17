@@ -3,10 +3,11 @@ layout: post
 title: "Exercise: Estimating a linear model"
 date: 2015-07-27
 tags: blog exercise
+excerpt: "This exercise was intended to show students that linear regression is comprehensible and intuitive. They mostly came up with very similar solutions. With a little prompting, every group eventually said that they would summarize their model by the slope and intercept."
 ---
 
 # Objective
-This exercise was intended to show students that linear regression is comprehensible and intuitive. They mostly came up with very similar solutions. With a little prompting, every group eventually said that they would summarize their model by the slope and intercept
+This exercise was intended to show students that linear regression is comprehensible and intuitive. They mostly came up with very similar solutions. With a little prompting, every group eventually said that they would summarize their model by the slope and intercept.
 
 A couple of groups got the influence question right, and they had different approaches for it. One noted that there are more dots below the best-fit line than above, and that the dots abover were toward the ends while the dots below were in the center. They concluded that the dots above the regression line must have greater weight to "balance" the dots below the regression line.
 

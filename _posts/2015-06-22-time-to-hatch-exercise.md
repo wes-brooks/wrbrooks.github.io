@@ -3,6 +3,7 @@ layout: post
 title:  "Exercise: time to hatch"
 date:   2015-6-22
 tags: blog exercise
+excerpt: "We are learning about random variables, distributions, expectation, and variance. This exercise is intended to help make the connections between population features (like probability distributions, random variables, and expectation) and concepts related to the sample, like realizations and the mean."
 ---
 
 #Objective

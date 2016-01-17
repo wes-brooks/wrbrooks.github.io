@@ -3,6 +3,7 @@ layout: post
 title: "Exercise: Two-population hypothesis testing concepts"
 date: 2015-07-13
 tags: blog exercise
+excerpt: "This was our exercise on the first day covering hypothesis testing for two independent populations. I wanted students to come up on their own with the form of a two-population hypothesis test, and with a basic idea of the test statistic. Everyone nailed $H_0: \mu_S = \mu_T$."
 ---
 
 # Objective

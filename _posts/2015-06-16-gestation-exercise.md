@@ -3,6 +3,7 @@ layout: post
 title:  "Gestation classroom exercise"
 date:   2015-6-16
 tags: blog exercise
+excerpt: "We are learning about univariate descriptive plots and statistics: the histogram, box-and-whisker plot, mean, pecentiles, standard deviation. Additionally, we emphasize that plotting is the first step to understanding your data. The distinction between descriptive/inferential statistics is something we've talked about - the last question is supposed to inspire some critical thinking."
 ---
 
 #Objective
