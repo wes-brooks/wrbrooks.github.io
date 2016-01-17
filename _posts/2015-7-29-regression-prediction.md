@@ -3,7 +3,7 @@ layout: post
 title: "Exercise: Prediction in a linear model"
 date: 2015-07-29
 tags: blog exercise
-excerpt: "<p>Students were supposed to recognize that variability of fitted values is about uncertainty in where to draw the regression line, while variability in prediction adds the noisiness of data being distributed around the line.</p>"
+excerpt: "Students were supposed to recognize that variability of fitted values is about uncertainty in where to draw the regression line, while variability in prediction adds the noisiness of data being distributed around the line. "
 ---
 
 # Objective

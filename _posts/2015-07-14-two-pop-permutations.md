@@ -3,7 +3,7 @@ layout: post
 title: "Exercise: Two-population permutation test"
 date: 2015-07-14
 tags: blog exercise
-excerpt: "<p>To now, our coverage of hypothesis testing has been almost exclusively about t-tests, which was the decision of the course planners. I personally think that permutation tests are more important for developing the logic and intuition of hypothesis testing. Today's exercise had the students generate permutations for a permutation test. Based on their permutations, I generated a histogram of the difference in sample means according to the null hypothesis, and calculated a p-value, which closely matched what we'd gotten via a t-test.</p>"
+excerpt: "To now, our coverage of hypothesis testing has been almost exclusively about t-tests, which was the decision of the course planners. I personally think that permutation tests are more important for developing the logic and intuition of hypothesis testing. Today's exercise had the students generate permutations for a permutation test. Based on their permutations, I generated a histogram of the difference in sample means according to the null hypothesis, and calculated a p-value, which closely matched what we'd gotten via a t-test."
 ---
 
 # Objective
