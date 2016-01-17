@@ -3,7 +3,7 @@ layout: post
 title: "Exercise: Two-population testing flowchart"
 date: 2015-07-15
 tags: blog exercise
-excerpt: "Once, I was planning to just draw this flowchart on the board. I am really glad that I instead gave it as an exercise, because it prompted a lot of discussion and I think it really helped put the past week of lectures into a big picture. It also seemed to help convince the students that the permutation test is worth remembering. I emphasized that the permutation test could be used at the end of every branch of the flowchart, while the t-tests require careful thought about their assumptions."
+excerpt: "<p>Once, I was planning to just draw this flowchart on the board. I am really glad that I instead gave it as an exercise, because it prompted a lot of discussion and I think it really helped put the past week of lectures into a big picture. It also seemed to help convince the students that the permutation test is worth remembering. I emphasized that the permutation test could be used at the end of every branch of the flowchart, while the t-tests require careful thought about their assumptions.</p>"
 ---
 
 # Objective

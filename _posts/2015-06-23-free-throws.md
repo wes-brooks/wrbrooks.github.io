@@ -3,7 +3,7 @@ layout: post
 title:  "Exercise: free throw shooting"
 date:   2015-6-23
 tags: blog exercise
-excerpt: "In the process of covering crucial distributions like the binomial and the normal, I want my students to be exposed to some uses we will eventually encounter, like hypothesis testing. Also, this exercise is intended to emphasize that a probability distribution is a simple model of a population (not of the observed data), which we adopt by assumption. Then statistical techniques can compare the evidence in the data against the consequences implied by the assumed distribution."
+excerpt: "<p>In the process of covering crucial distributions like the binomial and the normal, I want my students to be exposed to some uses we will eventually encounter, like hypothesis testing. Also, this exercise is intended to emphasize that a probability distribution is a simple model of a population (not of the observed data), which we adopt by assumption. Then statistical techniques can compare the evidence in the data against the consequences implied by the assumed distribution.</p>"
 ---
 
 #Objective

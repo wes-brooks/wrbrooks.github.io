@@ -3,7 +3,7 @@ layout: post
 title:  "Classroom exercises for intro to statistics"
 date:   2015-6-14
 tags: blog exercise
-excerpt: "I am going to be posting a series of active-learning exercises that I'm developing and using to teach an introductory statistics course."
+excerpt: "<p>I am going to be posting a series of active-learning exercises that I'm developing and using to teach an introductory statistics course.</p>"
 ---
 
 # Overview

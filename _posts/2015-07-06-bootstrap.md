@@ -3,7 +3,7 @@ layout: post
 title: "Exercise: Bootstrap and engine block data"
 date: 2015-07-06
 tags: blog exercise
-excerpt: "Today's exercise is about the bootstrap. I had been warned by a previous instructor that the sudents often get confused about the bootstrap, thinking that adding more resamples will cause the central limit theorem to kick in, or something."
+excerpt: "<p>Today's exercise is about the bootstrap. I had been warned by a previous instructor that the sudents often get confused about the bootstrap, thinking that adding more resamples will cause the central limit theorem to kick in, or something.</p>"
 ---
 
 # Objective

@@ -3,7 +3,7 @@ layout: post
 title:  "Sex and height classroom exercise"
 date:   2015-6-15
 tags: blog exercise
-excerpt: "This was the exercise for our first class session. It's intended to be a gentle introduction to the exercise format and to emphasize that the first things to do with data are to make exploratory plots and compute some summary statistics."
+excerpt: "<p>This was the exercise for our first class session. It's intended to be a gentle introduction to the exercise format and to emphasize that the first things to do with data are to make exploratory plots and compute some summary statistics.</p>"
 ---
 
 #Objective
