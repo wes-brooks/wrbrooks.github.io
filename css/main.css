@@ -31,7 +31,7 @@ div#header {
   font-family: Georgia, serif;
 }
 
-#post-title h1 {
+h1.post-title {
   margin-bottom 0;
 }
 
