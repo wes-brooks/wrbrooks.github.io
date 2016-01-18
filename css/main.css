@@ -46,6 +46,10 @@ div#post p {
   margin-bottom: 0.5em;
 }
 
+div.thumbnail-image {
+  padding: 1em;
+}
+
 a         { color: #428bca; }
 a:hover   { color: #000; }
 
