@@ -363,12 +363,9 @@ pre {
 /*****************************************************************************/
 
 input#searchbutton {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
   padding: 5px 11px 5px 11px;
-  white-space: normal;
-  line-height: 1.5em;
+}
+
+input#searchbox {
+  padding: 3px 11px 3px 11px;
 }
