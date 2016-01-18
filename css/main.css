@@ -144,8 +144,12 @@ li.post-list-item {
   margin-top: 2em;
 }
 
-#header a {
+a.navbutton {
   text-decoration: none;
+}
+
+a.navbutton:hover {
+  text-decoration: underline;
 }
 
 .pagehead {
