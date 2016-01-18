@@ -128,7 +128,13 @@ a:hover   { color: #000; }
 a.post-title {
   font-size: 120%;
   font-style: bold;
+  text-decoration: none;
 }
+
+a.post-title:hover {
+  text-decoration: underline;
+}
+
 
 /*****************************************************************************/
 /*
