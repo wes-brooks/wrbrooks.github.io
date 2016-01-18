@@ -4,6 +4,7 @@ title:  "Scrape the web for football play-by-play data, part 2"
 date:   2013-9-4
 categories: rstats
 tags: blog
+thumbnail: /static/img/uw-rbs.jpg
 ---
 
 UPDATE: [Part three](http://somesquares.org/blog/2015/1/scrape-football-data-3) of this series introduces the R package `pbp`, which contains the most up-to-date version of this software.
