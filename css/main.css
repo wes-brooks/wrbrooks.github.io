@@ -32,6 +32,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4em;
 }
 
+ul.posts
+
 #post-title h1 {
   margin-bottom: 0;
 }
@@ -103,17 +105,18 @@ a:hover   { color: #000; }
 /* Home
 /*
 /*****************************************************************************/
-.posts {
+#posts {
   list-style-type: none;
   margin-bottom: 2em;
-  padding: 0 0 0 0.5em;
+  margin-top: 1em
+  /*padding: 0 0 0 0.5em;*/
 }
 
-.posts li {
+/*#posts li {
   line-height: 1.75em;
-}
+}*/
 
-.posts span {
+#posts span {
   color: #aaa;
   font-size: 80%;
 }
