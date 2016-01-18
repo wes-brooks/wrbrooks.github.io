@@ -32,8 +32,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4em;
 }
 
-ul.posts
-
 #post-title h1 {
   margin-bottom: 0;
 }
@@ -119,6 +117,11 @@ a:hover   { color: #000; }
 #posts span {
   color: #aaa;
   font-size: 80%;
+}
+
+
+#posts li {
+  margin: 1em 0;
 }
 
 /*****************************************************************************/
