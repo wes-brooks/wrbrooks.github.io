@@ -22,23 +22,23 @@ Read parts A and B, then answer questions in part C.
 
 ## Part A
 
-1. ![time to hatch](/images/2015/6/22/histogram.png){:.pure-img}
+### 1
+ ![time to hatch](/images/2015/6/22/histogram.png){:.pure-img}
  
-2. $$29.5 \;{\rm days}\; = 26  \frac{7}{100} \;+\; 27  \frac{11}{100} \;+\; 28  \frac{12}{100} \;+\; 29  \frac{23}{100} \;+\; 30  \frac{17}{100} \;+\; 31  \frac{14}{100} \;+\; 32  \frac{5}{100} \;+\; 33  \frac{9}{100} \;+\; 34  \frac{2}{100}$$
+### 2
+ $$29.5 \;{\rm days}\; = 26  \frac{7}{100} \;+\; 27  \frac{11}{100} \;+\; 28  \frac{12}{100} \;+\; 29  \frac{23}{100} \;+\; 30  \frac{17}{100} \;+\; 31  \frac{14}{100} \;+\; 32  \frac{5}{100} \;+\; 33  \frac{9}{100} \;+\; 34  \frac{2}{100}$$
 
-3. $$\begin{aligned}2.0 \;&{\rm days}\; = \{ (26-30.0)^2  \frac{7}{100} \;+\;(27-30.0)^2  \frac{11}{100} \;+\; (28-30.0)^2  \frac{12}{100} \;+\; \\ &(29-30.0)^2  \frac{23}{100} \;+\; (30-30.0)^2  \frac{17}{100} \;+\; (31-30.0)^2  \frac{14}{100} \;+\; \\ &(32-30.0)^2  \frac{5}{100} \;+\; (33-30.0)^2  \frac{9}{100} \;+\; (34-30.0)^2  \frac{2}{100} \}^{1/2} \end{aligned}$$
+### 3
+ $$\begin{aligned}2.0 \;&{\rm days}\; = \{ (26-30.0)^2  \frac{7}{100} \;+\;(27-30.0)^2  \frac{11}{100} \;+\; (28-30.0)^2  \frac{12}{100} \;+\; \\ &(29-30.0)^2  \frac{23}{100} \;+\; (30-30.0)^2  \frac{17}{100} \;+\; (31-30.0)^2  \frac{14}{100} \;+\; \\ &(32-30.0)^2  \frac{5}{100} \;+\; (33-30.0)^2  \frac{9}{100} \;+\; (34-30.0)^2  \frac{2}{100} \}^{1/2} \end{aligned}$$
 
 ## Part B
 Now imagine that we write each egg's time to hatch on a chip and put them all in an urn. We pick one chip at random, write down its number, then put it back. We repeat this to sample five numbers.
 
-### 1
-Numbers sampled: 32, 27, 27, 29, 30 days
+1. Numbers sampled: 32, 27, 27, 29, 30 days
 
-### 2
- $$29.0 \;{\rm days}\; = \frac{ 32 + 27 + 27 + 29 + 30}{5}$$
+2. $$29.0 \;{\rm days}\; = \frac{ 32 + 27 + 27 + 29 + 30}{5}$$
  
-### 3
- $$2.1 \;{\rm days}\; = \sqrt{\frac{ (32-29)^2 + (27-29)^2 + (27-29)^2 + (29-29)^2 + (30-29)^2}{4}}$$
+3. $$2.1 \;{\rm days}\; = \sqrt{\frac{ (32-29)^2 + (27-29)^2 + (27-29)^2 + (29-29)^2 + (30-29)^2}{4}}$$
 
 ## Part C
 Fill in the blanks from the following word list. Some words may be used more than once, and there is more than one defensible answer for some blanks.
