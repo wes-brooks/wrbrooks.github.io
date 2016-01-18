@@ -2,6 +2,7 @@
 layout: post
 title: Kitty spotted on my way home
 tags: blog
+thumbnail: /images/2014/7/2014-7-9-kitty-spotted-on-my-way-home-image.jpeg
 ---
 
 

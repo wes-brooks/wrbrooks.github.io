@@ -4,6 +4,7 @@ title: "Exercise: Estimating a linear model"
 date: 2015-07-27
 tags: blog exercise
 excerpt: "This exercise was intended to show students that linear regression is comprehensible and intuitive. They mostly came up with very similar solutions. With a little prompting, every group eventually said that they would summarize their model by the slope and intercept."
+thumbnail: /images/2015/7/27/mpg.png
 ---
 
 # Objective
