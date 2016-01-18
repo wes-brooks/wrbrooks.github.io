@@ -3,6 +3,7 @@ layout: post
 title:  "Another weekend in the garden"
 date:   2013-6-9
 tags: blog
+thumbnail: http://farm3.staticflickr.com/2873/9002051451_37ca6e1b13_z.jpg
 ---
 
 
