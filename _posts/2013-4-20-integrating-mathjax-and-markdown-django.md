@@ -3,10 +3,7 @@ layout: post
 title:  "Integrating mathjax and markdown in django"
 date:   2013-4-20
 tags: blog
-excerpt: I've moved the blog to [Github Pages](http://pages.github.com) which means that my content management system is now [Jekyll](http://jekyllrb.com), not Django. I'm leaving this post up, but I no longer use the hack described below.
 ---
-
-## Update
 
 I've moved the blog to [Github Pages](http://pages.github.com) which means that my content management system is now [Jekyll](http://jekyllrb.com), not Django. I'm leaving this post up, but I no longer use the hack described below.
 
