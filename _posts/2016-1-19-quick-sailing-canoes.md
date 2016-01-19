@@ -26,4 +26,4 @@ We are building two quick canoe hulls (at 95% scale to make better use of the ex
 
 So far, the canoe shells are built and the sails are pieced but need to be sewn. There's a lot left to do, but we are well on our way to a couple of cheap, tiny, transportable sister ships for fun at the beach.
 
-![canoe shells](/image/2016/1/19/canoes-duct-tape.png){:.pure-img}
+![canoe shells](/images/2016/1/19/canoes-duct-tape.png){:.pure-img}
