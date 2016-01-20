@@ -2,7 +2,7 @@
 layout: post
 title: "Cutting out hull panels"
 date: 2016-1-20
-tags: blog
+tags: blog quick-canoe
 thumbnail: /images/2016/1/20/sides.png
 ---
 

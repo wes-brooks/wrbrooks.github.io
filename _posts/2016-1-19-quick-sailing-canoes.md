@@ -2,7 +2,7 @@
 layout: post
 title: "Quick sailing canoes"
 date: 2016-01-19
-tags: blog
+tags: blog quick-canoe
 thumbnail: /images/2016/1/19/landreville-quick-canoe.png
 ---
 
