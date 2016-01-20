@@ -3,7 +3,7 @@ layout: post
 title: "Sailmaking"
 date: 2016-1-21
 tags: blog quick-canoe
-thumbnail: /images/2016/1/20/sides.png
+thumbnail: /images/2016/1/21/kate-annie-sail-thumb.png
 ---
 
 Desiging the sails begins with their area. Beth has 90 square feet of sail, but our canoes are a bit smaller and probably we are less capable sailors than Mik intended for Beth, so the canoes will each have 80 square feet of sail. By guesstimation, I decide to have 60 square feet in the main and 20 in the mizzen. Both are simply scaled-down versions of OzRacer sails, which were designed for quick, cheap polytarp construction. One 8m x 4.5m heavyweight polytarp ran us [AU$140 including tax and shipping](http://www.tarpaulinsdirect.com.au/online-shop/poly-heavy-duty-white/polyethylene-heavy-duty-white-4-5m-x-8-0m). That was big enough to make all four sails with a lot of excess material for patches.
