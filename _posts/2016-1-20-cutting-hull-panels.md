@@ -2,6 +2,7 @@
 title: "Cutting out hull panels"
 date: 2016-1-20
 tags: blog
+thumbnail: /images/2016/1/20/sides.png
 ---
 
 Like any Mik Storer design, construction of the [quick canoe](http://www.duckworksbbs.com/plans/storer/qc150/index.htm) begins with cutting out hull panels. First, marine plywood is laid out and index lines are drawn across it at 285mm intervals (the plans call for 300mm spacing, but we are building canoes at 95% scale to get four bottom panels from two sheets of plywood.)
