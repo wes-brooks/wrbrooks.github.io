@@ -10,7 +10,7 @@ Desiging the sails begins with their area. Beth has 90 square feet of sail, but 
 
 The main is a balanced lug sail and the mizzen is gaffer. The gaff-rigged mizzen requires no yard, and should be easier to handle and reef than a similarly sized lug. The balanced lug main ought to give us better performance than would a big gaffer, and also means the main mast is significantly shorter than would be necessary for a triangular main.
 
-![Kate taping patches onto one of the main sails](/images/2016/1/21/kate-annie-sail.png)
+![Kate taping patches onto one of the main sails](/images/2016/1/21/kate-annie-sail.png){:.pure-img}
 
 We took the tarp to a park and stretched it out with tent stakes in order to measure the sail panels. Like the hull panels, this involves making marks around the edges of the sail, then using a flexible batten to scribe a smooth curve through the points. After we cut out the pieces, the sails were taped together with double-sided tape, in which state they currently await the attention of our borrowed sewing machine.
 
