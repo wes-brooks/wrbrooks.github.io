@@ -32,7 +32,7 @@ Next, the sides are (carefully!) flipped upside down, and the bottom is taped do
 
 ![taping-1](/images/2016/1/27/profile-1.png){:.pure-img}
 
-![taping-1](/images/2016/1/27/profile-1.png){:.pure-img}
+![taping-1](/images/2016/1/27/bottom.png){:.pure-img}
 
 ### Complete!
 
