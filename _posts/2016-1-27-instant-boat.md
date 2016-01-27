@@ -6,11 +6,11 @@ tags: blog quick-canoe
 thumbnail: /images/2016/1/27/shell-taped.png
 ---
 
-The canoes have gone 3D. A major innovation in some recent Mik Storer designs (Quick Canoe and Oz Racer) is that the boats are first assembled with duct tape, then held together with epoxy fillets before the tape is removed. As you might imagine, this is a very fast method of construction. The "instant boat" approach greatly reduces the time to assemble a hull, when compared to methods such as chine logs that rely more heavily on carpentry skills.
+The canoes have gone 3D. A major innovation in some recent Mik Storer designs (Quick Canoe and Oz Racer) is that the boats are first assembled with duct tape, then glued together with epoxy fillets before the tape is removed. As you might imagine, this is a very fast method of construction. The "instant boat" approach greatly reduces the time to assemble a hull, when compared to methods such as chine logs that rely more heavily on carpentry skills.
 
 ### Sides
 
-First step is to join the side panels at stem and stern.
+First step is to join the side panels at stem and stern. 
 
 ![Ends are taped up](/images/2016/1/27/tip.png){:.pure-img}
 
