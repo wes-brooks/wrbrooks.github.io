@@ -3,7 +3,7 @@ layout: post
 title: "Stem fixed!"
 date: 2016-3-16
 tags: blog quick-canoe
-thumbnail: /images/2016/3/16/clamp-thumb.png
+thumbnail: /images/2016/3/16/clamped-thumb.png
 ---
 
 Hola amigos, I know it's been a while since I rapped at ya. Rest assured, the progress has continued on the canoes - I just have been neglecting the blog.
@@ -14,7 +14,7 @@ Hola amigos, I know it's been a while since I rapped at ya. Rest assured, the pr
 
 From that point on, the fix was pretty easy. I just had to fillet the new seam, with the gunwales clamped in place to define the correct sheer line:
 
-![clamps!](/images/2016/3/16/clamp.png){:.pure-img}
+![clamps!](/images/2016/3/16/clamped.png){:.pure-img}
 
 Once the new fillet cured, I unclamped and removed the gunwales to make space for a new strip of fiberglass tape down the repiared stem.
 
