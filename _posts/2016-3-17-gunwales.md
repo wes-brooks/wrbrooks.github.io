@@ -10,6 +10,8 @@ Gunwales. Not a lot to say - they're long thin strips that were glued to the sid
 
 ![gunwales-1](/images/2016/3/17/gunwales.png){:.pure-img}
 
-![gunwales-1](/images/2016/3/17/gunwales-2.png){:.pure-img}
+![overlap](/images/2016/3/17/overlap.png){:.pure-img}
 
-![gunwales-1](/images/2016/3/17/gunwales-3.png){:.pure-img}
+![gunwales-2](/images/2016/3/17/gunwales-2.png){:.pure-img}
+
+![gunwales-3](/images/2016/3/17/gunwales-3.png){:.pure-img}
