@@ -17,3 +17,12 @@ One thing about the way the Quick Canoe is designed: using epoxy fillets saves a
 Once all these semi-frames are in place, I have a stringer that goes between bulkheads three and four (touching the top corner of each semi-frame). Together with a top deck and a side deck, these will create sealed flotation along each side of the cockpit, as well as stiffening the boat. Here is another perspective:
 
 ![canoe-1](/images/2016/4/28/canoe-1.png){:.pure-img}
+
+
+### Update
+The semi-frames were made from the last of the 6mm ply that I bought for the bottom. Two sheets of ply were *exactly* enough to build the bottom and the semi-frames. In fact, I cut one semi-frame slightly too short but there's not enough scrap left to make a replacement, so that's gonna end up in the final boat.
+
+### Oops
+When I measured everything out, I totally forgot to account for the sheer line. When I first dropped the fore-and-aft stringer in between bulkheads three and four, it stood about three or four inches proud of the sheer line at its midpoint. So now I'm bending the stringer using pretty basic methods: loading it up with all the weight I can find and letting it sit for days.
+
+![bend](/images/2016/4/28/bend.png){:.pure-img}
