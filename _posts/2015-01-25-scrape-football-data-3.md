@@ -30,7 +30,7 @@ plays = parse.url(url)
 Now, to plot the scoring margin as the game progressed:
 
 {% highlight r %}
-plays %>% ggplot + aes(x=3600-time, y=home-away) +
+plays %>% ggplot + aes(x=3600-time, y=score.home - score.away) +
 	geom_line() + ylab("OSU lead") +
 	xlab("Seconds of elapsed game time")
 {% endhighlight %}
