@@ -1,5 +1,5 @@
 name: somesquares.org
-permalink: /blog/:year/:i_month/:title
+permalink: /blog/:year/:i_month/:title/
 description: Wesley's blog
 url: http://somesquares.org
 collections:
