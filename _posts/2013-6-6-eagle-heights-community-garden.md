@@ -3,6 +3,7 @@ layout: post
 title:  "Eagle Heights community garden"
 date:   2013-6-6
 tags: blog
+thumbnail: https://c1.staticflickr.com/6/5344/9002075879_d193a468e9_z.jpg
 ---
 
 It wasn't until this past weekend that I finally made the year's first visit to my plot at the Eagle Heights Community Garden. As expected, things had gotten out of hand:
