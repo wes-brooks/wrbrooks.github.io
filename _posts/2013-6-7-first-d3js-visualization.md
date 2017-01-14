@@ -42,10 +42,10 @@ excerpt: ""
   </div>
 </div>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://d3js.org/topojson.v1.min.js"></script>
-<script src="http://d3js.org/queue.v1.min.js"></script>
-<script src="http://jashkenas.github.com/coffee-script/extras/coffee-script.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://raw.githubusercontent.com/jashkenas/coffeescript/master/lib/coffee-script/coffee-script.js"></script>
 <script type="text/javascript">
 var width = $('#pov-pex-1970')[0].scrollWidth,
     height = 300;
