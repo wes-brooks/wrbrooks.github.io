@@ -211,8 +211,8 @@ Marginal likelihood
 - For our model, this looks like
 $$\pi({\boldsymbol y}) = \int_U \pi({\boldsymbol y} | {\boldsymbol u}) \pi({\boldsymbol u}) {\rm d}{\boldsymbol u} $$
 
-$$= \int_U \left[\int_{\mathcal D} \exp\left\{{\boldsymbol x}'({\boldsymbol s}){\boldsymbol \beta}({\boldsymbol s}) + \boldsymbol{Su}\right\} d{\boldsymbol s}\right]^N \times $$
-$$\exp\left[\int_{\mathcal D} \exp\left\{{\boldsymbol x}'({\boldsymbol s}){\boldsymbol \beta}({\boldsymbol s}) + \boldsymbol{Su}\right\} d{\boldsymbol s}\right] / N! \times \left(\frac{\tau}{2\pi}\right)^{r/2} \exp{ \left( - \tau \frac{{\boldsymbol u}'{\boldsymbol u}}{2}\right) } {\rm d}{\boldsymbol u} $$
+$$= \int_U \left[\int_{\mathcal D} \exp\left\{ {\boldsymbol x}'({\boldsymbol s}){\boldsymbol \beta}({\boldsymbol s}) + \boldsymbol{Su}\right\} d{\boldsymbol s}\right]^N \times $$
+$$\exp\left[\int_{\mathcal D} \exp\left\{ {\boldsymbol x}'({\boldsymbol s}){\boldsymbol \beta}({\boldsymbol s}) + \boldsymbol{Su}\right\} d{\boldsymbol s}\right] / N! \times \left(\frac{\tau}{2\pi}\right)^{r/2} \exp{ \left( - \tau \frac{ {\boldsymbol u}'{\boldsymbol u}}{2}\right) } {\rm d}{\boldsymbol u} $$
 
 
 Variational approximation
