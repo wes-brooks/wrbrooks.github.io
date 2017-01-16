@@ -18,9 +18,6 @@ $(document).ready(function(){
 
   $("body").addClass("js");
 
-  // FitVids init
-  $(".page__content").fitVids();
-
   // smooth scroll init
   $("a").smoothScroll({offset: -20});
 
