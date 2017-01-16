@@ -7,8 +7,21 @@ comments:
   moderation        : true
   path              : "_data/comments/{options.slug}"
   requiredFields    : ['name', 'email', 'message']
+
   transforms:
     email           : md5
+
+  notifications:
+    enabled: true
+
+    # (!) ENCRYPTED
+    # Mailgun API key
+    apiKey: "FyWYmvi3ET6KOzwwKfTSOtJ1En4eYJ1F/Ko0UokmIJBhAtuS5Vs0RbxjowQgQL7OJdlc72RXsHjwzhDhg5Vd93e4Dpy39qSO53jOcUfOD3vSbiwuZwj2iJ/hIPyTikFogCKjFOQcFiAV5tHkNLE+Mhh9EldJdCLxt5dhQyvwHtc="
+
+    # (!) ENCRYPTED
+    # Mailgun domain (encrypted)
+    domain: "Q0CpWWmrp5qIRINKrxbi2gd/kXcyif8nERsdLP/aTCw5U9cEqhYlR79rJhm432zF8TsgEbv3yy4Vc9gLJYibyNzspHQP+svDFUXTZ5raBQtJSjWYmXjFZ3UD/7V+wp1JoRzQJ8QHX2XHk60EWiDSVxsWN1/GM3pY8KwpF5BiGVc="
+
   generatedFields:
     date:
       type          : "date"
