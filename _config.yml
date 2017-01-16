@@ -6,5 +6,6 @@ collections:
     ghnm:
         relative_directory: ghnm2/
 
-
+repository: wrbrooks.github.io
+branch: master
 
