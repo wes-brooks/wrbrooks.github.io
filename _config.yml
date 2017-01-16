@@ -6,6 +6,9 @@ collections:
     ghnm:
         relative_directory: ghnm2/
 
-repository: wrbrooks.github.io
-branch: master
+repository: wrbrooks/wrbrooks.github.io
+
+# Staticman comments (full configuration in staticman.yml)
+staticman:
+  branch                 : "master"
 
