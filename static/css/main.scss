@@ -132,14 +132,16 @@ a:hover   { color: #000; }
 
 
 a.post-title {
-  color: #CC6600;
+  color: #777777;
+  background-color: #FFFFFF;
   font-size: 120%;
   font-style: bold;
   text-decoration: none;
 }
 
 a.post-title:hover {
-  text-decoration: underline;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 
