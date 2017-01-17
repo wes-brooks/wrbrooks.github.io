@@ -880,11 +880,11 @@ h6[id]:before {
     margin-bottom: 4em
 }
 
-@media (min-width:90em) {
+/*@media (min-width:90em) {
     .page__reactions {
         max-width: 85.2941176471%
     }
-}
+}*/
 
 .page__related {
     position: relative;
