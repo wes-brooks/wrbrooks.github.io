@@ -21,8 +21,9 @@ comments:
 
     # (!) ENCRYPTED
     # Mailgun domain (encrypted)
-    domain: "zs9NV7Fst4UyFXi3GNFl3aXHMiL93f9leU8cGYKP4Z2gOu3P0R5zuUP840U2KsVNpCC0nCgPTerAJjcEEQ1udEJ/wtnwfek9pBP1CaGjVmqrei4VNGlMb3yf4KEHM/BB4uqr9Sh0UugGLglsdmVW9Kw0/9K9o2d+QlE5OJsHxKE="
+    #domain: "zs9NV7Fst4UyFXi3GNFl3aXHMiL93f9leU8cGYKP4Z2gOu3P0R5zuUP840U2KsVNpCC0nCgPTerAJjcEEQ1udEJ/wtnwfek9pBP1CaGjVmqrei4VNGlMb3yf4KEHM/BB4uqr9Sh0UugGLglsdmVW9Kw0/9K9o2d+QlE5OJsHxKE="
     #domain: "I2eJom/1yfR4IakEZ9ooQwflFeVJYKDpKu/+Byd3jWTzdS+IEbuA3E8P5TX3rGDylslqHfoGBRRDotI7xvqPfOqBwqL9MvryEHy/MhXe7wFy9WOQzFQYOHovHRw8OTMcehk1uAjZd5+snPqTCPuGWmwFKSnCL8gWnhaOe6PGuEY="
+    domain: "UwV9PeESnz/dY1Y/ChBTST02msHCylRRoGO1MPNhNvX1JOcwDz6dCHxsjLrp9VxMtTs4mFABn9KoMl/7DzUZUQaaPYETigI5JVoCH/W+vJ+YRloWvenyNK4zVXu0SV+X/U3gLALBt27KR0j9aYqHoSARtgbJaaamxi5/xCsQj10="
 
   generatedFields:
     date:
