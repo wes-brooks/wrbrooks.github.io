@@ -17,7 +17,7 @@ comments:
 
     # (!) ENCRYPTED
     # Mailgun API key
-    apiKey: "FyWYmvi3ET6KOzwwKfTSOtJ1En4eYJ1F/Ko0UokmIJBhAtuS5Vs0RbxjowQgQL7OJdlc72RXsHjwzhDhg5Vd93e4Dpy39qSO53jOcUfOD3vSbiwuZwj2iJ/hIPyTikFogCKjFOQcFiAV5tHkNLE+Mhh9EldJdCLxt5dhQyvwHtc="
+    apiKey: "JjNcJG+2iKDkOSpY3UaPdb8oSbHPIMKcwvNmRwQAFbrgvJZ87hC4QCiPHLY7vsR988ZCfe3rrHuuwdsS/0qjrHrL6PCaJj1m7Vv5zNTjGYYf8ItHl8BJlyfCT2yNbwFIM3fWj6xjdysnOahAa4tXC5sjA6xl0v7mYuKCep8pwA4="
 
     # (!) ENCRYPTED
     # Mailgun domain (encrypted)
