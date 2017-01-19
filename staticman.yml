@@ -7,7 +7,7 @@ comments:
   moderation        : true
   path              : "_data/comments/{options.slug}"
   requiredFields    : ['name', 'email', 'message']
-  allowedOrigins: ["somesquares.org", "wrbrooks.github.io", "github.io", "mg.somesquares.org"]
+  #allowedOrigins: ["somesquares.org", "wrbrooks.github.io", "github.io", "mg.somesquares.org"]
 
   transforms:
     email           : md5
