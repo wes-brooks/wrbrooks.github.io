@@ -104,6 +104,14 @@ As a final step, you need the script to run every 20 minutes as root in order to
 
 */20 * * * * /home/pi/sync-gps-time.sh
 
-That's all, foax!
+## Receiving the GPS and AIS data in OpenCPN
 
+I'm using OpenCPN for navigation, so I need the GPS and AIS data in order to plot my position and the location signals of nearby ships on the screen. It's pretty simple - click the wrench icon to open the settings dialog, and go to the "Connections" tab. At the bottom click "Add Connection", and then set the following settings:
+
+- Type: Network
+- Protocol: UDP
+- Address: [the static IP address of your Pi's wlan0 device](//somesquares.org/blog/2017/10/30/Raspberry-Pi-router)
+- DataPort: 10110
+
+Click 'OK' and you should have a good, reliable, feed of GPS and AIS data!
 
