@@ -5,8 +5,6 @@ layout: post
 tag: blog
 ---
 
-## Overview
-
 There are [several](https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md) [tutorials](https://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/overview) out there about turning your Rapberry Pi into a WiFi access point, but they all seem to written for Raspbian Jessie or earlier. There are a few changes in Stretch, the most recent version of the Pi's operating system, that seem to break these tutorials.
 
 Here I will describe what I did to turn my Raspberry Pi 3 into a WiFi router. This should all work for any Pi running Stretch, though I have only tested it on the 3. My desired routing setup is to plug an Ethernet cable from the Pi into a modem, so that the Internet connection through that modem can be shared by several wireless devices.
