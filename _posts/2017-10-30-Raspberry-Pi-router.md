@@ -1,6 +1,8 @@
 ---
 title: Using Raspberry Pi 3 running Stretch for a WiFi router
 date: 2017-10-30
+layout: post
+tag: blog
 ---
 
 ## Overview
