@@ -54,7 +54,7 @@ gpsd=yes
 mode=client
 
 [serial]
-filename=/dev/serial1
+filename=/dev/serial0
 baud=38400
 direction=in
 
@@ -64,7 +64,13 @@ port=10110
 type=broadcast
 ```
 
-The dAISy Hat communicates over a serial port (`/dev/serial1` on my Raspberry Pi 3 running the Raspbian Stretch OS - I think it is `/dev/serial0` on Rasbian Jessie and earlier). The TCP input is listening to gpsd. And both of these inputs are being broadcast over the WiFi device (`wlan0`) using the UDP protocol on port 10110.
+The dAISy Hat communicates over  serial port `/dev/serial0`, using the general purpose IO (GPIO) pins. You must tell the Raspberry Pi that they are now a serial port by inputting these commands, copied from the dAISy Hat instructions:
+
+```
+wget https://github.com/itemir/rpi_boat_utils/raw/master/uart_control/uart_control chmod +x ./uart_controlsudo ./uart_control gpiosudo reboot now
+```
+
+The TCP input is listening to gpsd. And both of these inputs are being broadcast over the WiFi device (`wlan0`) using the UDP protocol on port 10110.
 
 UDP is better than TCP for our purposes because the connection does not require the both ends to keep it alive. If you're using the GPS data through `kplex` as input to [OpenCPN](https://opencpn.org) on your laptop, as I am, then a TCP connection will stop working when your laptop goes to sleep or you restart it, and the connection won't be automatically restored. But UDP will broadcast as long as the Raspberry Pi is powered up, and your laptop can start listening any time.
 
