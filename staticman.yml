@@ -8,24 +8,23 @@ comments:
   moderation        : true
   path              : "_data/comments/{options.slug}"
   requiredFields    : ['name', 'message']
-  allowedOrigins: ["somesquares.org", "wrbrooks.github.io", "github.io", "mg.somesquares.org"]
+  #allowedOrigins: ["somesquares.org", "wrbrooks.github.io", "github.io", "mg.somesquares.org"]
 
   transforms:
     email           : md5
 
   notifications:
-    enabled: true
+    enabled: false
 
     # (!) ENCRYPTED
     # Mailgun API key
-    apiKey: "bobgTlB/AJ5WlKEEI24pgSATXEhtcq1GuiFMEFXj41+f+AI5y3vDmYKP4AEnqPFWlG14gLVlQUgYh3YHe6ZbtZUcIknjJnZHDgz9p7Xrd2XzD/e+E0e+1uDYygBAQI1RZhwBhWGT8vaMZaGZh5poH6u0Lzu7Ls9Qxp7rsKdLBojRnpd8YnL5jfXg6OACSJaQB3+ILN/4M8xJMVuukEuTt7hYk+rg3uxQWMGC3fHg2UiJ0H0298zJqMZ3TAwG/kdG6zImG5idIJGN8XAMhuyQ6xcwHnwxQjcEQ7VADY4uSVL/I5TzK7qV/u6j7Qe5gQmaYT1zKAtoO2SzOk/qvvLOEA=="
+    #apiKey: "bobgTlB/AJ5WlKEEI24pgSATXEhtcq1GuiFMEFXj41+f+AI5y3vDmYKP4AEnqPFWlG14gLVlQUgYh3YHe6ZbtZUcIknjJnZHDgz9p7Xrd2XzD/e+E0e+1uDYygBAQI1RZhwBhWGT8vaMZaGZh5poH6u0Lzu7Ls9Qxp7rsKdLBojRnpd8YnL5jfXg6OACSJaQB3+ILN/4M8xJMVuukEuTt7hYk+rg3uxQWMGC3fHg2UiJ0H0298zJqMZ3TAwG/kdG6zImG5idIJGN8XAMhuyQ6xcwHnwxQjcEQ7VADY4uSVL/I5TzK7qV/u6j7Qe5gQmaYT1zKAtoO2SzOk/qvvLOEA=="
+    apiKey: "xNvur7LI4yGoQ7FdYDC/2zYEzLritJQdSzKZMW6KRmYG3YGEUay2nl/vIIoG8e0w/yN3dFWe3hrmn+joekXlLTrfaRfBlw3IFkXUcUwA7qDxeRLsvKHMt94TQLr02Ee6bpaqHZrl78edhbPYSYb1NJo3xccRLQA1zYHnZg4DxY0="
 
     # (!) ENCRYPTED
     # Mailgun domain (encrypted)
-    domain: "YkTzSBLX0IPI4sbp/cqeawqjNuB4vfZ0X/gAWzRHEXk87AGT0wwtODZ9gJZWMS7tQvMGnYF7T87+wDmntDEfTbX3/QxjqHnfykjm2ki6GjIHsE4vd3z/LeahGcBe7oSqccnLMG3xqBVHnLBr45XOwCPpXSRiW5sA8ZWlbCshsx1PnClfQZTOxeSIi96uafrJMFVrmlgdv5DX0I5dzFQqvfjQ8Zg+tURMvfThMzNJCDTsU8wSMRrk8tyUVCdhc8N8Pj2R9RxrKzvx9aAvQeF6jX078OFql1PL7ht9tNEuyfsmeHaeF2I9Xv5itXZrgpyWkLY+0+SOP8u1Hlc2u3NRxg=="
-    #domain: "zs9NV7Fst4UyFXi3GNFl3aXHMiL93f9leU8cGYKP4Z2gOu3P0R5zuUP840U2KsVNpCC0nCgPTerAJjcEEQ1udEJ/wtnwfek9pBP1CaGjVmqrei4VNGlMb3yf4KEHM/BB4uqr9Sh0UugGLglsdmVW9Kw0/9K9o2d+QlE5OJsHxKE="
-    #domain: "I2eJom/1yfR4IakEZ9ooQwflFeVJYKDpKu/+Byd3jWTzdS+IEbuA3E8P5TX3rGDylslqHfoGBRRDotI7xvqPfOqBwqL9MvryEHy/MhXe7wFy9WOQzFQYOHovHRw8OTMcehk1uAjZd5+snPqTCPuGWmwFKSnCL8gWnhaOe6PGuEY="
-    #domain: "UwV9PeESnz/dY1Y/ChBTST02msHCylRRoGO1MPNhNvX1JOcwDz6dCHxsjLrp9VxMtTs4mFABn9KoMl/7DzUZUQaaPYETigI5JVoCH/W+vJ+YRloWvenyNK4zVXu0SV+X/U3gLALBt27KR0j9aYqHoSARtgbJaaamxi5/xCsQj10="
+    #domain: "YkTzSBLX0IPI4sbp/cqeawqjNuB4vfZ0X/gAWzRHEXk87AGT0wwtODZ9gJZWMS7tQvMGnYF7T87+wDmntDEfTbX3/QxjqHnfykjm2ki6GjIHsE4vd3z/LeahGcBe7oSqccnLMG3xqBVHnLBr45XOwCPpXSRiW5sA8ZWlbCshsx1PnClfQZTOxeSIi96uafrJMFVrmlgdv5DX0I5dzFQqvfjQ8Zg+tURMvfThMzNJCDTsU8wSMRrk8tyUVCdhc8N8Pj2R9RxrKzvx9aAvQeF6jX078OFql1PL7ht9tNEuyfsmeHaeF2I9Xv5itXZrgpyWkLY+0+SOP8u1Hlc2u3NRxg=="
+    domain: "gWdwUnOW6LZWvqefBhFqxIPLXvhlGhDbSuk9r71SjnGO1cFLTMaULr/8aiQUHFYyEv9TZtX15/43xF8um9WeMsxNz5/NaogwKS6G0ryNkF/wXSQmWS2D0s2YzZWTpul3gbnFbyXfPzY6gLMl4KoLd702d6BjSuQ8U77HYICwbZ4="
 
   generatedFields:
     date:
