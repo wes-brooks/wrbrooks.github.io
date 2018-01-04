@@ -14,7 +14,7 @@ comments:
     email           : md5
 
   notifications:
-    enabled: false
+    enabled: true
 
     # (!) ENCRYPTED
     # Mailgun API key
