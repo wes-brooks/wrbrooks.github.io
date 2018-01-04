@@ -54,7 +54,7 @@ If you'd like to learn more about these configuration options, check the [docume
 
 Now you need to tell `hostapd` to read this configuration file when it starts. To do so, edit the `/etc/defaults/hostapd` file:
 
-```sudo nano /etc/hostapd```
+```sudo nano /etc/defaults/hostapd```
 
 and change the line that reads
 
