@@ -215,6 +215,7 @@ $$= \int_U \left[\int_{\mathcal D} \exp\left\{ {\boldsymbol x}'({\boldsymbol s})
 $$\exp\left[\int_{\mathcal D} \exp\left\{ {\boldsymbol x}'({\boldsymbol s}){\boldsymbol \beta}({\boldsymbol s}) + \boldsymbol{Su}\right\} d{\boldsymbol s}\right] / N! \times \left(\frac{\tau}{2\pi}\right)^{r/2} \exp{ \left( - \tau \frac{ {\boldsymbol u}'{\boldsymbol u}}{2}\right) } {\rm d}{\boldsymbol u} $$
 
 
+
 Variational approximation
 ===
 - Evaluating the integral analytically is not practical (possible?).
