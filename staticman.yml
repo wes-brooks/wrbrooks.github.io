@@ -7,7 +7,7 @@ comments:
   format            : "yaml"
   moderation        : true
   path              : "_data/comments/{options.slug}"
-  requiredFields    : ['name', 'email', 'message']
+  requiredFields    : ['name', 'message']
   allowedOrigins: ["somesquares.org", "wrbrooks.github.io", "github.io", "mg.somesquares.org"]
 
   transforms:
