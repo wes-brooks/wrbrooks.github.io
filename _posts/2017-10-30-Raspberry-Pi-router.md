@@ -58,7 +58,8 @@ Now you need to tell `hostapd` to read this configuration file when it starts. T
 
 and change the line that reads
 
-```DAEMON_CONF=""```
+
+```DAEMON_CONF=""""```
 
 to
 
@@ -111,7 +112,7 @@ Finally, make these routing settings permanent by installing the `iptables-persi
 
 ```sudo apt-get install iptables-persistent```
 
-##Finish
+## Finish
 
 That's it! Just reboot your Pi to see the network you've configured and access the Internet through it! You may now want to learn something about network security and firewalls. 
 
