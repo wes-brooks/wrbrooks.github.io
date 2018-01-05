@@ -1,7 +1,7 @@
 <article id="comment{% if p %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="js-comment comment {% if include.name == site.author.name %}admin{% endif %} {% if p %}child{% endif %}">
   <div class="comment__body">
     <h3 class="comment__author-name">
-      {{ include.name }}
+      {{ include.name | strip_html }}
     </h3>
     <div class="comment__timestamp">
       {% if include.date %}
