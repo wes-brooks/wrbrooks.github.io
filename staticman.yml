@@ -30,6 +30,13 @@ comments:
       options:
         format      : "iso8601"
 
+  
+  akismet:
+    enabled: true
+    author: 'name'
+    authorEmail: 'email'
+    content: 'message'
+
   reCaptcha:
     enabled: true
     siteKey: "6Lfpaz8UAAAAAOZXTTtUo8Gm1dhyOLPlR2kmJIOI"
