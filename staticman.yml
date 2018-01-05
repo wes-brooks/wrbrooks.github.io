@@ -1,5 +1,5 @@
 comments:
-  allowedFields     : ['name', 'email', 'message']
+  allowedFields     : ['name', 'replying_to', email', 'message']
   # content field is a spam trap
   branch            : "master"
   commitMessage     : "New comment."
