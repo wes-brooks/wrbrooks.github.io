@@ -49,7 +49,7 @@
       <div class="form-group hidden" style="display: none;">
         <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
         <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
-        <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
+        <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="{{ page.url | relative_url }}">
         <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
         <label for="comment-form-content">Your content</label>
         <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off">
