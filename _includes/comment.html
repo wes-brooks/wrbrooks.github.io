@@ -24,7 +24,8 @@
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-{% assign replies = site.data.comments[page.slug] | where_exp:"item","item._parent == i" %}
+{% assign comment_folder = page.date | date: "%Y-%m-%d" | append:"-" | append:page.slug %}
+{% assign replies = site.data.comments[comment_folder] | where_exp:"item","item._parent == i" %}
 {% for reply in replies %}
   {% assign index   = forloop.index | prepend: '-' | prepend: include.index %}
   {% assign p       = reply._parent %}
