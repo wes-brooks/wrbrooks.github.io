@@ -18,13 +18,11 @@ comments:
 
     # (!) ENCRYPTED
     # Mailgun API key
-    #apiKey: "bobgTlB/AJ5WlKEEI24pgSATXEhtcq1GuiFMEFXj41+f+AI5y3vDmYKP4AEnqPFWlG14gLVlQUgYh3YHe6ZbtZUcIknjJnZHDgz9p7Xrd2XzD/e+E0e+1uDYygBAQI1RZhwBhWGT8vaMZaGZh5poH6u0Lzu7Ls9Qxp7rsKdLBojRnpd8YnL5jfXg6OACSJaQB3+ILN/4M8xJMVuukEuTt7hYk+rg3uxQWMGC3fHg2UiJ0H0298zJqMZ3TAwG/kdG6zImG5idIJGN8XAMhuyQ6xcwHnwxQjcEQ7VADY4uSVL/I5TzK7qV/u6j7Qe5gQmaYT1zKAtoO2SzOk/qvvLOEA=="
-    apiKey: "LkqEx4YFbAlBvEnDTmWm5G3nFt5Q//R+oDFZb4COgzlwqgLmAkm6Sp0hab9xvCPuWu63X3kyfa6FxHI4iCnVCQjXqfalMRVzIWmJ8JtYXu6vDWEWHknnMq2xJuveG3YK6yDlRKYhSsiyGibYsVtO6YRgajYPHdLryEVo94BBZuI="
+    apiKey: "cadqAZlex+mwQ3HHo6zzv552JqfWZZ7NAeB01HsavESWvmOcmWnkOgPch3OGr8aeqgJDJ2FYlSxvf59XrDZ2aqGSjpK7n0bgb8dQJVuyo5VkX25YnIY1quoIr1+ZHyQvQe6dYn+l5E5l1gxVqx3AGi2TmUM32K9dIQlhm+cZnMQ="
 
     # (!) ENCRYPTED
     # Mailgun domain (encrypted)
-    #domain: "YkTzSBLX0IPI4sbp/cqeawqjNuB4vfZ0X/gAWzRHEXk87AGT0wwtODZ9gJZWMS7tQvMGnYF7T87+wDmntDEfTbX3/QxjqHnfykjm2ki6GjIHsE4vd3z/LeahGcBe7oSqccnLMG3xqBVHnLBr45XOwCPpXSRiW5sA8ZWlbCshsx1PnClfQZTOxeSIi96uafrJMFVrmlgdv5DX0I5dzFQqvfjQ8Zg+tURMvfThMzNJCDTsU8wSMRrk8tyUVCdhc8N8Pj2R9RxrKzvx9aAvQeF6jX078OFql1PL7ht9tNEuyfsmeHaeF2I9Xv5itXZrgpyWkLY+0+SOP8u1Hlc2u3NRxg=="
-    domain: "ime1bSFk3S3Bo/gSAr+Y5qrvY1kwNi6GyaTOy5tGCHIrDwb9v3nnankK83bJy9OfhDmP6zAIYccXgPpmXxXjIez3kjoGoMZcFCZCBePI5cBrnfs3y3kh3hDVmeivGt/TcpsF6C02Ex85ODfEgG9gXjFzF0KWaV2Dp1xxWRmXxnY="
+    domain: "j0wV0hcTgYnobCeFkS3icZAY2lrzNh+3ykYfEmj2k/a/xQojafKEtgoeth+TLLYIEH9sDFP1kVd0Z0oI3ScIvB8Nz5ab3upfYmZEk4ro4SZJer8vnYE4hwZAgPSA9ChaG46io1kQ24tXCiKzj8U2isO2ZBQ9QHdmXS2YgeCb5fo="
 
   generatedFields:
     date:
