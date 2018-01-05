@@ -29,7 +29,7 @@ First, install `hostapd	` via
 
 You'll configure two files to make your Pi into an access point. First, create the file `/etc/hostapd/hostapd.conf` for editing via `nano`:
 
-```sudo nano /etc/hostapd/hostapd.conf```
+`sudo nano /etc/hostapd/hostapd.conf`
 
 This file will hold the settings for your access point. Just copy paste this code, but put your own choices in for `ssid` (this will be the name of the network you're creating) and `wpa_passphrase` (this is the password for connecting to your new network):
 
