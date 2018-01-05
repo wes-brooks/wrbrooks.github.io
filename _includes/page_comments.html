@@ -51,7 +51,7 @@
         </fieldset>
         <fieldset class="hidden" style="display:none;">
           <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-          <input type="hidden" id="comment-parent" name="options[parent]" value="{{ date: '%Y-%m-%d' | append: page.title | slugify }}">
+          <input type="hidden" id="comment-parent" name="options[parent]" value="{{ date: '%Y-%m-%D' | append: page.title | slugify }}">
           <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
           <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off"/>
         </fieldset>
