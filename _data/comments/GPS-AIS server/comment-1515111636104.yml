@@ -1,9 +1,0 @@
-_id: 3fddbf30-f1ae-11e7-9668-8d5639c5ebab
-message: >-
-  I now think it's better to consume the AIS input via a second instance of
-  gpsd, since it can then be used by more than one client.
-name: wesley
-email: e30500cf18539aa8aba35fa9a113f071
-content: ''
-date: '2018-01-05T00:20:36.104Z'
-timestamp: 1515111636
