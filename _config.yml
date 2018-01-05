@@ -1,7 +1,7 @@
 name: somesquares.org
 permalink: /blog/:year/:i_month/:title/
 description: Wesley's blog
-url: https://somesquares.org
+url: https://wrbrooks.github.io
 collections:
     ghnm:
         relative_directory: ghnm2/
