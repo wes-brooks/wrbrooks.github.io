@@ -9,7 +9,7 @@
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
+        {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == site.slug" %}
         {% for comment in comments %}
           {% assign index   = forloop.index %}
           {% assign p       = comment._parent %}
@@ -50,7 +50,7 @@
         <fieldset class="hidden" style="display:none;">
           <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
           <input type="hidden" id="comment-parent" name="options[parent]" value="{{ page.slug }}">
-          <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
+          <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}">
           <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off"/>
         </fieldset>
         <!-- Start comment form alert messaging -->
