@@ -1,0 +1,9 @@
+_id: 1f41d410-f1b2-11e7-9668-8d5639c5ebab
+message: >-
+  Makes more sense to consume incoming AIS data with a second gpsd instance, so
+  it can be used in multiple clients.
+name: wesley
+email: e30500cf18539aa8aba35fa9a113f071
+content: ''
+date: '2018-01-05T00:48:19.447Z'
+timestamp: 1515113299
