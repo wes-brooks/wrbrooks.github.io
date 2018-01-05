@@ -54,6 +54,8 @@
           <input type="hidden" id="comment-parent" name="options[parent]" value="{{ page.slug }}">
           <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}">
           <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off"/>
+          <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+          <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
         </fieldset>
         <!-- Start comment form alert messaging -->
         <p class="hidden js-notice">
@@ -61,12 +63,13 @@
         </p>
         <!-- End comment form alert messaging -->
         <fieldset>
+          <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
           <button type="submit" id="comment-form-submit" class="btn btn--large">Submit Comment</button>
-
         </fieldset>
       </form>
     </div>
     <!-- End new comment form -->
+    <script async src="https://www.google.com/recaptcha/api.js"></script>
     {% else %}
       <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="{{ site.url }}/contact/">contact me</a>.</em></p>
     {% endunless %}
