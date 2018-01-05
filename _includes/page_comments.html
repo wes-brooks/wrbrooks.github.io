@@ -12,7 +12,6 @@
         {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == nil" %}
         {% for comment in comments %}
           {% assign index   = forloop.index %}
-          {% assign id      = comment._id %}
           {% assign p       = comment._parent %}
           {% assign parent  = p | to_integer %}
           {% assign avatar  = comment.avatar %}
@@ -21,7 +20,7 @@
           {% assign url     = comment.url %}
           {% assign date    = comment.date %}
           {% assign message = comment.message %}
-          {% include comment.html index=index id=id parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
+          {% include comment.html index=index parent=parent avatar=avatar email=email name=name url=url date=date message=message %}
         {% endfor %}
       </div>
       <!-- End static comments -->
@@ -51,7 +50,7 @@
         </fieldset>
         <fieldset class="hidden" style="display:none;">
           <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
-          <input type="hidden" id="comment-parent" name="options[parent]" value="{{ date: '%Y-%m-%d' | append: page.title | slugify }}">
+          <input type="hidden" id="comment-parent" name="options[parent]" value="{{ page.slug }}">
           <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
           <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off"/>
         </fieldset>
