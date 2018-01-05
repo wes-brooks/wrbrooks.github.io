@@ -13,13 +13,13 @@
         {% for comment in comments %}
           {% assign index   = forloop.index %}
           {% assign p       = comment._parent %}
-          {% assign parent  = p | to_integer %}
+  {% assign parent  = p %}
+  <!--{% assign parent  = p | to_integer %}-->
           {% assign email   = comment.email %}
           {% assign name    = comment.name %}
-          {% assign url     = comment.url %}
           {% assign date    = comment.date %}
           {% assign message = comment.message %}
-          {% include comment.html index=index parent=parent email=email name=name url=url date=date message=message %}
+          {% include comment.html index=index parent=parent email=email name=name date=date message=message %}
         {% endfor %}
       </div>
       <!-- End static comments -->
