@@ -67,7 +67,9 @@ type=broadcast
 The dAISy Hat communicates over  serial port `/dev/serial0`, using the general purpose IO (GPIO) pins. You must tell the Raspberry Pi that they are now a serial port by inputting these commands, copied from the dAISy Hat instructions:
 
 ```
-wget https://github.com/itemir/rpi_boat_utils/raw/master/uart_control/uart_control chmod +x ./uart_controlsudo ./uart_control gpiosudo reboot now
+wget https://github.com/itemir/rpi_boat_utils/raw/master/uart_control/uart_control chmod +x ./uart_control
+sudo ./uart_control gpio
+sudo reboot now
 ```
 
 The TCP input is listening to gpsd. And both of these inputs are being broadcast over the WiFi device (`wlan0`) using the UDP protocol on port 10110.
