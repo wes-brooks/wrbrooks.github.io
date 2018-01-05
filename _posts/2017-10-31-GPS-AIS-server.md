@@ -2,6 +2,7 @@
 title: Serving GPS and AIS data from Raspberry Pi over WiFi
 date: 2017-10-31
 layout: post
+slug: GPS-AIS-server
 tag: blog
 ---
 
