@@ -1,15 +1,17 @@
 <section class="page__reactions">
   {% if site.repository and site.staticman.branch %}
+    {% assign comment_folder = page.date | date: "%Y-%m-%d" | append:"-" | append:page.slug %}
+
     {% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
       <div id="comments" class="js-comments">
         <h2 class="page__section-label">
-          {% if site.data.comments[page.slug].size > 1 %}
-            {{ site.data.comments[page.slug] | size }}
+          {% if site.data.comments[comment_folder].size > 1 %}
+            {{ site.data.comments[comment_folder] | size }}
           {% endif %}
           Comments
         </h2>
-        {% assign comments = site.data.comments[page.slug] | where_exp:"item","item._parent == page.slug" %}
+        {% assign comments = site.data.comments[comment_folder] | where_exp:"item","item._parent == page.slug" %}
         {% for comment in comments %}
           {% assign index   = forloop.index %}
           {% assign p       = comment._parent %}
