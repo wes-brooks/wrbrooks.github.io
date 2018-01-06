@@ -25,11 +25,11 @@ The first is the access point software, which creates and broadcasts a wireless 
 
 First, install `hostapd	` via
 
-```sudo apt-get install hostapd```
+`sudo apt-get install hostapd`
 
 You'll configure two files to make your Pi into an access point. First, create the file `/etc/hostapd/hostapd.conf` for editing via `nano`:
 
-```sudo nano /etc/hostapd/hostapd.conf```
+`sudo nano /etc/hostapd/hostapd.conf`
 
 This file will hold the settings for your access point. Just copy paste this code, but put your own choices in for `ssid` (this will be the name of the network you're creating) and `wpa_passphrase` (this is the password for connecting to your new network):
 
@@ -54,22 +54,23 @@ If you'd like to learn more about these configuration options, check the [docume
 
 Now you need to tell `hostapd` to read this configuration file when it starts. To do so, edit the `/etc/defaults/hostapd` file:
 
-```sudo nano /etc/defaults/hostapd```
+`sudo nano /etc/defaults/hostapd`
 
 and change the line that reads
 
-```DAEMON_CONF=""```
+
+`DAEMON_CONF=""`
 
 to
 
-```DAEMON_CONF="/etc/hostapd/hostapd.conf"```
+`DAEMON_CONF="/etc/hostapd/hostapd.conf"`
 
 
 ### Configure dnsmasq
 
-Install `dnsmasq	` via
+Install `dnsmasq` via
 
-```sudo apt-get install dnsmasq```
+`sudo apt-get install dnsmasq`
 
 You have to configure two files in order for `dnsmasq` to start assigning IP adresses to devices that connect to your newly configured access point. First, open the `dhcpcd` configuration file in order to assign your Pi a static IP address on the WiFi device. This might not be necessary, but it does give you an address where you can wirelessly SSH into the Pi, so you'll no longer need it to be connected to a monitor and keyboard.
 
@@ -97,7 +98,7 @@ dhcp-range=192.168.1.8,192.168.1.250,12h
 
 At this point you have a wireless access point, but it doesn't connect to your Pi's wired Ethernet port, which is its connection to the Internet. Making this final link is pretty easy. First, enable routing by opening the config file with `sudo nano /etc/sysctl.conf`, and add the following line:
 
-```net.ipv4.ip_forward=1```
+`net.ipv4.ip_forward=1`
 
 Then, at the command line, tell the Pi how to decide which packets get routed. That's done by executing these three commands:
 
@@ -109,9 +110,9 @@ sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
 
 Finally, make these routing settings permanent by installing the `iptables-persistent` package, and saying yes when prompted to save the current settings:
 
-```sudo apt-get install iptables-persistent```
+`sudo apt-get install iptables-persistent`
 
-##Finish
+## Finish
 
 That's it! Just reboot your Pi to see the network you've configured and access the Internet through it! You may now want to learn something about network security and firewalls. 
 

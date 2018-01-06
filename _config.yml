@@ -1,7 +1,7 @@
 name: somesquares.org
 permalink: /blog/:year/:i_month/:title/
 description: Wesley's blog
-url: http://somesquares.org
+url: https://wrbrooks.github.io
 collections:
     ghnm:
         relative_directory: ghnm2/
@@ -12,3 +12,6 @@ repository: wrbrooks/wrbrooks.github.io
 staticman:
   branch                 : "master"
 
+reCaptcha:
+  siteKey: "6LdOcT8UAAAAAB99Y3CB_FZWwnY2mGK6XjXUuOZd"
+  secret: "adShwf7Ueu8M1EFYHNYydee5BNOtMfRtGsf0d9GlpJ9sZHtvq72F5Ba4iKNl8oxo/Q9IhU9PRGS2HsPadiarLuNzpGsT34MekMxU/lVnl2TUQbCTXkmSxSFFMEpZDEAvZEe7E9gq6cFUnvVYjiANKJ2izB4V8ACQ9NbHvXsqwfQ="
