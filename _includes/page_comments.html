@@ -68,6 +68,38 @@
         </fieldset>
         
       </form>
+
+      <form class="pure-form pure-form-stacked">
+    <fieldset>
+        <legend class="page__section-label">Leave a comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">Cancel reply</a></small></legend>
+        <legend class="instruct"><a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> is allowed. Email addresses will not be published.</legend>
+
+        <fieldset>
+          <label for="comment-form-message"><strong>Comment</strong> <span class="required">*</span></label>
+          <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" spellcheck="true"></textarea>
+        </fieldset>
+        
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Email">
+        <span class="pure-form-message">This is a required field.</span>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password">
+
+        <label for="state">State</label>
+        <select id="state">
+            <option>AL</option>
+            <option>CA</option>
+            <option>IL</option>
+        </select>
+
+        <label for="remember" class="pure-checkbox">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+</form>
     </div>
     <!-- End new comment form -->
     
