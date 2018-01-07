@@ -12,12 +12,11 @@
 
 .comment {
   position: relative;
-  margin-bottom: 4em;
-  padding-left: 4.5em;
+  padding-left: .5em;
 
   // comment replies
   &.child {
-    margin-left: 4.5em;
+    margin-left: 1em;
 
     &:before {
       position: absolute;
