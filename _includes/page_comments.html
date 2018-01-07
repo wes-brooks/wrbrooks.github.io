@@ -50,8 +50,24 @@
             <input type="checkbox" id="comment-form-reply" class="pure-checkbox" name="options[subscribe]" value="email">Notify me of new comments by email.
           </label>
         <!--</fieldset>-->
-        </fieldset>
-    </form>
+          <fieldset class="hidden" style="display:none;">
+            <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+            <input type="hidden" id="comment-parent" name="options[parent]" value="{{ page.slug }}">
+            <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}">
+            <input type="text" id="comment-form-content" name="fields[content]" autocomplete="off"/>
+            <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
+            <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
+          </fieldset>
+          <!-- Start comment form alert messaging -->
+          <p class="hidden js-notice">
+            <span class="js-notice-text"></span>
+          </p>
+          <!-- End comment form alert messaging -->
+          <!--<fieldset>-->
+            <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+            <button type="submit" id="comment-form-submit" class="pure-button pure-button-primary">Submit Comment</button>
+          </fieldset>
+      </form>
     </div>
     <!-- End new comment form -->
     
