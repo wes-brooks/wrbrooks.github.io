@@ -312,6 +312,12 @@ a .title {
   }
 }
 
+@media screen and (max-width: 48em) {
+  .post {
+    padding-righ: 0.5em;
+  }
+}
+
 pre {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
