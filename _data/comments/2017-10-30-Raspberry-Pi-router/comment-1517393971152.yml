@@ -1,0 +1,7 @@
+_id: 390a99e0-0670-11e8-aa4d-efe5777f7de1
+_parent: Raspberry-Pi-router
+message: "Thank you so much! This is actually the only one I tried that worked.\r\nThe only additional step for me was to add \"net.ifnames=0\" to /boot/cmdline.txt in order to have iptables working fine and access internet through the AP.\r\nCheck ifconfig output and this thread (https://raspberrypi.stackexchange.com/questions/72346/there-is-no-eth0-when-i-input-ifconfig)"
+name: Bruno
+email: ''
+content: ''
+date: '2018-01-31T10:19:31.145Z'
