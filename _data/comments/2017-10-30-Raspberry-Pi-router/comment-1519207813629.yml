@@ -1,0 +1,9 @@
+_id: 67867520-16ef-11e8-b1fd-f167a257a673
+_parent: Raspberry-Pi-router
+message: "Hi, \r\n\r\nThank you very much. I also think that this article is very useful (other ones did not work). One note:\r\nsudo nano /etc/defaults/hostapd -> should be: sudo nano /etc/default/hostapd\r\n\r\nThanks again.\r\n\r\nRegards, \r\nbenkelaci"
+name: benkelaci
+email: eed65e1ac0e91390f1343ee6d925baa1
+content: ''
+date: '2018-02-21T10:10:13.628Z'
+approved: false
+title: Comment
