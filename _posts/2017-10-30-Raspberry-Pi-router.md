@@ -52,9 +52,9 @@ rsn_pairwise=CCMP
 
 If you'd like to learn more about these configuration options, check the [documentation](https://wireless.wiki.kernel.org/en/users/documentation/hostapd).
 
-Now you need to tell `hostapd` to read this configuration file when it starts. To do so, edit the `/etc/defaults/hostapd` file:
+Now you need to tell `hostapd` to read this configuration file when it starts. To do so, edit the `/etc/default/hostapd` file:
 
-`sudo nano /etc/defaults/hostapd`
+`sudo nano /etc/default/hostapd`
 
 and change the line that reads
 
