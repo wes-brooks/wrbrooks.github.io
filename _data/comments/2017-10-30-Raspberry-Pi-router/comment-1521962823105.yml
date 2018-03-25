@@ -1,0 +1,13 @@
+_id: e923d0b0-2ffd-11e8-b322-25e31ab1428e
+_parent: Raspberry-Pi-router
+message: >-
+  Have you plugged the Ethernet cable properly? Have you checked the eth0 IP
+  address? Can you ping your router? If your router is on 192.168.1.x subnet,
+  then this might be a problem, then try your static IP address in
+  /etc/dhcpcd.conf (wlan0) for a different subnet (e.g.: 192.168.10.x).
+name: benkelaci
+email: eed65e1ac0e91390f1343ee6d925baa1
+content: ''
+date: '2018-03-25T07:27:03.104Z'
+tags:
+  - comment-subscription
