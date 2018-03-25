@@ -1,0 +1,19 @@
+_id: 8a783f70-300b-11e8-b322-25e31ab1428e
+_parent: Raspberry-Pi-router
+message: >-
+  It doesn't seem to work so just to clarify things. In my home network i have
+  192.168.10.x addresses in which 192.168.10.254 is my default gateway. Now when
+  i configure my raspberry wlan0 IP address to 192.168.1.1 address it fails to
+  show up the AP to connect. When i put an address that is in range of my
+  network (e.g 192.168.10.1) the AP shows up correctly but when i connect a
+  device to it i don't have internet access. Now in the dnsmasq.conf i tried
+  having addresses in range of 192.168.10.x and 192.168.1.x but none of them
+  work. From my raspberry that acts as router i can ping my home default
+  gateway. So i cant figure out what the issue might be. (i check all the cables
+  are connected and working correctly).
+name: Chris
+email: de573eb19d90acf623bd13c66d335e59
+content: ''
+date: '2018-03-25T09:04:37.241Z'
+tags:
+  - comment-subscription
