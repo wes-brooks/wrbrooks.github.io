@@ -1,0 +1,15 @@
+_id: bebd54e0-300c-11e8-b322-25e31ab1428e
+_parent: Raspberry-Pi-router
+message: >-
+  Sorry for the double commend. So i managed to make it work by only using
+  addresses in range of 10.0.0.x in both dhcpcd.conf (for static IP address) and
+  dnsmasq.conf for the range addresses. Also in dhcpcd.conf i put as static
+  routers = my-default-gateway. I dont know if this what i was suppose to do but
+  just to let everyone know in case they have a similar issue. Overall great
+  tutorial thanks.
+name: Chris
+email: de573eb19d90acf623bd13c66d335e59
+content: ''
+date: '2018-03-25T09:13:14.424Z'
+tags:
+  - comment-subscription
