@@ -1,0 +1,11 @@
+_id: f6145120-3000-11e8-b322-25e31ab1428e
+_parent: Raspberry-Pi-router
+message: >-
+  I will try that since my default gateway is 192.168.10.254. I will configure
+  wlan to give addresses in range of 10.10.1.1 and test it.
+name: Chris
+email: de573eb19d90acf623bd13c66d335e59
+content: ''
+date: '2018-03-25T07:48:53.172Z'
+tags:
+  - comment-subscription
