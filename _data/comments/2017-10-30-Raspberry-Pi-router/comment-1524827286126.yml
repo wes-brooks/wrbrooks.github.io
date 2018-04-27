@@ -1,0 +1,14 @@
+_id: 423bef80-4a0b-11e8-8340-6b0f2402824f
+_parent: Raspberry-Pi-router
+message: >-
+  How can I use my Pi3 as a router? I have set up wlan0 as the AP, but whatever
+  I do, the wifi dongle comes up as a second AP! I have tried entries in
+  dhcpcd.conf and the now discontinued network/interfaces all to no avail! The
+  frustration is killing me!
+name: Brian LONNON
+email: 18c058e6fc317d8abf0591d9d5688197
+content: ''
+date: '2018-04-27T11:08:06.125Z'
+tags: []
+templateKey: comments
+pageless: true
