@@ -1,0 +1,7 @@
+_id: 4059e840-8c7f-11e9-b979-03384a10b292
+_parent: Raspberry-Pi-router
+message: "Unfortunately, the Rasperry as an access point has dropped the wifi signal some time ago here. Seems as if an update has done some serious damage to the config. But I have checked and double checked all the config files from above with my configs. They are still the same.\r\n\r\nIf you have any idea on how to fix this, I'd be very glad!!\r\n\r\nThank you for this super tutorial!\r\n\r\nPeter\r\n\r\nP.S.\r\n$ uname -a\r\nLinux pi 4.19.42-v7+ #1219 SMP Tue May 14 21:20:58\r\n\r\n...including latest Raspi updates from today! Nothing else installed manually on the Raspi except the packages from the tutorial above."
+name: Peter
+email: 9b4ed3f92afeb51c32c24b3f296df264
+content: ''
+date: '2019-06-11T19:29:38.368Z'
