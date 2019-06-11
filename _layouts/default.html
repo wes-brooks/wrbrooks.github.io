@@ -23,6 +23,8 @@
         {% else %}
         <meta name="citation_author" content="Wesley Brooks">
         {% endif %}
+        
+        {% if site.tags != "" %}{% include tags.html %}{% endif %}
 
         <title>{{ page.title }}</title>
 

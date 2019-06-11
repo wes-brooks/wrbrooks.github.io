@@ -11,6 +11,7 @@ repository: wrbrooks/wrbrooks.github.io
 # Staticman comments (full configuration in staticman.yml)
 staticman:
   branch                 : "master"
+  
 
 reCaptcha:
   siteKey: "6LdOcT8UAAAAAB99Y3CB_FZWwnY2mGK6XjXUuOZd"
