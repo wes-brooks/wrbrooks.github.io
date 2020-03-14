@@ -1,0 +1,7 @@
+_id: f3197930-65cf-11ea-af05-7534d2fef247
+_parent: GPS-AIS-server
+message: "I get an error trying to ad\r\n*/20 * * * * /home/pi/sync-gps-time.sh\r\nTo crontab -doesn't seem to like the astrix's (*) ? ...this on a stock install\r\n\r\nAlso no blue in the code for \"read\" on gps-sync_time.sh, 3rd line (gpspipe) \r\n  ...while read timestamp \r\n\r\nIf that's important.\r\n\r\nSorry to hear about tough times. Hope they get better. This tutorial has been really helpful -love to have the old one backbone setting up you Pi as a wifi server too.\r\nThanks far sharing!"
+name: TT
+email: b2aa80307ec4e540a69b92b1d83ac62c
+content: ''
+date: '2020-03-14T08:44:00.596Z'
